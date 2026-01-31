@@ -52,29 +52,15 @@ public class beat : MonoBehaviour
             int beatIndex = beatQueue.Dequeue();
             if (beatIndex < 4 && beatIndex >= 0)
             {
-                audioManager.PlaySound(beatSounds[beatIndex]);
+                audioManager.PlaySound(beatSounds[beatIndex], 1, (beatCounter * 0.03f) + 1f);
+
+                if (humans.Length > beatCounter)
+                {
+                    humans[beatCounter].OnSpeak();
+                }
             }
             lastBeat = beatIndex;
         }
-
-        /*
-        if (beatSequence.Length <= beatCounter)
-        {
-            beatCounter = 0;
-        }
-
-        if (beatSequence[beatCounter] == 1)
-        {
-            audioManager.PlaySound("Happy", 1, (beatCounter * 0.03f) + 1f);
-
-            if (humans.Length > beatCounter)
-            {
-                humans[beatCounter].OnSpeak();
-            }
-        }
-
-        beatCounter++;
-        */
     }
 
     public bool HitBeat(int beatIndex)
