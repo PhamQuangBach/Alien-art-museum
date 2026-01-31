@@ -1,14 +1,18 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class beat : MonoBehaviour
 {
+    [SerializeField]
     private float deltatime = 0f; // Time accumulator
     [SerializeField] float beatinterval = 0.5f; // Interval between beats in seconds
 
     public AudioClip beatSound;
-    private AudioManager audioManager; 
+    private AudioManager audioManager;
 
     [SerializeField] int[] beatSequence;
+
+    private Queue<int> beatQueue = new Queue<int>();
     int beatCounter = 0;
 
 
@@ -24,15 +28,18 @@ public class beat : MonoBehaviour
         deltatime += Time.deltaTime;
         if (deltatime >= beatinterval)
         {
-            deltatime = 0f;
+            deltatime -= beatinterval;
             OnBeat();
         }
     }
 
+    public void QueueBeat(int beat)
+    {
+        beatQueue.Enqueue(beat);
+    }
+
     public void OnBeat()
     {
-        Debug.Log("Beat!");
-
         if (beatSequence.Length <= beatCounter)
         {
             beatCounter = 0;
@@ -49,6 +56,7 @@ public class beat : MonoBehaviour
     public bool IsOnBeat()
     {
         // A hit is considered "on beat" if it occurs within 0.1 seconds of the beat
+        print(deltatime);
         return deltatime <= 0.1f || deltatime >= (beatinterval - 0.1f);
     }
 }
