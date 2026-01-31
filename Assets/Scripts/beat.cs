@@ -10,7 +10,7 @@ public class beat : MonoBehaviour
 
     [SerializeField] int[] beatSequence;
     int beatCounter = 0;
-
+    [SerializeField] public Human[] humans;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -33,14 +33,19 @@ public class beat : MonoBehaviour
     {
         Debug.Log("Beat!");
 
-        if (beatSequence.Length <= beatCounter)
+        if (beatSequence.Length <= beatCounter) 
         {
             beatCounter = 0;
         }
 
         if (beatSequence[beatCounter] == 1)
         {
-            audioManager.PlaySound("Happy");
+            audioManager.PlaySound("Happy", 1, (beatCounter * 0.03f) + 1f);
+
+            if (humans.Length > beatCounter)
+            {
+                humans[beatCounter].OnSpeak();
+            }
         }
 
         beatCounter++;
