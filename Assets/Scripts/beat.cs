@@ -13,9 +13,6 @@ public class beat : MonoBehaviour
 
     public AudioClip beatSound;
     private AudioManager audioManager;
-
-    [SerializeField] int[] beatSequence;
-
     private Queue<int> beatQueue = new Queue<int>();
     private int lastBeat = -1;
     int beatCounter = 0;
@@ -80,12 +77,5 @@ public class beat : MonoBehaviour
             }
         }
         return false;
-    }
-
-    public bool IsOnBeat()
-    {
-        // A hit is considered "on beat" if it occurs within 0.1 seconds of the beat
-        print(deltatime);
-        return deltatime <= hitWindow / 2f || deltatime >= (beatinterval - hitWindow / 2f);
     }
 }
