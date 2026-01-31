@@ -30,8 +30,9 @@ public class PaintingManager : MonoBehaviour
         onlineCollection = JsonConvert.DeserializeObject<List<Artwork>>(onlinePaintings.text);
         frameSprite = frame.GetComponent<SpriteRenderer>();
         frameSize = frameSprite.bounds.size;
+        
         setFrame();
-        InvokeRepeating(nameof(randomizePainting),0,3);
+        randomizePainting();
         
     }
 
