@@ -26,14 +26,6 @@ public class Human : MonoBehaviour
         {'a', Emotion.Angry},
     };
 
-    public static Dictionary<Emotion, string> emotionStringMap = new Dictionary<Emotion, string>
-    {
-        {Emotion.Happy, "Happy"},
-        {Emotion.Sad, "Sad"},
-        {Emotion.Surprised, "Surprised"},
-        {Emotion.Angry, "Angry"},
-    };
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -53,7 +45,7 @@ public class Human : MonoBehaviour
     public void OnSpeak()
     {
         initAnimation();
-        audioManager.PlaySound(emotionStringMap[emotion]);
+        audioManager.PlaySound(emotion.ToString());
     }
 
     void initAnimation()
