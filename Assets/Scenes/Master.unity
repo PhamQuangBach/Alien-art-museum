@@ -194,6 +194,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2862668510349186556, guid: 6b0a93e298a221947b5cbfcd2308c664, type: 3}
       insertIndex: -1
       addedObject: {fileID: 589805532}
+    - targetCorrespondingSourceObject: {fileID: 2862668510349186556, guid: 6b0a93e298a221947b5cbfcd2308c664, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 589805537}
   m_SourcePrefab: {fileID: 100100000, guid: 6b0a93e298a221947b5cbfcd2308c664, type: 3}
 --- !u!1001 &303806511
 PrefabInstance:
@@ -418,6 +421,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BeatQueuer
   pattern: wwwWdddDsssSaaaA
+--- !u!114 &589805537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589805531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5387de3405728c441bb735722e2f5bbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::QueueSpawner
+  queue: []
+  characters:
+  - {fileID: 8836859240607549219, guid: 0a65f50b0ecdec6439132b1182e01192, type: 3}
+  - {fileID: 404859698916417209, guid: 5fbdfaa46c1207c43a56ed2b0b5946d4, type: 3}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -516,7 +535,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3859925222630534181, guid: 5fbdfaa46c1207c43a56ed2b0b5946d4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.2
+      value: -2.56
       objectReference: {fileID: 0}
     - target: {fileID: 3859925222630534181, guid: 5fbdfaa46c1207c43a56ed2b0b5946d4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -637,7 +656,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5034287641037645143, guid: 0a65f50b0ecdec6439132b1182e01192, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.51
+      value: 1.19
       objectReference: {fileID: 0}
     - target: {fileID: 5034287641037645143, guid: 0a65f50b0ecdec6439132b1182e01192, type: 3}
       propertyPath: m_LocalPosition.y
