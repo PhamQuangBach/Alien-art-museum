@@ -42,4 +42,5 @@ public class Human : MonoBehaviour
             transform.localScale = Vector3.Lerp(Vector3.one * 1.5f, Vector3.one, t);
         }
     }
+    
 }
