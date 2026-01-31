@@ -25,14 +25,14 @@ public class PaintingManager : MonoBehaviour
     List<Artwork> onlineCollection;
     void Start()
     {
-        
+        Debug.Log("Painting init");
         offlineCollection = JsonConvert.DeserializeObject<List<Artwork>>(offlinePaintings.text);
         onlineCollection = JsonConvert.DeserializeObject<List<Artwork>>(onlinePaintings.text);
         frameSprite = frame.GetComponent<SpriteRenderer>();
         frameSize = frameSprite.bounds.size;
-        
         setFrame();
         randomizePainting();
+        Debug.Log("Painting init done");
         
     }
 
@@ -47,7 +47,7 @@ public class PaintingManager : MonoBehaviour
     void randomizePainting()
     {
         Artwork painting;
-
+        Debug.Log("Painting randomized");
         
         if (offlineMode)
         {
@@ -95,7 +95,7 @@ public class PaintingManager : MonoBehaviour
         Texture2D paintingTexture = Resources.Load<Texture2D>(resourcePath);
         Rect paintingRect = new Rect(0,0,paintingTexture.width,paintingTexture.height);
         Vector2 paintingPivot = new Vector2(0.5f,0.5f);
-        Sprite paintingSprite = Sprite.Create(paintingTexture,paintingRect,paintingPivot, 512);
+        Sprite paintingSprite = Sprite.Create(paintingTexture,paintingRect,paintingPivot, 256);
         SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = paintingSprite;
         setFrame();
@@ -104,7 +104,7 @@ public class PaintingManager : MonoBehaviour
     IEnumerator GetPaintingTexture(string URL) {
         UnityWebRequest www = UnityWebRequestTexture.GetTexture("https://www.kansallisgalleria.fi"+URL);
         yield return www.SendWebRequest();
-
+        Debug.Log("Fetching painting");
         if (www.result != UnityWebRequest.Result.Success) {
             Debug.Log(www.error);
         }
@@ -112,7 +112,7 @@ public class PaintingManager : MonoBehaviour
             Texture2D paintingTexture = DownloadHandlerTexture.GetContent(www);
             Rect paintingRect = new Rect(0,0,paintingTexture.width,paintingTexture.height);
             Vector2 paintingPivot = new Vector2(0.5f,0.5f);
-            Sprite paintingSprite = Sprite.Create(paintingTexture,paintingRect,paintingPivot, 512);
+            Sprite paintingSprite = Sprite.Create(paintingTexture,paintingRect,paintingPivot, 256);
             SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
             spriteRenderer.sprite = paintingSprite;
             setFrame();

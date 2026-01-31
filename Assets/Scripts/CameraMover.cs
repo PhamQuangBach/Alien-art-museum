@@ -19,19 +19,17 @@ public class CameraMover : MonoBehaviour
 
     void nextPoint()
     {
-        if (currentPoint < checkpoints.Count-1 )
+        if (currentPoint < checkpoints.Count )
         {
             
             targetPos = checkpoints[currentPoint].transform.position;
             currentPoint++;
             moving = true;
         }
-        else if (currentPoint == checkpoints.Count-1)
+        else if (currentPoint == checkpoints.Count)
         {
             currentPoint = 0;
             transform.position = new Vector2(0,0);
-            targetPos = checkpoints[currentPoint].transform.position;
-            moving = true;
         }
     }
 
