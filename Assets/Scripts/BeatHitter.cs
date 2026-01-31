@@ -25,7 +25,7 @@ public class BeatHitter : MonoBehaviour
         MakeSound();
     }
 
-    private MakeSound()
+    private void MakeSound()
     {
         audioManager.PlaySound("Happy",1,1.2f);
     }
