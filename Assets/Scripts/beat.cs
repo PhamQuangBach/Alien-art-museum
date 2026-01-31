@@ -15,9 +15,6 @@ public class beat : MonoBehaviour
 
     public AudioClip beatSound;
     private AudioManager audioManager;
-
-    [SerializeField] int[] beatSequence;
-
     private Queue<int> beatQueue = new Queue<int>();
     private int lastBeat = -1;
     int beatCounter = 0;
@@ -61,29 +58,15 @@ public class beat : MonoBehaviour
             int beatIndex = beatQueue.Dequeue();
             if (beatIndex < 4 && beatIndex >= 0)
             {
-                audioManager.PlaySound(beatSounds[beatIndex]);
+                audioManager.PlaySound(beatSounds[beatIndex], 1, (beatCounter * 0.03f) + 1f);
+
+                if (humans.Length > beatCounter)
+                {
+                    humans[beatCounter].OnSpeak();
+                }
             }
             lastBeat = beatIndex;
         }
-
-        /*
-        if (beatSequence.Length <= beatCounter)
-        {
-            beatCounter = 0;
-        }
-
-        if (beatSequence[beatCounter] == 1)
-        {
-            audioManager.PlaySound("Happy", 1, (beatCounter * 0.03f) + 1f);
-
-            if (humans.Length > beatCounter)
-            {
-                humans[beatCounter].OnSpeak();
-            }
-        }
-
-        beatCounter++;
-        */
     }
 
     public bool HitBeat(int beatIndex)
@@ -103,12 +86,5 @@ public class beat : MonoBehaviour
             }
         }
         return false;
-    }
-
-    public bool IsOnBeat()
-    {
-        // A hit is considered "on beat" if it occurs within 0.1 seconds of the beat
-        print(deltatime);
-        return deltatime <= hitWindow / 2f || deltatime >= (beatinterval - hitWindow / 2f);
     }
 }

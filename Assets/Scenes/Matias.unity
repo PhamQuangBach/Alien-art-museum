@@ -240,13 +240,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f62a817da36ac734f8626bf3d669ea12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  deltatime: 0
   beatinterval: 0.5
+  hitWindow: 0.2
   beatSound: {fileID: 8300000, guid: 22f051f9a4de8a74590862dc08ef6563, type: 3}
   beatSequence: 010000000100000001000000020000000000000000000000
   humans:
   - {fileID: 88550304}
   - {fileID: 1408242840}
   - {fileID: 498775081}
+  beatSounds:
+  - Happy
+  - Sad
+  - Surprised
+  - Angry
 --- !u!4 &433354228
 Transform:
   m_ObjectHideFlags: 0
@@ -421,7 +428,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8836859240607549219, guid: 0a65f50b0ecdec6439132b1182e01192, type: 3}
       propertyPath: m_Name
-      value: Human (1)
+      value: Human (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -831,7 +838,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8836859240607549219, guid: 0a65f50b0ecdec6439132b1182e01192, type: 3}
       propertyPath: m_Name
-      value: Human (2)
+      value: Human (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1184,7 +1191,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8836859240607549219, guid: 0a65f50b0ecdec6439132b1182e01192, type: 3}
       propertyPath: m_Name
-      value: Human
+      value: Human (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

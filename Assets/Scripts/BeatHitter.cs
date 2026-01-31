@@ -25,6 +25,7 @@ public class BeatHitter : MonoBehaviour
     {
         for (int i = 0; i < 4; i++)
         {
+            if (inputActions[i] == null) continue;
             if (inputActions[i].WasPerformedThisFrame())
             {
                 InputPressed(i);

@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 
 public class BeatQueuer : MonoBehaviour
 {
-    public string pattern = "wwwWdddDsssSaaaA";
+    [SerializeField]public string pattern = "wwwWdddDsssSaaaA";
 
     private Dictionary<char, int> mapping = new Dictionary<char, int>
     {
