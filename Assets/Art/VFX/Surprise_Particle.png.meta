@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 8a8f9f707d2944848af4deb53c841278
+guid: 15f66c4d865553b48bca120a6546b5ef
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6908934373990011102
-    second: 320908_0
+      213: 5648958918914439446
+    second: Surprise_Particle_0
+  - first:
+      213: 8711254607343361786
+    second: Surprise_Particle_1
+  - first:
+      213: 7130034659921268594
+    second: Surprise_Particle_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,11 +52,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 9
+  spritePivot: {x: 0.49621633, y: 0.044709254}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -96,40 +102,71 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 320908_0
+      name: Surprise_Particle_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2256
-        height: 1592
+        x: 1
+        y: 101
+        width: 69
+        height: 134
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 22fe6ddbac88e10a0800000000000000
-      internalID: -6908934373990011102
+      spriteID: 6197ba01532256e40800000000000000
+      internalID: 5648958918914439446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surprise_Particle_1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 121
+        width: 38
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe9fa249e794e870800000000000000
+      internalID: 8711254607343361786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Surprise_Particle_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 113
+        width: 62
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f84d42fb8f2f260800000000000000
+      internalID: 7130034659921268594
       vertices: []
       indices: 
       edges: []
@@ -138,8 +175,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
-    internalID: 0
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
@@ -148,7 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      320908_0: -6908934373990011102
+      Surprise_Particle_0: 5648958918914439446
+      Surprise_Particle_1: 8711254607343361786
+      Surprise_Particle_2: 7130034659921268594
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
