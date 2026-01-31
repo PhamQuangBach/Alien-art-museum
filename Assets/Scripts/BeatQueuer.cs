@@ -10,6 +10,7 @@ public class BeatQueuer : MonoBehaviour
     void Start()
     {
         beatScript = GameObject.Find("beat").GetComponent<beat>();
+        QueuePattern(pattern);
     }
 
     // Update is called once per frame
@@ -20,6 +21,9 @@ public class BeatQueuer : MonoBehaviour
 
     public void QueuePattern(string pattern)
     {
-
+        for (int i = 0; i < pattern.Length; i++)
+        {
+            beatScript.QueueBeat((int)char.GetNumericValue(pattern[i]));
+        }
     }
 }

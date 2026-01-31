@@ -37,14 +37,19 @@ public class BeatHitter : MonoBehaviour
         Debug.Log("input pressed!");
 
         //if hit on beat
-        MakeSound();
+        if (beatScript.HitBeat(input))
+        {
+            print("Good Hit");
+        }
+        else
+        {
+            print("Bad Hit");
+        }
+        MakeSound(input);
     }
 
-    private void MakeSound()
+    private void MakeSound(int input)
     {
-        if (beatScript.IsOnBeat())
-        {
-            audioManager.PlaySound("Happy", 1, 1.2f);
-        }
+        audioManager.PlaySound(beatScript.beatSounds[input], 1, 1.2f);
     }
 }

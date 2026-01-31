@@ -261,8 +261,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   deltatime: 0
   beatinterval: 0.73170733
+  hitWindow: 0.2
   beatSound: {fileID: 8300000, guid: 22f051f9a4de8a74590862dc08ef6563, type: 3}
   beatSequence: 010000000100000001000000020000000000000000000000
+  beatSounds:
+  - Happy
+  - Sad
+  - Surprised
+  - Angry
 --- !u!4 &102342863
 Transform:
   m_ObjectHideFlags: 0
@@ -288,6 +294,7 @@ GameObject:
   m_Component:
   - component: {fileID: 207108252}
   - component: {fileID: 207108251}
+  - component: {fileID: 207108253}
   m_Layer: 0
   m_Name: BeatHitter
   m_TagString: Untagged
@@ -322,6 +329,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &207108253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207108250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa9b36635d470b24eb979a712e28dd1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BeatQueuer
+  pattern: 1115222633370004
 --- !u!1 &307189825
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class beat : MonoBehaviour
@@ -7,14 +8,20 @@ public class beat : MonoBehaviour
     private float deltatime = 0f; // Time accumulator
     [SerializeField] float beatinterval = 0.5f; // Interval between beats in seconds
 
+    [SerializeField]
+    float hitWindow = 0.2f;
+
     public AudioClip beatSound;
     private AudioManager audioManager;
 
     [SerializeField] int[] beatSequence;
 
     private Queue<int> beatQueue = new Queue<int>();
+    private int lastBeat = -1;
     int beatCounter = 0;
     [SerializeField] public Human[] humans;
+    public string[] beatSounds = new string[] { "Happy", "Sad", "Surprised", "Angry" };
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -40,9 +47,18 @@ public class beat : MonoBehaviour
 
     public void OnBeat()
     {
-        Debug.Log("Beat!");
+        if (beatQueue.Count > 0)
+        {
+            int beatIndex = beatQueue.Dequeue();
+            if (beatIndex < 4 && beatIndex >= 0)
+            {
+                audioManager.PlaySound(beatSounds[beatIndex]);
+            }
+            lastBeat = beatIndex;
+        }
 
-        if (beatSequence.Length <= beatCounter) 
+        /*
+        if (beatSequence.Length <= beatCounter)
         {
             beatCounter = 0;
         }
@@ -58,12 +74,32 @@ public class beat : MonoBehaviour
         }
 
         beatCounter++;
+        */
+    }
+
+    public bool HitBeat(int beatIndex)
+    {
+        if (deltatime <= hitWindow / 2f)
+        {
+            if (beatIndex == lastBeat - 4)
+            {
+                return true;
+            }
+        }
+        else if (deltatime >= (beatinterval - hitWindow / 2f))
+        {
+            if (beatQueue.Count > 0 && beatIndex == beatQueue.Peek() - 4)
+            {
+                return true;
+            }
+        }
+        return false;
     }
 
     public bool IsOnBeat()
     {
         // A hit is considered "on beat" if it occurs within 0.1 seconds of the beat
         print(deltatime);
-        return deltatime <= 0.1f || deltatime >= (beatinterval - 0.1f);
+        return deltatime <= hitWindow / 2f || deltatime >= (beatinterval - hitWindow / 2f);
     }
 }
