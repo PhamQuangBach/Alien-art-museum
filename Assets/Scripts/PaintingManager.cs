@@ -5,18 +5,32 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.Networking;
 using UnityEngine.InputSystem;
+using UnityEditor;
+using System.IO;
+using System;
+using Mono.Cecil;
 
 public class PaintingManager : MonoBehaviour
 {
     public GameObject frame;
     Vector2 frameSize;
+    public bool offlineMode = true;
     SpriteRenderer frameSprite;
-    [SerializeField] public TextAsset jsonFile;
-    List<Artwork> collection;
+    [SerializeField] public TextAsset offlinePaintings;
+    [SerializeField] public TextAsset onlinePaintings;
+
+
+
+    List<Artwork> offlineCollection;
+    List<Artwork> onlineCollection;
     void Start()
     {
+        
+        offlineCollection = JsonConvert.DeserializeObject<List<Artwork>>(offlinePaintings.text);
+        onlineCollection = JsonConvert.DeserializeObject<List<Artwork>>(onlinePaintings.text);
         frameSprite = frame.GetComponent<SpriteRenderer>();
         frameSize = frameSprite.bounds.size;
+        setFrame();
         InvokeRepeating(nameof(randomizePainting),0,3);
         
     }
@@ -25,23 +39,43 @@ public class PaintingManager : MonoBehaviour
 
     Artwork getRandomPainting(List<Artwork> collection)
     {
-        int choice = Random.Range(0,collection.Count);
+        int choice = UnityEngine.Random.Range(0,collection.Count);
         Artwork randomPainting = collection[choice];
-        string URL = randomPainting.multimedia[0].jpg[4000];
         return randomPainting;
     }
     void randomizePainting()
     {
-        collection = JsonConvert.DeserializeObject<List<Artwork>>(jsonFile.text);
-        Artwork painting = getRandomPainting(collection);
-        setPainting(painting);
+        Artwork painting;
+
+        
+        if (offlineMode)
+        {
+            painting = getRandomPainting(offlineCollection);
+        }
+        else
+        {
+            painting = getRandomPainting(onlineCollection);
+        }
+        
+
+        setPaintingTexture(painting);
     }
-    void setPainting(Artwork painting)
+    void setPaintingTexture(Artwork painting)
     {
         Debug.Log(painting.title["en"]);
         Debug.Log("URL: " + painting.multimedia[0].jpg[4000]);
         string URL = painting.multimedia[0].jpg[4000];
-        StartCoroutine(GetPaintingTexture(URL));
+        if (offlineMode)
+        {
+            getPaintingTextureOffline(URL);
+            Debug.Log("Used offline mode");
+        }
+        else
+        {
+            StartCoroutine(GetPaintingTexture(URL));
+        }
+
+        
         
     }
 
@@ -51,6 +85,20 @@ public class PaintingManager : MonoBehaviour
         float heightRatio = paintingSize.y / frameSize.y;
         float widthRatio = paintingSize.x/ frameSize.x ;
         frameSprite.size = new Vector2(widthRatio*1.05f,heightRatio*1.05f);
+    }
+
+    void getPaintingTextureOffline(string URL)
+    {
+        string path = URL.Replace("/","-").TrimStart(Convert.ToChar("-"));
+        string resourcePath = Path.GetFileNameWithoutExtension(path);
+        Debug.Log(resourcePath);
+        Texture2D paintingTexture = Resources.Load<Texture2D>(resourcePath);
+        Rect paintingRect = new Rect(0,0,paintingTexture.width,paintingTexture.height);
+        Vector2 paintingPivot = new Vector2(0.5f,0.5f);
+        Sprite paintingSprite = Sprite.Create(paintingTexture,paintingRect,paintingPivot, 1000);
+        SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer.sprite = paintingSprite;
+        setFrame();
     }
 
     IEnumerator GetPaintingTexture(string URL) {

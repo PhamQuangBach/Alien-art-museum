@@ -241,7 +241,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PaintingManager
   frame: {fileID: 1249492569}
-  jsonFile: {fileID: 4900000, guid: 5f215fe7a886c85408567dff429a4b45, type: 3}
+  offlineMode: 1
+  offlinePaintings: {fileID: 4900000, guid: 3c9e5c7cd595da3428dab3627b048589, type: 3}
+  onlinePaintings: {fileID: 4900000, guid: 5f215fe7a886c85408567dff429a4b45, type: 3}
 --- !u!212 &1669029352
 SpriteRenderer:
   serializedVersion: 2
