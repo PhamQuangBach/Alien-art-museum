@@ -51,10 +51,6 @@ MonoBehaviour:
   hitWindow: 0.2
   mainMusicDelay: 0
   beatSound: {fileID: 8300000, guid: 22f051f9a4de8a74590862dc08ef6563, type: 3}
-  humans:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   beatSounds:
   - Happy
   - Sad
@@ -182,3 +178,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BeatQueuer
   pattern: wwwWdddDsssSaaaA
+  patternFile: {fileID: 4900000, guid: 429857d5710c1d74d9cee8bf7ded824d, type: 3}

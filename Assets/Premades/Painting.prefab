@@ -191,10 +191,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8172263935338567425}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 023a28ee97942e04689bcd6e1587896e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PaintingManager
   frame: {fileID: 4572520045078518203}
-  jsonFile: {fileID: 4900000, guid: 5f215fe7a886c85408567dff429a4b45, type: 3}
+  offlineMode: 1
+  offlinePaintings: {fileID: 0}
+  onlinePaintings: {fileID: 0}

@@ -11,38 +11,30 @@ public class QueueSpawner : MonoBehaviour
 
     private void Start() {
         beatQueuer = GetComponent<BeatQueuer>();
-        FetchPattern();
-        ParsePattern();
+        pattern = beatQueuer.pattern;
+        //ParsePattern();
         SpawnQueue(CalculatePositions());
     }
 
-    //fetch pattern 
-    private string FetchPattern()
+    //parse pattern to a list of gameobjects
+    private GameObject GetGoFromPattern(int index = 0)
     {
-        return pattern = beatQueuer.pattern;
-    }
-
-    //parse pattern
-    private void ParsePattern()
-    {
-        for (int i = 0; i < pattern.Length; i++)
-        {
-            char c = pattern[i];
-            if (char.IsLower(c))
-            {   
-                queue.Add(characters[0]);
-            }
-            else if (char.IsUpper(c))
-            {
-                queue.Add(characters[1]);
-            }
+        char c = pattern[index];
+        if (char.IsLower(c))
+        {   
+            return characters[0];
         }
+        else if (char.IsUpper(c))
+        {
+            return characters[1];
+        }
+        return null;
     }
 
     //calculate positions
     private float[] CalculatePositions()
     {
-        int amountToSpawn = queue.Count;
+        int amountToSpawn = pattern.Length;
         float totalWidth = 15;
         float spacing = totalWidth / (amountToSpawn + 1);
 
@@ -54,13 +46,16 @@ public class QueueSpawner : MonoBehaviour
         }
         return positions;
     }
+
     //spawn accordingly
     private void SpawnQueue(float[] positions)
     {
-        for (int i = 0; i < queue.Count; i++)
+        for (int i = 0; i < pattern.Length; i++)
         {
             Vector3 spawnPosition = new Vector3(positions[i], transform.position.y, 0);
-            Instantiate(queue[i], spawnPosition, Quaternion.identity);
+            queue.Add(Instantiate(GetGoFromPattern(i), spawnPosition, Quaternion.identity));
+            //character.GetComponent<Human>().emotion = (Human.emotionMap[char.ToLower(pattern[i])]);
         }
     }
+
 }
