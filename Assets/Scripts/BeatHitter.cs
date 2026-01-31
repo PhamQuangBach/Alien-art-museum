@@ -14,10 +14,10 @@ public class BeatHitter : MonoBehaviour
         beatScript = GameObject.Find("beat").GetComponent<beat>();
         audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
 
-        inputActions[0] = InputSystem.actions.FindAction("Up");
-        inputActions[1] = InputSystem.actions.FindAction("Right");
-        inputActions[2] = InputSystem.actions.FindAction("Down");
-        inputActions[3] = InputSystem.actions.FindAction("Left");
+        inputActions[0] = InputSystem.actions.FindAction("Up", true);
+        inputActions[1] = InputSystem.actions.FindAction("Right", true);
+        inputActions[2] = InputSystem.actions.FindAction("Down", true);
+        inputActions[3] = InputSystem.actions.FindAction("Left", true);
     }
 
     // Update is called once per frame
@@ -37,15 +37,19 @@ public class BeatHitter : MonoBehaviour
         Debug.Log("input pressed!");
 
         //if hit on beat
-        MakeSound();
+        if (beatScript.HitBeat(input))
+        {
+            print("Good Hit");
+        }
+        else
+        {
+            print("Bad Hit");
+        }
+        MakeSound(input);
     }
 
-    private void MakeSound()
+    private void MakeSound(int input)
     {
-        if (beatScript.IsOnBeat())
-        {
-            audioManager.PlaySound("Happy", 1, 1.2f);
-        }
-
+        audioManager.PlaySound(beatScript.beatSounds[input], 1, 1.2f);
     }
 }
