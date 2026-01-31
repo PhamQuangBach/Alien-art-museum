@@ -19,11 +19,14 @@ public class beat : MonoBehaviour
     private int lastBeat = -1;
     public string[] beatSounds = new string[] { "Happy", "Sad", "Surprised", "Angry" };
 
+    public int patternIndex;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
+        patternIndex = 0;
     }
 
     // Update is called once per frame
@@ -56,14 +59,15 @@ public class beat : MonoBehaviour
             int beatIndex = beatQueue.Dequeue();
             if (beatIndex < 4 && beatIndex >= 0)
             {
-                audioManager.PlaySound(beatSounds[beatIndex], 1, (beatIndex * 0.03f) + 1f);
+                //audioManager.PlaySound(beatSounds[beatIndex], 1, (beatIndex * 0.03f) + 1f);
 
-                if (GetComponent<QueueSpawner>().queue.Count > beatIndex)
+                if (GetComponent<QueueSpawner>().queue.Count > patternIndex)
                 {
-                    GetComponent<QueueSpawner>().queue[beatIndex].GetComponent<Human>().OnSpeak();
+                    GetComponent<QueueSpawner>().queue[patternIndex].GetComponent<Human>().OnSpeak();
                 }
             }
             lastBeat = beatIndex;
+            patternIndex++;
         }
     }
 

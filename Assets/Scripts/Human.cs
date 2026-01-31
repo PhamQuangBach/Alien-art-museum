@@ -8,6 +8,8 @@ public class Human : MonoBehaviour
     float elapsedTime = 0f;
     [SerializeField] public Emotion emotion = 0;
 
+    private AudioManager audioManager;
+
     public enum Emotion
     {
         Happy,
@@ -23,11 +25,19 @@ public class Human : MonoBehaviour
         {'s', Emotion.Surprised},
         {'a', Emotion.Angry},
     };
-    
+
+    public static Dictionary<Emotion, string> emotionStringMap = new Dictionary<Emotion, string>
+    {
+        {Emotion.Happy, "Happy"},
+        {Emotion.Sad, "Sad"},
+        {Emotion.Surprised, "Surprised"},
+        {Emotion.Angry, "Angry"},
+    };
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
     }
 
     // Update is called once per frame
@@ -41,6 +51,12 @@ public class Human : MonoBehaviour
     }
 
     public void OnSpeak()
+    {
+        initAnimation();
+        audioManager.PlaySound(emotionStringMap[emotion]);
+    }
+
+    void initAnimation()
     {
         elapsedTime = 0;
         //Scale to 1.5

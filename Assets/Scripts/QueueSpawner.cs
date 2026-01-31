@@ -54,7 +54,8 @@ public class QueueSpawner : MonoBehaviour
         {
             Vector3 spawnPosition = new Vector3(positions[i], transform.position.y, 0);
             queue.Add(Instantiate(GetGoFromPattern(i), spawnPosition, Quaternion.identity));
-            //character.GetComponent<Human>().emotion = (Human.emotionMap[char.ToLower(pattern[i])]);
+            //set emotion for the spawned character
+            queue[queue.Count - 1].GetComponent<Human>().emotion = Human.emotionMap[char.ToLower(pattern[i])];
         }
     }
 

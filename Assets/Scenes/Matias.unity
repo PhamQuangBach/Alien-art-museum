@@ -268,6 +268,10 @@ PrefabInstance:
       propertyPath: pattern
       value: wwwWdddDsssSaaaA
       objectReference: {fileID: 0}
+    - target: {fileID: 363360716498061773, guid: 6b0a93e298a221947b5cbfcd2308c664, type: 3}
+      propertyPath: patternFile
+      value: 
+      objectReference: {fileID: 4900000, guid: 0f994a32e3583e34ebf5b9aae74f4e12, type: 3}
     - target: {fileID: 2862668510349186556, guid: 6b0a93e298a221947b5cbfcd2308c664, type: 3}
       propertyPath: m_Name
       value: beat
