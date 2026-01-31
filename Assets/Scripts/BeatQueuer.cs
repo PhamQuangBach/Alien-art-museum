@@ -1,10 +1,15 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class BeatQueuer : MonoBehaviour
 {
-    [SerializeField]public string pattern = "wwwWdddDsssSaaaA";
+    [SerializeField] public string pattern = "wwwWdddDsssSaaaA";
+
+    private List<string> patterns;
+
+    [SerializeField] private TextAsset patternFile;
 
     private Dictionary<char, int> mapping = new Dictionary<char, int>
     {
@@ -24,6 +29,7 @@ public class BeatQueuer : MonoBehaviour
     void Start()
     {
         beatScript = GameObject.Find("beat").GetComponent<beat>();
+        LoadPattern(patternFile);
         QueuePattern(pattern);
     }
 
@@ -31,6 +37,17 @@ public class BeatQueuer : MonoBehaviour
     void Update()
     {
 
+    }
+
+    public void QueueRandomPattern()
+    {
+        QueuePattern(patterns[Random.Range(0, patterns.Count)]);
+    }
+
+    void LoadPattern(TextAsset patternFile)
+    {
+        patterns = new List<string>(patternFile.text.Split("\n"));
+        patterns = patterns.Where(x => x.Length > 3).ToList();
     }
 
     public void QueuePattern(string pattern)
