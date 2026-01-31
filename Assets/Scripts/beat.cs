@@ -45,4 +45,6 @@ public class beat : MonoBehaviour
 
         beatCounter++;
     }
+
+    
 }

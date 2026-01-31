@@ -67,12 +67,13 @@ public class AudioManager : MonoBehaviour
         */
     }
 
-    public void PlaySound(string sound, float volume = 1)
+    public void PlaySound(string sound, float volume = 1, float pitch = 1)
     {
         for (int i = 0; i < instance.sounds.Count; i++)
         {
             if (instance.sounds[i].name == sound)
             {
+                instance.audioSource.pitch = pitch;
                 instance.audioSource.PlayOneShot(instance.sounds[i].audioClip, instance.sounds[i].volume * volume);
             }
         }
