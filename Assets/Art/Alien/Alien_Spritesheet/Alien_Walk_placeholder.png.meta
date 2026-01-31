@@ -1,0 +1,280 @@
+fileFormatVersion: 2
+guid: 03d91f7a4d43b554c88796ea926a995f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5393098173864895398
+    second: Alien_Walk_placeholder_0
+  - first:
+      213: -4449226596445030505
+    second: Alien_Walk_placeholder_1
+  - first:
+      213: -6336399957404783680
+    second: Alien_Walk_placeholder_2
+  - first:
+      213: -7283576686480411575
+    second: Alien_Walk_placeholder_3
+  - first:
+      213: -9154485575331255041
+    second: Alien_Walk_placeholder_4
+  - first:
+      213: 1071270300657199768
+    second: Alien_Walk_placeholder_5
+  - first:
+      213: -6324270460499634192
+    second: Alien_Walk_placeholder_6
+  - first:
+      213: 393552548588852258
+    second: Alien_Walk_placeholder_7
+  - first:
+      213: 4700015718157802866
+    second: Alien_Walk_placeholder_8
+  - first:
+      213: 4397244868081837740
+    second: Alien_Walk_placeholder_9
+  - first:
+      213: -8022566497145965552
+    second: Alien_Walk_placeholder_10
+  - first:
+      213: 7437745695717303215
+    second: Alien_Walk_placeholder_11
+  - first:
+      213: -4306145648331424847
+    second: Alien_Walk_placeholder_12
+  - first:
+      213: -6015446888374453215
+    second: Alien_Walk_placeholder_13
+  - first:
+      213: 1121293764418636062
+    second: Alien_Walk_placeholder_14
+  - first:
+      213: -3169480608519647160
+    second: Alien_Walk_placeholder_15
+  - first:
+      213: 7235549391490843589
+    second: Alien_Walk_placeholder_16
+  - first:
+      213: -2626489153310344397
+    second: Alien_Walk_placeholder_17
+  - first:
+      213: -1136938482245708239
+    second: Alien_Walk_placeholder_18
+  - first:
+      213: -9150071779335809396
+    second: Alien_Walk_placeholder_19
+  - first:
+      213: -2441685363115857337
+    second: Alien_Walk_placeholder_20
+  - first:
+      213: 3740975504811293422
+    second: Alien_Walk_placeholder_21
+  - first:
+      213: 5845514930283890868
+    second: Alien_Walk_placeholder_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Alien_Walk_placeholder_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 283
+        height: 560
+      alignment: 9
+      pivot: {x: 0.48858842, y: 0.071805835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3660c173228da40800000000000000
+      internalID: 5393098173864895398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_Walk_placeholder_1
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 0
+        width: 283
+        height: 560
+      alignment: 9
+      pivot: {x: 0.48573545, y: 0.11073253}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7977ca9cbfb2142c0800000000000000
+      internalID: -4449226596445030505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_Walk_placeholder_2
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 0
+        width: 283
+        height: 560
+      alignment: 9
+      pivot: {x: 0.50855875, y: 0.080456205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb66187fc59018a0800000000000000
+      internalID: -6336399957404783680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_Walk_placeholder_3
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 0
+        width: 283
+        height: 560
+      alignment: 9
+      pivot: {x: 0.48858857, y: 0.080456205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944b40cf7998bea90800000000000000
+      internalID: -7283576686480411575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 90d331d5570e3004bb9ab6c53bad5681
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":283.0,"y":616.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Alien_Walk_placeholder_0: 5393098173864895398
+      Alien_Walk_placeholder_1: -4449226596445030505
+      Alien_Walk_placeholder_2: -6336399957404783680
+      Alien_Walk_placeholder_3: -7283576686480411575
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

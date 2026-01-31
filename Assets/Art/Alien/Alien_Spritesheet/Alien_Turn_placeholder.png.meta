@@ -1,0 +1,298 @@
+fileFormatVersion: 2
+guid: e25ad79641fbbf14bbcf1d5c44fd8a99
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2012575664419466799
+    second: Alien_Turn_placeholder_0
+  - first:
+      213: -5906639120354931200
+    second: Alien_Turn_placeholder_1
+  - first:
+      213: 186812662089589076
+    second: Alien_Turn_placeholder_2
+  - first:
+      213: 8599408560182229795
+    second: Alien_Turn_placeholder_3
+  - first:
+      213: -7716010114260874898
+    second: Alien_Turn_placeholder_4
+  - first:
+      213: -6196869598052745065
+    second: Alien_Turn_placeholder_5
+  - first:
+      213: -5764779053734855221
+    second: Alien_Turn_placeholder_6
+  - first:
+      213: 2566404960596700605
+    second: Alien_Turn_placeholder_7
+  - first:
+      213: -1581146407005569418
+    second: Alien_Turn_placeholder_8
+  - first:
+      213: 442160502428740102
+    second: Alien_Turn_placeholder_9
+  - first:
+      213: 6539293195253029833
+    second: Alien_Turn_placeholder_10
+  - first:
+      213: 765700563582485805
+    second: Alien_Turn_placeholder_11
+  - first:
+      213: -2348516312815996223
+    second: Alien_Turn_placeholder_12
+  - first:
+      213: 1361275578702914253
+    second: Alien_Turn_placeholder_13
+  - first:
+      213: -2963351593620388230
+    second: Alien_Turn_placeholder_14
+  - first:
+      213: -6795730822271446996
+    second: Alien_Turn_placeholder_15
+  - first:
+      213: -3307287384675409528
+    second: Alien_Turn_placeholder_16
+  - first:
+      213: 940230172862748557
+    second: Alien_Turn_placeholder_17
+  - first:
+      213: -2112738185070318184
+    second: Alien_Turn_placeholder_18
+  - first:
+      213: 8705988692817133072
+    second: Alien_Turn_placeholder_19
+  - first:
+      213: -1211394775897699698
+    second: Alien_Turn_placeholder_20
+  - first:
+      213: 777371413736613438
+    second: Alien_Turn_placeholder_21
+  - first:
+      213: 6815016322935329239
+    second: Alien_Turn_placeholder_22
+  - first:
+      213: -7223975638002476699
+    second: Alien_Turn_placeholder_23
+  - first:
+      213: 4320224104098614111
+    second: Alien_Turn_placeholder_24
+  - first:
+      213: -6089298457805401484
+    second: Alien_Turn_placeholder_25
+  - first:
+      213: 6117651748518532561
+    second: Alien_Turn_placeholder_26
+  - first:
+      213: 8208336838276827661
+    second: Alien_Turn_placeholder_27
+  - first:
+      213: -296657516631238060
+    second: Alien_Turn_placeholder_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Alien_Turn_placeholder_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 283
+        height: 560
+      alignment: 9
+      pivot: {x: 0.53423476, y: 0.084781446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d19ea6a815e114e0800000000000000
+      internalID: -2012575664419466799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_Turn_placeholder_1
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 0
+        width: 283
+        height: 560
+      alignment: 9
+      pivot: {x: 0.5057057, y: 0.077572785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e81d6c307670ea0800000000000000
+      internalID: -5906639120354931200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_Turn_placeholder_2
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 0
+        width: 283
+        height: 560
+      alignment: 9
+      pivot: {x: 0.5114114, y: 0.08189802}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451256b5021b79200800000000000000
+      internalID: 186812662089589076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_Turn_placeholder_3
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 0
+        width: 283
+        height: 560
+      alignment: 9
+      pivot: {x: 0.49144107, y: 0.08910668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b7d1c168c375770800000000000000
+      internalID: 8599408560182229795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5291acf496108434281bf4edccfa590e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":283.0,"y":616.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Alien_Turn_placeholder_0: -2012575664419466799
+      Alien_Turn_placeholder_1: -5906639120354931200
+      Alien_Turn_placeholder_2: 186812662089589076
+      Alien_Turn_placeholder_3: 8599408560182229795
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

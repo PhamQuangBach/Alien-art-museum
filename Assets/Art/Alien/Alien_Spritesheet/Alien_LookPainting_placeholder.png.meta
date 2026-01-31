@@ -1,0 +1,246 @@
+fileFormatVersion: 2
+guid: aa7d841973b5b2647b6099bf65f01189
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8569201143675425677
+    second: Alien_LookPainting_placeholder_0
+  - first:
+      213: 6747000836494592740
+    second: Alien_LookPainting_placeholder_1
+  - first:
+      213: -4395620426438225673
+    second: Alien_LookPainting_placeholder_2
+  - first:
+      213: 5413802177557537267
+    second: Alien_LookPainting_placeholder_3
+  - first:
+      213: -2924802757195052655
+    second: Alien_LookPainting_placeholder_4
+  - first:
+      213: 7589202451626587521
+    second: Alien_LookPainting_placeholder_5
+  - first:
+      213: 7165558640532830407
+    second: Alien_LookPainting_placeholder_6
+  - first:
+      213: -7650155067113616152
+    second: Alien_LookPainting_placeholder_7
+  - first:
+      213: -8866556162971156931
+    second: Alien_LookPainting_placeholder_8
+  - first:
+      213: -3033231487801231806
+    second: Alien_LookPainting_placeholder_9
+  - first:
+      213: 7633453368985666027
+    second: Alien_LookPainting_placeholder_10
+  - first:
+      213: 8070819621193669541
+    second: Alien_LookPainting_placeholder_11
+  - first:
+      213: -3051759177637427078
+    second: Alien_LookPainting_placeholder_12
+  - first:
+      213: 2770966656022287070
+    second: Alien_LookPainting_placeholder_13
+  - first:
+      213: -6692020241729811357
+    second: Alien_LookPainting_placeholder_14
+  - first:
+      213: 2297634510800898368
+    second: Alien_LookPainting_placeholder_15
+  - first:
+      213: 1679563542156700367
+    second: Alien_LookPainting_placeholder_16
+  - first:
+      213: 5286113631421365109
+    second: Alien_LookPainting_placeholder_17
+  - first:
+      213: -7796501952940485423
+    second: Alien_LookPainting_placeholder_18
+  - first:
+      213: -8215618479636832642
+    second: Alien_LookPainting_placeholder_19
+  - first:
+      213: 6643214677283287160
+    second: Alien_LookPainting_placeholder_20
+  - first:
+      213: 2864018613056038047
+    second: Alien_LookPainting_placeholder_21
+  - first:
+      213: -8558917928696469843
+    second: Alien_LookPainting_placeholder_22
+  - first:
+      213: -6377931729843692698
+    second: Alien_LookPainting_placeholder_23
+  - first:
+      213: -5807993486347521598
+    second: Alien_LookPainting_placeholder_24
+  - first:
+      213: 4168105060091159231
+    second: Alien_LookPainting_placeholder_25
+  - first:
+      213: -5531458881152623119
+    second: Alien_LookPainting_placeholder_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Alien_LookPainting_placeholder_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 287
+        height: 560
+      alignment: 9
+      pivot: {x: 0.44586098, y: 0.08519351}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8315a1e90bebe670800000000000000
+      internalID: 8569201143675425677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_LookPainting_placeholder_1
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 0
+        width: 287
+        height: 560
+      alignment: 9
+      pivot: {x: 0.4242056, y: 0.07964434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea068e738922ad50800000000000000
+      internalID: 6747000836494592740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1aafe6152ebb92046aa6083ca217279a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":1.0},"gridSpriteSize":{"x":287.0,"y":616.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Alien_LookPainting_placeholder_0: 8569201143675425677
+      Alien_LookPainting_placeholder_1: 6747000836494592740
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

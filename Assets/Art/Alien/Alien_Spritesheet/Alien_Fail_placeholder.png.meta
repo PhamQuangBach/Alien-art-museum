@@ -1,0 +1,225 @@
+fileFormatVersion: 2
+guid: 3a4b31f24c94db146a1e39d386ec81cc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8122091663731632690
+    second: Alien_Fail_placeholder_0
+  - first:
+      213: 7686232704715820868
+    second: Alien_Fail_placeholder_1
+  - first:
+      213: 8804023274024753448
+    second: Alien_Fail_placeholder_2
+  - first:
+      213: 6512280640609271882
+    second: Alien_Fail_placeholder_3
+  - first:
+      213: -5150821790817976975
+    second: Alien_Fail_placeholder_4
+  - first:
+      213: 1968829842032302161
+    second: Alien_Fail_placeholder_5
+  - first:
+      213: -6907824300852187918
+    second: Alien_Fail_placeholder_6
+  - first:
+      213: -6153381327851776731
+    second: Alien_Fail_placeholder_7
+  - first:
+      213: 1765223489815576614
+    second: Alien_Fail_placeholder_8
+  - first:
+      213: 4103586606201515427
+    second: Alien_Fail_placeholder_9
+  - first:
+      213: -6078558080945585738
+    second: Alien_Fail_placeholder_10
+  - first:
+      213: 6085392694170531968
+    second: Alien_Fail_placeholder_11
+  - first:
+      213: 5553118040772300897
+    second: Alien_Fail_placeholder_12
+  - first:
+      213: 4402406424988460786
+    second: Alien_Fail_placeholder_13
+  - first:
+      213: -2837950356852442662
+    second: Alien_Fail_placeholder_14
+  - first:
+      213: -1326203941193050890
+    second: Alien_Fail_placeholder_15
+  - first:
+      213: -1942942231904829452
+    second: Alien_Fail_placeholder_16
+  - first:
+      213: 1472421383864595473
+    second: Alien_Fail_placeholder_17
+  - first:
+      213: -5466957463860318795
+    second: Alien_Fail_placeholder_18
+  - first:
+      213: 6669664607080518336
+    second: Alien_Fail_placeholder_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Alien_Fail_placeholder_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 287
+        height: 560
+      alignment: 9
+      pivot: {x: 0.5135348, y: 0.07686976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23aa2e1e55777b070800000000000000
+      internalID: 8122091663731632690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_Fail_placeholder_1
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 0
+        width: 287
+        height: 560
+      alignment: 9
+      pivot: {x: 0.49187914, y: 0.07686976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f8399ebebfaaa60800000000000000
+      internalID: 7686232704715820868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 66ac2d3736038d04db089ca4af06672e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":1.0},"gridSpriteSize":{"x":287.0,"y":616.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Alien_Fail_placeholder_0: 8122091663731632690
+      Alien_Fail_placeholder_1: 7686232704715820868
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
