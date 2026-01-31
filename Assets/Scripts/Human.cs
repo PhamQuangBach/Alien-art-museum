@@ -1,10 +1,29 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class Human : MonoBehaviour
 {
 
     float duration = 0.3f;
     float elapsedTime = 0f;
+    [SerializeField] public Emotion emotion = 0;
+
+    public enum Emotion
+    {
+        Happy,
+        Sad,
+        Surprised,
+        Angry
+    }
+
+    public static Dictionary<char, Emotion> emotionMap = new Dictionary<char, Emotion>
+    {
+        {'w', Emotion.Happy},
+        {'d', Emotion.Sad},
+        {'s', Emotion.Surprised},
+        {'a', Emotion.Angry},
+    };
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
