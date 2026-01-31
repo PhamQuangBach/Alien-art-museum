@@ -260,7 +260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   deltatime: 0
-  beatinterval: 0.5
+  beatinterval: 0.73170733
   beatSound: {fileID: 8300000, guid: 22f051f9a4de8a74590862dc08ef6563, type: 3}
   beatSequence: 010000000100000001000000020000000000000000000000
 --- !u!4 &102342863
