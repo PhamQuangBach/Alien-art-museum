@@ -67,7 +67,7 @@ public class AudioManager : MonoBehaviour
         */
     }
 
-    public static void PlaySound(string sound, float volume = 1)
+    public void PlaySound(string sound, float volume = 1)
     {
         for (int i = 0; i < instance.sounds.Count; i++)
         {

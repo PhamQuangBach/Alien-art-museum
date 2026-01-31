@@ -8,13 +8,13 @@ public class beat : MonoBehaviour
     public AudioClip beatSound;
 
     
-    AudioSource audioSource; 
+    private AudioManager audioManager; 
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
+        audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
     }
 
     // Update is called once per frame
@@ -32,7 +32,6 @@ public class beat : MonoBehaviour
     {
         Debug.Log("Beat!");
 
-        GetComponent<AudioSource>().clip = beatSound;
-        GetComponent<AudioSource>().Play();
+        audioManager.PlaySound("Happy");
     }
 }
