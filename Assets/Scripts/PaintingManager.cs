@@ -69,7 +69,6 @@ public class PaintingManager : MonoBehaviour
         if (offlineMode)
         {
             getPaintingTextureOffline(URL);
-            Debug.Log("Used offline mode");
         }
         else
         {
@@ -91,12 +90,12 @@ public class PaintingManager : MonoBehaviour
     void getPaintingTextureOffline(string URL)
     {
         string path = URL.Replace("/","-").TrimStart(Convert.ToChar("-"));
-        string resourcePath = Path.GetFileNameWithoutExtension(path);
+        string resourcePath = "paintings/" + Path.GetFileNameWithoutExtension(path);
         Debug.Log(resourcePath);
         Texture2D paintingTexture = Resources.Load<Texture2D>(resourcePath);
         Rect paintingRect = new Rect(0,0,paintingTexture.width,paintingTexture.height);
         Vector2 paintingPivot = new Vector2(0.5f,0.5f);
-        Sprite paintingSprite = Sprite.Create(paintingTexture,paintingRect,paintingPivot, 1000);
+        Sprite paintingSprite = Sprite.Create(paintingTexture,paintingRect,paintingPivot, 512);
         SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = paintingSprite;
         setFrame();
@@ -113,7 +112,7 @@ public class PaintingManager : MonoBehaviour
             Texture2D paintingTexture = DownloadHandlerTexture.GetContent(www);
             Rect paintingRect = new Rect(0,0,paintingTexture.width,paintingTexture.height);
             Vector2 paintingPivot = new Vector2(0.5f,0.5f);
-            Sprite paintingSprite = Sprite.Create(paintingTexture,paintingRect,paintingPivot, 1000);
+            Sprite paintingSprite = Sprite.Create(paintingTexture,paintingRect,paintingPivot, 512);
             SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
             spriteRenderer.sprite = paintingSprite;
             setFrame();
