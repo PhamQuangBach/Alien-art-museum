@@ -13,6 +13,7 @@ public class QueueSpawner : MonoBehaviour
         beatQueuer = GetComponent<BeatQueuer>();
         FetchPattern();
         ParsePattern();
+        SpawnQueue(CalculatePositions());
     }
 
     //fetch pattern 
@@ -39,6 +40,27 @@ public class QueueSpawner : MonoBehaviour
     }
 
     //calculate positions
+    private float[] CalculatePositions()
+    {
+        int amountToSpawn = queue.Count;
+        float totalWidth = 15;
+        float spacing = totalWidth / (amountToSpawn + 1);
 
+        float[] positions = new float[amountToSpawn];
+
+        for (int i = 0; i < amountToSpawn; i++)
+        {
+            positions[i] = -spacing * (i + 1f) + (totalWidth / 2f);
+        }
+        return positions;
+    }
     //spawn accordingly
+    private void SpawnQueue(float[] positions)
+    {
+        for (int i = 0; i < queue.Count; i++)
+        {
+            Vector3 spawnPosition = new Vector3(positions[i], transform.position.y, 0);
+            Instantiate(queue[i], spawnPosition, Quaternion.identity);
+        }
+    }
 }
