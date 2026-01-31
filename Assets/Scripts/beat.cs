@@ -15,7 +15,6 @@ public class beat : MonoBehaviour
     private AudioManager audioManager;
     private Queue<int> beatQueue = new Queue<int>();
     private int lastBeat = -1;
-    int beatCounter = 0;
     [SerializeField] public Human[] humans;
     public string[] beatSounds = new string[] { "Happy", "Sad", "Surprised", "Angry" };
 
@@ -49,11 +48,11 @@ public class beat : MonoBehaviour
             int beatIndex = beatQueue.Dequeue();
             if (beatIndex < 4 && beatIndex >= 0)
             {
-                audioManager.PlaySound(beatSounds[beatIndex], 1, (beatCounter * 0.03f) + 1f);
+                audioManager.PlaySound(beatSounds[beatIndex], 1, (beatIndex * 0.03f) + 1f);
 
-                if (humans.Length > beatCounter)
+                if (humans.Length > beatIndex)
                 {
-                    humans[beatCounter].OnSpeak();
+                    humans[beatIndex].OnSpeak();
                 }
             }
             lastBeat = beatIndex;
