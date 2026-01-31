@@ -46,6 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f20a772d0c708a4499cbb91e859a5bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AudioManager
+  mainMusic: {fileID: 7011363929214077193}
   audioMixer: {fileID: 24100000, guid: 09430bacf1d7ac044a90a5203eec3485, type: 2}
   sounds:
   - name: Happy
@@ -203,8 +204,8 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 09430bacf1d7ac044a90a5203eec3485, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 719bb688bc582d64ab3924f54f19e8f7, type: 3}
-  m_PlayOnAwake: 1
+  m_Resource: {fileID: 8300000, guid: 66903929748b1964fad0d0221b52d4f8, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

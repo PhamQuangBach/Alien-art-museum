@@ -259,9 +259,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f62a817da36ac734f8626bf3d669ea12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  deltatime: 0
-  beatinterval: 0.73170733
+  beatinterval: 0.949
   hitWindow: 0.2
+  mainMusicDelay: 0
   beatSound: {fileID: 8300000, guid: 22f051f9a4de8a74590862dc08ef6563, type: 3}
   beatSequence: 010000000100000001000000020000000000000000000000
   humans: []
@@ -342,7 +342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa9b36635d470b24eb979a712e28dd1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BeatQueuer
-  pattern: wwwWdddDsssSaaaA
+  pattern: wwwWdddDsssSaaaAwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
 --- !u!1 &307189825
 GameObject:
   m_ObjectHideFlags: 0

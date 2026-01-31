@@ -9,6 +9,8 @@ public class AudioManager : MonoBehaviour
 {
     private static AudioManager instance;
 
+    [SerializeField] AudioSource mainMusic;
+
     [Serializable]
     public struct Sound
     {
@@ -46,25 +48,7 @@ public class AudioManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*
-        InputAction upAction = InputSystem.actions.FindAction("Up");
-        if (upAction.WasPerformedThisFrame())
-        {
-            PlaySound("Happy");
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            PlaySound("Sad");
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            PlaySound("Surprised");
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha4))
-        {
-            PlaySound("Angry");
-        }
-        */
+
     }
 
     public void PlaySound(string sound, float volume = 1, float pitch = 1)
@@ -82,5 +66,10 @@ public class AudioManager : MonoBehaviour
     public static void SetGlobalVolume(float volume)
     {
         instance.audioMixer.SetFloat("volume", Mathf.Log(volume + 0.001f, 2f) * 10);
+    }
+
+    public void StartMainMusic()
+    {
+        mainMusic.Play();
     }
 }

@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class beat : MonoBehaviour
 {
-    [SerializeField]
     private float deltatime = 0f; // Time accumulator
     [SerializeField] float beatinterval = 0.5f; // Interval between beats in seconds
 
     [SerializeField]
     float hitWindow = 0.2f;
+
+    [SerializeField]
+    float mainMusicDelay = 0;
 
     public AudioClip beatSound;
     private AudioManager audioManager;
@@ -38,6 +40,13 @@ public class beat : MonoBehaviour
             deltatime -= beatinterval;
             OnBeat();
         }
+
+
+        if (mainMusicDelay >= 0 && mainMusicDelay - Time.deltaTime < 0)
+        {
+            audioManager.StartMainMusic();
+        }
+        mainMusicDelay -= Time.deltaTime;
     }
 
     public void QueueBeat(int beat)
