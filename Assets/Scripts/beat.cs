@@ -46,5 +46,9 @@ public class beat : MonoBehaviour
         beatCounter++;
     }
 
-    
+    public bool IsOnBeat()
+    {
+        // A hit is considered "on beat" if it occurs within 0.1 seconds of the beat
+        return deltatime <= 0.1f || deltatime >= (beatinterval - 0.1f);
+    }
 }

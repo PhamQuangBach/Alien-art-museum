@@ -27,6 +27,10 @@ public class BeatHitter : MonoBehaviour
 
     private void MakeSound()
     {
-        audioManager.PlaySound("Happy",1,1.2f);
+        if (beatScript.IsOnBeat())
+        {
+            audioManager.PlaySound("Happy",1,1.2f);
+        }
+        
     }
 }
