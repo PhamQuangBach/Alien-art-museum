@@ -18,7 +18,7 @@ public class Human : MonoBehaviour
         Angry
     }
 
-    public static Dictionary<char, Emotion> emotionMap = new Dictionary<char, Emotion>
+    public static Dictionary<char, Emotion> charEmotionMap = new Dictionary<char, Emotion>
     {
         {'w', Emotion.Happy},
         {'d', Emotion.Sad},
