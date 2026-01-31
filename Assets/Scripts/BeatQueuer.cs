@@ -1,8 +1,22 @@
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class BeatQueuer : MonoBehaviour
 {
-    public string pattern = "1115222633370004";
+    public string pattern = "wwwWdddDsssSaaaA";
+
+    private Dictionary<char, int> mapping = new Dictionary<char, int>
+    {
+        {'w', 0},
+        {'d', 1},
+        {'s', 2},
+        {'a', 3},
+        {'W', 4},
+        {'D', 5},
+        {'S', 6},
+        {'A', 7},
+    };
 
     private beat beatScript;
 
@@ -23,7 +37,12 @@ public class BeatQueuer : MonoBehaviour
     {
         for (int i = 0; i < pattern.Length; i++)
         {
-            beatScript.QueueBeat((int)char.GetNumericValue(pattern[i]));
+            int p = -1;
+            if (mapping.ContainsKey(pattern[i]))
+            {
+                p = mapping[pattern[i]];
+            }
+            beatScript.QueueBeat(p);
         }
     }
 }
