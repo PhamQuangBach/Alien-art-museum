@@ -127,6 +127,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 363360716498061773, guid: 6b0a93e298a221947b5cbfcd2308c664, type: 3}
+      propertyPath: pattern
+      value: wwwWdddDsssSaaaA
+      objectReference: {fileID: 0}
     - target: {fileID: 2862668510349186556, guid: 6b0a93e298a221947b5cbfcd2308c664, type: 3}
       propertyPath: m_Name
       value: beat
@@ -191,9 +195,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2862668510349186556, guid: 6b0a93e298a221947b5cbfcd2308c664, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 589805532}
     - targetCorrespondingSourceObject: {fileID: 2862668510349186556, guid: 6b0a93e298a221947b5cbfcd2308c664, type: 3}
       insertIndex: -1
       addedObject: {fileID: 589805537}
@@ -340,19 +341,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2862668510349186556, guid: 6b0a93e298a221947b5cbfcd2308c664, type: 3}
   m_PrefabInstance: {fileID: 275186578}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &589805532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 589805531}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa9b36635d470b24eb979a712e28dd1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BeatQueuer
-  pattern: wwwWdddDsssSaaaA
 --- !u!114 &589805537
 MonoBehaviour:
   m_ObjectHideFlags: 0
