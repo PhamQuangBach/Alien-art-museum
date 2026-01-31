@@ -80,6 +80,6 @@ public class AudioManager : MonoBehaviour
 
     public static void SetGlobalVolume(float volume)
     {
-        instance.audioMixer.SetFloat("Volume", Mathf.Log10(volume + 0.00001f) * 10);
+        instance.audioMixer.SetFloat("volume", Mathf.Log(volume + 0.001f, 2f) * 10);
     }
 }
