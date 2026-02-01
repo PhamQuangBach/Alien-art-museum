@@ -1,14 +1,11 @@
 using System.Collections.Generic;
-using System.Linq;
 using Newtonsoft.Json;
 using UnityEngine;
 using System.Collections;
 using UnityEngine.Networking;
-using UnityEngine.InputSystem;
-using UnityEditor;
 using System.IO;
 using System;
-using Mono.Cecil;
+
 
 public class PaintingManager : MonoBehaviour
 {
