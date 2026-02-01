@@ -24,13 +24,15 @@ public class BeatQueuer : MonoBehaviour
     };
 
     private beat beatScript;
+    private QueueSpawner characterSpawner;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         beatScript = GameObject.Find("beat").GetComponent<beat>();
+        characterSpawner = GameObject.Find("beat").GetComponent<QueueSpawner>();
         LoadPattern(patternFile);
-        QueuePattern(pattern);
+        //QueuePattern(pattern.Trim());
     }
 
     // Update is called once per frame
@@ -41,7 +43,7 @@ public class BeatQueuer : MonoBehaviour
 
     public void QueueRandomPattern()
     {
-        QueuePattern(patterns[Random.Range(0, patterns.Count)]);
+        QueuePattern(patterns[Random.Range(0, patterns.Count)].Trim());
     }
 
     void LoadPattern(TextAsset patternFile)
@@ -52,6 +54,7 @@ public class BeatQueuer : MonoBehaviour
 
     public void QueuePattern(string pattern)
     {
+        characterSpawner.DespawnQueue();
         for (int i = 0; i < pattern.Length; i++)
         {
             int p = -1;
@@ -61,5 +64,6 @@ public class BeatQueuer : MonoBehaviour
             }
             beatScript.QueueBeat(p);
         }
+        characterSpawner.SpawnQueue(pattern);
     }
 }

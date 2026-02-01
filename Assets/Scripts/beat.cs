@@ -1,5 +1,7 @@
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Xml.Serialization;
 using UnityEngine;
 using static Human;
 
@@ -19,7 +21,8 @@ public class beat : MonoBehaviour
     private Queue<int> beatQueue = new Queue<int>();
     public GameObject nextAlien;
     private int lastBeat = -1;
-    //public string[] beatSounds = new string[] { "Happy", "Sad", "Surprised", "Angry" };
+
+    private int beatTransitionState = 0;
 
     public int patternIndex;
 
@@ -58,6 +61,7 @@ public class beat : MonoBehaviour
     {
         if (beatQueue.Count > 0)
         {
+            beatTransitionState = 0;
             foreach (GameObject character in GetComponent<QueueSpawner>().queue)
             {
                 character.GetComponent<Human>().OnBeat();
@@ -67,7 +71,7 @@ public class beat : MonoBehaviour
             int beatIndex = beatQueue.Dequeue();
             if (beatIndex < 4 && beatIndex >= 0)
             {
-                
+
                 //audioManager.PlaySound(beatSounds[beatIndex], 1, (beatIndex * 0.03f) + 1f);
 
                 if (queue.Count > patternIndex)
@@ -75,7 +79,7 @@ public class beat : MonoBehaviour
                     queue[patternIndex].GetComponent<Human>().OnSpeak();
                 }
             }
-            
+
             //fetch next alien (player controlled character)
             if (queue.Count > patternIndex)
             {
@@ -95,7 +99,56 @@ public class beat : MonoBehaviour
             lastBeat = beatIndex;
             patternIndex++;
         }
+        else
+        {
+            beatTransitionState += 1;
+            if (beatTransitionState == 1)
+            {
+                Cheer();
+            }
+            else if (beatTransitionState == 2)
+            {
+                StartCoroutine(TransitionAnimation(beatinterval, 20));
+            }
+            else if (beatTransitionState == 3)
+            {
+                FindFirstObjectByType<BeatQueuer>().QueueRandomPattern(); // also spawns new people
+                StartCoroutine(PeopleMoveInAnimation(beatinterval, 20, GetComponent<QueueSpawner>().queue));
+                patternIndex = 0;
+            }
+        }
     }
+
+    public void Cheer()
+    {
+
+    }
+
+    IEnumerator TransitionAnimation(float length, float dist)
+    {
+        float T = 0;
+        while (T < length)
+        {
+            Camera.main.transform.position += new Vector3(dist * Time.deltaTime / length, 0, 0);
+            T += Time.deltaTime;
+            yield return null;
+        }
+    }
+
+    IEnumerator PeopleMoveInAnimation(float length, float dist, List<GameObject> people)
+    {
+        float T = 0;
+        while (T < length)
+        {
+            foreach (GameObject person in people)
+            {
+                person.transform.position += new Vector3(dist * Time.deltaTime / length, 0, 0);
+            }
+            T += Time.deltaTime;
+            yield return null;
+        }
+    }
+
 
     public bool HitBeat(int beatIndex)
     {

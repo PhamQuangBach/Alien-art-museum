@@ -1,27 +1,29 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.Runtime;
+using System.Linq;
 
 public class QueueSpawner : MonoBehaviour
 {
-    private BeatQueuer beatQueuer;
-    private string pattern;
+    //private BeatQueuer beatQueuer;
+    //private string pattern;
     [SerializeField] public List<GameObject> queue;
     [SerializeField] private GameObject[] characters;
 
-    private void Start() {
-        beatQueuer = GetComponent<BeatQueuer>();
-        pattern = beatQueuer.pattern;
+    private void Start()
+    {
+        //beatQueuer = GetComponent<BeatQueuer>();
+        //pattern = beatQueuer.pattern;
         //ParsePattern();
-        SpawnQueue(CalculatePositions());
+        //SpawnQueue(CalculatePositions());
     }
 
     //parse pattern to a list of gameobjects
-    private GameObject GetGoFromPattern(int index = 0)
+    private GameObject GetGoFromPattern(string pattern, int index = 0)
     {
         char c = pattern[index];
         if (char.IsLower(c))
-        {   
+        {
             return characters[0];
         }
         else if (char.IsUpper(c))
@@ -32,9 +34,9 @@ public class QueueSpawner : MonoBehaviour
     }
 
     //calculate positions
-    private float[] CalculatePositions()
+    private float[] CalculatePositions(int length, float offset)
     {
-        int amountToSpawn = pattern.Length;
+        int amountToSpawn = length;
         float totalWidth = 15;
         float spacing = totalWidth / (amountToSpawn + 1);
 
@@ -42,18 +44,19 @@ public class QueueSpawner : MonoBehaviour
 
         for (int i = 0; i < amountToSpawn; i++)
         {
-            positions[i] = -spacing * (i + 1f) + (totalWidth / 2f);
+            positions[i] = -spacing * (i + 1f) + (totalWidth / 2f) + offset;
         }
         return positions;
     }
 
     //spawn accordingly
-    private void SpawnQueue(float[] positions)
+    public void SpawnQueue(string pattern)
     {
+        float[] positions = CalculatePositions(pattern.Length, Camera.main.transform.position.x - 20);
         for (int i = 0; i < pattern.Length; i++)
         {
             Vector3 spawnPosition = new Vector3(positions[i], transform.position.y, 0);
-            queue.Add(Instantiate(GetGoFromPattern(i), spawnPosition, Quaternion.identity));
+            queue.Add(Instantiate(GetGoFromPattern(pattern, i), spawnPosition, Quaternion.identity));
 
             //set emotion for the spawned character
             Human human = queue[queue.Count - 1].GetComponent<Human>();
@@ -63,5 +66,14 @@ public class QueueSpawner : MonoBehaviour
                 human.isUndercoverAlien = true;
             }
         }
+    }
+
+    public void DespawnQueue()
+    {
+        for (int i = 0; i < queue.Count; i++)
+        {
+            Destroy(queue[i]);
+        }
+        queue.Clear();
     }
 }
