@@ -36,6 +36,7 @@ public class Human : MonoBehaviour
     {
         audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
         anim = gameObject.GetComponent<AlienAnimController>();
+        anim.PlayAnimation((int) AlienAnimController.alienAnimations.LookAt);//look at painting animation
     }
 
     // Update is called once per frame
@@ -75,7 +76,6 @@ public class Human : MonoBehaviour
         transform.localScale = Vector3.one * 1.05f;
         animSize = 1.05f;
         duration = 0.15f;
-        anim.PlayAnimation((int) AlienAnimController.alienAnimations.LookAt);//look at painting animation
     }
 
     void AnimationUpdate()
