@@ -357,7 +357,7 @@ PrefabInstance:
       objectReference: {fileID: -980475979106996294, guid: 79cb1dcb8f52edd4fa9c1399840b1ed6, type: 3}
     - target: {fileID: 7652200740097136972, guid: 082d0f8e977504e48a644cb11a1f7d7b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20
+      value: -20.48
       objectReference: {fileID: 0}
     - target: {fileID: 7652200740097136972, guid: 082d0f8e977504e48a644cb11a1f7d7b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -479,7 +479,7 @@ PrefabInstance:
       objectReference: {fileID: -980475979106996294, guid: 79cb1dcb8f52edd4fa9c1399840b1ed6, type: 3}
     - target: {fileID: 7652200740097136972, guid: 082d0f8e977504e48a644cb11a1f7d7b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 40
+      value: 40.96
       objectReference: {fileID: 0}
     - target: {fileID: 7652200740097136972, guid: 082d0f8e977504e48a644cb11a1f7d7b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -845,7 +845,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 990586102673410106, guid: 0bb2df7d70b5765439c1398a72bbafad, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 20
+      value: 20.48
       objectReference: {fileID: 0}
     - target: {fileID: 990586102673410106, guid: 0bb2df7d70b5765439c1398a72bbafad, type: 3}
       propertyPath: m_LocalPosition.y
@@ -887,6 +887,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hallway_Arch
       objectReference: {fileID: 0}
+    - target: {fileID: 7927430328597864828, guid: 0bb2df7d70b5765439c1398a72bbafad, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1687285309991508895, guid: d5b595fd68c0e1b47aafa736eb858530, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
