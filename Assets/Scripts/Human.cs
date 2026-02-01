@@ -6,7 +6,11 @@ public class Human : MonoBehaviour
 
     float duration = 0.3f;
     float elapsedTime = 0f;
+    [SerializeField] public bool isUndercoverAlien = false;
     [SerializeField] public Emotion emotion = 0;
+
+    private float animSize = 1f;
+    
 
     private AudioManager audioManager;
 
@@ -42,17 +46,32 @@ public class Human : MonoBehaviour
         AnimationUpdate();
     }
 
-    public void OnSpeak()
+    public void OnSpeak(int emotionOverride = -1)
     {
-        initAnimation();
+        if (emotionOverride != -1) emotion = (Emotion)emotionOverride;
+
+        initSpeakAnimation();
         audioManager.PlaySound(emotion.ToString());
     }
 
-    void initAnimation()
+    public void OnBeat()
+    {
+        initBeatAnimation();
+    }
+
+    void initSpeakAnimation()
     {
         elapsedTime = 0;
-        //Scale to 1.5
         transform.localScale = Vector3.one * 1.5f;
+        animSize = 1.5f;
+        duration = 0.3f;
+    }
+    void initBeatAnimation()
+    {
+        elapsedTime = 0;
+        transform.localScale = Vector3.one * 1.05f;
+        animSize = 1.05f;
+        duration = 0.15f;
     }
 
     void AnimationUpdate()
@@ -65,8 +84,7 @@ public class Human : MonoBehaviour
         {
             elapsedTime += Time.deltaTime;
             float t = elapsedTime / duration;
-            //Ease the scale back to 1 over 0.3 seconds
-            transform.localScale = Vector3.Lerp(Vector3.one * 1.5f, Vector3.one, t);
+            transform.localScale = Vector3.Lerp(Vector3.one * animSize, Vector3.one, t);
         }
     }
     

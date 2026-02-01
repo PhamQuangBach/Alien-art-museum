@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Runtime;
+using static Human;
 
 public class BeatHitter : MonoBehaviour
 {
@@ -15,8 +17,8 @@ public class BeatHitter : MonoBehaviour
         audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
 
         inputActions[0] = InputSystem.actions.FindAction("Up", true);
-        inputActions[1] = InputSystem.actions.FindAction("Right", true);
-        inputActions[2] = InputSystem.actions.FindAction("Down", true);
+        inputActions[1] = InputSystem.actions.FindAction("Down", true);
+        inputActions[2] = InputSystem.actions.FindAction("Right", true);
         inputActions[3] = InputSystem.actions.FindAction("Left", true);
     }
 
@@ -35,22 +37,20 @@ public class BeatHitter : MonoBehaviour
 
     public void InputPressed(int input)
     {
-        Debug.Log("input pressed!");
-
-        //if hit on beat
+        //Debug.Log("input pressed!");
         if (beatScript.HitBeat(input))
         {
-            print("Good Hit");
+            beatScript.OnGoodHit(input);
         }
         else
         {
-            print("Bad Hit");
+            beatScript.OnBadHit(input);
         }
-        MakeSound(input);
+        //MakeSound(input);
     }
 
     private void MakeSound(int input)
     {
-        audioManager.PlaySound(beatScript.beatSounds[input], 1, 1.2f);
+        //audioManager.PlaySound(beatScript.beatSounds[input], 1, 1.2f);
     }
 }

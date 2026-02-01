@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using static Human;
 
 public class beat : MonoBehaviour
 {
@@ -16,8 +17,9 @@ public class beat : MonoBehaviour
     public AudioClip beatSound;
     private AudioManager audioManager;
     private Queue<int> beatQueue = new Queue<int>();
+    public GameObject nextAlien;
     private int lastBeat = -1;
-    public string[] beatSounds = new string[] { "Happy", "Sad", "Surprised", "Angry" };
+    //public string[] beatSounds = new string[] { "Happy", "Sad", "Surprised", "Angry" };
 
     public int patternIndex;
 
@@ -56,16 +58,40 @@ public class beat : MonoBehaviour
     {
         if (beatQueue.Count > 0)
         {
+            foreach (GameObject character in GetComponent<QueueSpawner>().queue)
+            {
+                character.GetComponent<Human>().OnBeat();
+            }
+
+            List<GameObject> queue = GetComponent<QueueSpawner>().queue;
             int beatIndex = beatQueue.Dequeue();
             if (beatIndex < 4 && beatIndex >= 0)
             {
+                
                 //audioManager.PlaySound(beatSounds[beatIndex], 1, (beatIndex * 0.03f) + 1f);
 
-                if (GetComponent<QueueSpawner>().queue.Count > patternIndex)
+                if (queue.Count > patternIndex)
                 {
-                    GetComponent<QueueSpawner>().queue[patternIndex].GetComponent<Human>().OnSpeak();
+                    queue[patternIndex].GetComponent<Human>().OnSpeak();
                 }
             }
+            
+            //fetch next alien (player controlled character)
+            if (queue.Count > patternIndex)
+            {
+                nextAlien = queue[patternIndex];
+                for (int i = 0; i < queue.Count - patternIndex + 1; i++)
+                {
+                    int index = i + patternIndex;
+                    if (index >= queue.Count) break;
+                    if (queue[index].GetComponent<Human>().isUndercoverAlien)
+                    {
+                        nextAlien = queue[index];
+                        break;
+                    }
+                }
+            }
+
             lastBeat = beatIndex;
             patternIndex++;
         }
@@ -88,5 +114,17 @@ public class beat : MonoBehaviour
             }
         }
         return false;
+    }
+
+    public void OnGoodHit(int input)
+    {
+        Debug.Log("Good Hit!");
+        nextAlien.GetComponent<Human>().OnSpeak(input);
+    }
+
+    public void OnBadHit(int input)
+    {
+        Debug.Log("Bad Hit!");
+        nextAlien.GetComponent<Human>().OnSpeak(input);
     }
 }
