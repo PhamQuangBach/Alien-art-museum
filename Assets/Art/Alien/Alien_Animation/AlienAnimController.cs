@@ -27,7 +27,7 @@ public class AlienAnimController : MonoBehaviour
     {
         if (animator != null)
         {
-            animator.SetInteger("AlienAnimInt", alienAnimInt);
+            //animator.SetInteger("AlienAnimInt", alienAnimInt);
         }
     }
 
@@ -36,7 +36,7 @@ public class AlienAnimController : MonoBehaviour
         if (animator != null)
         {
             Debug.Log("Playing alien animation: " + animInt);
-            //animator.SetInteger("AlienAnimInt", animInt);
+            animator.SetInteger("AlienAnimInt", animInt);
         }
     }
 }

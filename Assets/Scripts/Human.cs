@@ -82,7 +82,6 @@ public class Human : MonoBehaviour
     {
         if (transform.localScale == Vector3.one)
         {
-            anim.PlayAnimation((int) AlienAnimController.alienAnimations.Idle);//idle animation
             return;
         }
         else if (elapsedTime < duration)
@@ -90,10 +89,6 @@ public class Human : MonoBehaviour
             elapsedTime += Time.deltaTime;
             float t = elapsedTime / duration;
             transform.localScale = Vector3.Lerp(Vector3.one * animSize, Vector3.one, t);
-        }
-        else
-        {
-            anim.PlayAnimation((int) AlienAnimController.alienAnimations.Idle);//idle animation
         }
     }
     
