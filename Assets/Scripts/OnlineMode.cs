@@ -26,4 +26,8 @@ public class OnlineMode : MonoBehaviour
     {
         Application.Quit();
     }
+    public void loadMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 }
