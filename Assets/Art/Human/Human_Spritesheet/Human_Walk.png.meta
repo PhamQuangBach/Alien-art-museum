@@ -1,0 +1,309 @@
+fileFormatVersion: 2
+guid: 943fc64ab241d8845afc31fc6b1f2493
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5954506526129702022
+    second: Human_Walk_0
+  - first:
+      213: 1082014356767413237
+    second: Human_Walk_1
+  - first:
+      213: 5920082248970702264
+    second: Human_Walk_2
+  - first:
+      213: -8410638066779841712
+    second: Human_Walk_3
+  - first:
+      213: 6729369537447395943
+    second: Human_Walk_4
+  - first:
+      213: 3226231959684499815
+    second: Human_Walk_5
+  - first:
+      213: 7767478091853234020
+    second: Human_Walk_6
+  - first:
+      213: -5368377615471138197
+    second: Human_Walk_7
+  - first:
+      213: -3408002539123299171
+    second: Human_Walk_8
+  - first:
+      213: 3928139344051327813
+    second: Human_Walk_9
+  - first:
+      213: -8163784783008415610
+    second: Human_Walk_10
+  - first:
+      213: 3748654840599649053
+    second: Human_Walk_11
+  - first:
+      213: 7128932092315504980
+    second: Human_Walk_12
+  - first:
+      213: -5633904756890973762
+    second: Human_Walk_13
+  - first:
+      213: 4547722690982544124
+    second: Human_Walk_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Human_Walk_9
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 38
+        width: 298
+        height: 866
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5435a66dbed838630800000000000000
+      internalID: 3928139344051327813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Walk_10
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 38
+        width: 339
+        height: 896
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6804b025ef864be80800000000000000
+      internalID: -8163784783008415610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Walk_11
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 38
+        width: 244
+        height: 941
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b9d7f57b5e50430800000000000000
+      internalID: 3748654840599649053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Walk_12
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 38
+        width: 298
+        height: 866
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451195e97fd0fe260800000000000000
+      internalID: 7128932092315504980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Walk_13
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 38
+        width: 339
+        height: 896
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9412b297950d1b0800000000000000
+      internalID: -5633904756890973762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Walk_14
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 38
+        width: 244
+        height: 941
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf28ffc41b1cc1f30800000000000000
+      internalID: 4547722690982544124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8d26394b05289084fb832e329e6624f1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Human_Walk_0: -5954506526129702022
+      Human_Walk_1: 1082014356767413237
+      Human_Walk_10: -8163784783008415610
+      Human_Walk_11: 3748654840599649053
+      Human_Walk_12: 7128932092315504980
+      Human_Walk_13: -5633904756890973762
+      Human_Walk_14: 4547722690982544124
+      Human_Walk_2: 5920082248970702264
+      Human_Walk_3: -8410638066779841712
+      Human_Walk_4: 6729369537447395943
+      Human_Walk_5: 3226231959684499815
+      Human_Walk_6: 7767478091853234020
+      Human_Walk_7: -5368377615471138197
+      Human_Walk_8: -3408002539123299171
+      Human_Walk_9: 3928139344051327813
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

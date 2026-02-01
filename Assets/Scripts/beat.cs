@@ -4,6 +4,7 @@ using System.Linq;
 using System.Xml.Serialization;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem.LowLevel;
 using static Human;
 
 public class beat : MonoBehaviour
@@ -144,17 +145,22 @@ public class beat : MonoBehaviour
             {
                 FindFirstObjectByType<BeatQueuer>().LoadPattern(1);
             }
-            else if (score == 10)
+            else if (score == 9)
             {
                 FindFirstObjectByType<BeatQueuer>().LoadPattern(2);
+            }
+            else if (score == 12)
+            {
+                FindFirstObjectByType<BeatQueuer>().LoadPattern(3);
             }
             else if (score == 15)
             {
                 FindFirstObjectByType<BeatQueuer>().LoadPattern(3);
             }
-            else if (score == 20)
+            else if (score == 18)
             {
-                FindFirstObjectByType<BeatQueuer>().LoadPattern(3);
+                GameObject gameState = GameObject.FindGameObjectWithTag("GameController");
+                gameState.GetComponent<OnlineMode>().loadMenu();
             }
         }
     }
