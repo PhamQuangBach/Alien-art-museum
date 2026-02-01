@@ -29,6 +29,7 @@ public class Human : MonoBehaviour
         {'d', Emotion.Sad},
         {'s', Emotion.Surprised},
         {'a', Emotion.Angry},
+        {'f', Emotion.Happy},
         {'x', Emotion.Fail},
     };
 
@@ -37,17 +38,18 @@ public class Human : MonoBehaviour
     {
         audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
         anim = gameObject.GetComponent<AlienAnimController>();
-        anim.PlayAnimation((int) AlienAnimController.alienAnimations.LookAt);//look at painting animation
+        anim.PlayAnimation((int)AlienAnimController.alienAnimations.LookAt);//look at painting animation
         vfxs = GetComponentsInChildren<ParticleSystem>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    private void FixedUpdate() {
+    private void FixedUpdate()
+    {
         AnimationUpdate();
     }
 
@@ -56,7 +58,7 @@ public class Human : MonoBehaviour
         if (emotionOverride != -1) emotion = (Emotion)emotionOverride;
         if (emotion == Emotion.Fail)
         {
-            anim.PlayAnimation((int) AlienAnimController.alienAnimations.Fail);
+            anim.PlayAnimation((int)AlienAnimController.alienAnimations.Fail);
             audioManager.PlaySound(emotion.ToString());
         }
         else
@@ -64,7 +66,7 @@ public class Human : MonoBehaviour
             initSpeakAnimation();
             audioManager.PlaySound(emotion.ToString());
         }
-        
+
     }
 
     public void OnBeat()
@@ -78,7 +80,7 @@ public class Human : MonoBehaviour
         transform.localScale = Vector3.one * 1.5f;
         animSize = 1.5f;
         duration = 0.3f;
-        anim.PlayAnimation((int) AlienAnimController.alienAnimations.Turn);//turning animation
+        anim.PlayAnimation((int)AlienAnimController.alienAnimations.Turn);//turning animation
         PlayVfx((int)emotion);
     }
     void initBeatAnimation()
@@ -102,7 +104,7 @@ public class Human : MonoBehaviour
             transform.localScale = Vector3.Lerp(Vector3.one * animSize, Vector3.one, t);
         }
     }
-    
+
     void PlayVfx(int emotion)
     {
         if (vfxs == null || vfxs.Length == 0) return;
