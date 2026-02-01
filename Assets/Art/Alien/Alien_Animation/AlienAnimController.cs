@@ -35,7 +35,7 @@ public class AlienAnimController : MonoBehaviour
     {
         if (animator != null)
         {
-            Debug.Log("Playing alien animation: " + animInt);
+            //Debug.Log("Playing alien animation: " + animInt);
             animator.SetInteger("AlienAnimInt", animInt);
         }
     }

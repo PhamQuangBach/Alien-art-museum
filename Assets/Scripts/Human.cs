@@ -14,6 +14,7 @@ public class Human : MonoBehaviour
 
     private AudioManager audioManager;
     private AlienAnimController anim;
+    private ParticleSystem[] vfxs;
 
     public enum Emotion
     {
@@ -37,6 +38,7 @@ public class Human : MonoBehaviour
         audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
         anim = gameObject.GetComponent<AlienAnimController>();
         anim.PlayAnimation((int) AlienAnimController.alienAnimations.LookAt);//look at painting animation
+        vfxs = GetComponentsInChildren<ParticleSystem>();
     }
 
     // Update is called once per frame
@@ -69,6 +71,7 @@ public class Human : MonoBehaviour
         animSize = 1.5f;
         duration = 0.3f;
         anim.PlayAnimation((int) AlienAnimController.alienAnimations.Turn);//turning animation
+        PlayVfx((int)emotion);
     }
     void initBeatAnimation()
     {
@@ -92,4 +95,11 @@ public class Human : MonoBehaviour
         }
     }
     
+    void PlayVfx(int emotion)
+    {
+        if (vfxs == null || vfxs.Length == 0) return;
+        if (emotion < 0 || emotion >= vfxs.Length) return;
+
+        vfxs[emotion].Play();
+    }
 }
