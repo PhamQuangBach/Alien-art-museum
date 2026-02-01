@@ -658,9 +658,17 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1197269340666462660, guid: 5fbdfaa46c1207c43a56ed2b0b5946d4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 404859698916417209, guid: 5fbdfaa46c1207c43a56ed2b0b5946d4, type: 3}
       propertyPath: m_Name
       value: A Keen Man
+      objectReference: {fileID: 0}
+    - target: {fileID: 1324365833618744362, guid: 5fbdfaa46c1207c43a56ed2b0b5946d4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3859925222630534181, guid: 5fbdfaa46c1207c43a56ed2b0b5946d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -953,7 +961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f303ec85d3dfba74cb2914cfc3e5df14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  emotionColor: {r: 0.002501011, g: 0, b: 1, a: 0}
+  emotionColor: {r: 0.002501011, g: 0, b: 1, a: 1}
 --- !u!212 &660999502
 SpriteRenderer:
   serializedVersion: 2
@@ -1003,12 +1011,12 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -3213520165164735648, guid: e686c60136a5e9240b51f7ee52055cc0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e686c60136a5e9240b51f7ee52055cc0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.41, y: 2.24}
+  m_Size: {x: 2.56, y: 2.56}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1269,7 +1277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f303ec85d3dfba74cb2914cfc3e5df14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Emotion
-  emotionColor: {r: 1, g: 0.86989117, b: 0, a: 0}
+  emotionColor: {r: 1, g: 0.86989117, b: 0, a: 1}
 --- !u!1001 &867062322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1920,7 +1928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f303ec85d3dfba74cb2914cfc3e5df14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Emotion
-  emotionColor: {r: 1, g: 0, b: 0, a: 0}
+  emotionColor: {r: 1, g: 0.1554602, b: 0, a: 1}
 --- !u!1 &1725027261
 GameObject:
   m_ObjectHideFlags: 0
@@ -2152,12 +2160,12 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7770662970275743403, guid: 788b87c5aff6c6a40b5b61c61d6c4faf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 788b87c5aff6c6a40b5b61c61d6c4faf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.48, y: 2.23}
+  m_Size: {x: 2.56, y: 2.56}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2171,7 +2179,7 @@ Transform:
   m_GameObject: {fileID: 1775054643}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 40.05071, y: -0.08908355, z: 1}
+  m_LocalPosition: {x: 40, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2189,7 +2197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f303ec85d3dfba74cb2914cfc3e5df14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Emotion
-  emotionColor: {r: 0.120756, g: 0.9528302, b: 0, a: 0}
+  emotionColor: {r: 0.9607843, g: 0, b: 0.37210628, a: 1}
 --- !u!1 &1776463636
 GameObject:
   m_ObjectHideFlags: 0
