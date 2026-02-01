@@ -1,0 +1,407 @@
+fileFormatVersion: 2
+guid: 899e51e60c64fda4096756d74da2d7a3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -164096045146230940
+    second: Alien_LookPainting_0
+  - first:
+      213: 9038267161001004950
+    second: Alien_LookPainting_1
+  - first:
+      213: 3095820150484573989
+    second: Alien_LookPainting_2
+  - first:
+      213: 6270617245403265512
+    second: Alien_LookPainting_3
+  - first:
+      213: -3535439753872236234
+    second: Alien_LookPainting_4
+  - first:
+      213: 2658531016200012601
+    second: Alien_LookPainting_5
+  - first:
+      213: -2993859009498431844
+    second: Alien_LookPainting_6
+  - first:
+      213: 6263645196977479116
+    second: Alien_LookPainting_7
+  - first:
+      213: -4635944544635370300
+    second: Alien_LookPainting_8
+  - first:
+      213: -6730030887010498067
+    second: Alien_LookPainting_9
+  - first:
+      213: 7692797723692309453
+    second: Alien_LookPainting_10
+  - first:
+      213: -6957261410181500134
+    second: Alien_LookPainting_11
+  - first:
+      213: 5111679021879351180
+    second: Alien_LookPainting_12
+  - first:
+      213: -930192361783893943
+    second: Alien_LookPainting_13
+  - first:
+      213: -2518620511104071628
+    second: Alien_LookPainting_14
+  - first:
+      213: 8389173697013877449
+    second: Alien_LookPainting_15
+  - first:
+      213: -2683014132356447669
+    second: Alien_LookPainting_16
+  - first:
+      213: 2241668412134781163
+    second: Alien_LookPainting_17
+  - first:
+      213: 6988159937768521725
+    second: Alien_LookPainting_18
+  - first:
+      213: 6838237028897711333
+    second: Alien_LookPainting_19
+  - first:
+      213: -2205488399332194554
+    second: Alien_LookPainting_20
+  - first:
+      213: 4273188330766054273
+    second: Alien_LookPainting_21
+  - first:
+      213: -8148636051508361956
+    second: Alien_LookPainting_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Alien_LookPainting_14
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 39
+        width: 224
+        height: 487
+      alignment: 9
+      pivot: {x: 0.54, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43801a74dff0c0dd0800000000000000
+      internalID: -2518620511104071628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_LookPainting_15
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 39
+        width: 224
+        height: 486
+      alignment: 9
+      pivot: {x: 0.5148984, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca009997055c6470800000000000000
+      internalID: 8389173697013877449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_LookPainting_16
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 39
+        width: 225
+        height: 484
+      alignment: 9
+      pivot: {x: 0.5017266, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b428a81acd404cad0800000000000000
+      internalID: -2683014132356447669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_LookPainting_17
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 39
+        width: 224
+        height: 486
+      alignment: 9
+      pivot: {x: 0.4945984, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0f1814b810c1f10800000000000000
+      internalID: 2241668412134781163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_LookPainting_18
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 39
+        width: 224
+        height: 487
+      alignment: 9
+      pivot: {x: 0.46884483, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfffe44407eeaf060800000000000000
+      internalID: 6988159937768521725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_LookPainting_19
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 39
+        width: 224
+        height: 486
+      alignment: 9
+      pivot: {x: 0.4903423, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4ee55e85c46ee50800000000000000
+      internalID: 6838237028897711333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_LookPainting_20
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 39
+        width: 225
+        height: 484
+      alignment: 9
+      pivot: {x: 0.5040283, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6074f896cf78461e0800000000000000
+      internalID: -2205488399332194554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_LookPainting_21
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 39
+        width: 224
+        height: 486
+      alignment: 9
+      pivot: {x: 0.5152871, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183b7a1852a6d4b30800000000000000
+      internalID: 4273188330766054273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_LookPainting_22
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 39
+        width: 224
+        height: 487
+      alignment: 9
+      pivot: {x: 0.5304238, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1507e93faa3aee80800000000000000
+      internalID: -8148636051508361956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 65e1c105c37d46945bf712683c6fde0b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Alien_LookPainting_0: -164096045146230940
+      Alien_LookPainting_1: 9038267161001004950
+      Alien_LookPainting_10: 7692797723692309453
+      Alien_LookPainting_11: -6957261410181500134
+      Alien_LookPainting_12: 5111679021879351180
+      Alien_LookPainting_13: -930192361783893943
+      Alien_LookPainting_14: -2518620511104071628
+      Alien_LookPainting_15: 8389173697013877449
+      Alien_LookPainting_16: -2683014132356447669
+      Alien_LookPainting_17: 2241668412134781163
+      Alien_LookPainting_18: 6988159937768521725
+      Alien_LookPainting_19: 6838237028897711333
+      Alien_LookPainting_2: 3095820150484573989
+      Alien_LookPainting_20: -2205488399332194554
+      Alien_LookPainting_21: 4273188330766054273
+      Alien_LookPainting_22: -8148636051508361956
+      Alien_LookPainting_3: 6270617245403265512
+      Alien_LookPainting_4: -3535439753872236234
+      Alien_LookPainting_5: 2658531016200012601
+      Alien_LookPainting_6: -2993859009498431844
+      Alien_LookPainting_7: 6263645196977479116
+      Alien_LookPainting_8: -4635944544635370300
+      Alien_LookPainting_9: -6730030887010498067
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,379 @@
+fileFormatVersion: 2
+guid: 92bffc90441bb0943a6de8d6cb1c5607
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8695507957594108904
+    second: Alien_Fail_0
+  - first:
+      213: 4003412003482765434
+    second: Alien_Fail_1
+  - first:
+      213: 4008390743161638862
+    second: Alien_Fail_2
+  - first:
+      213: -7433466854389988814
+    second: Alien_Fail_3
+  - first:
+      213: -8519260090691935292
+    second: Alien_Fail_4
+  - first:
+      213: 5121189471526097991
+    second: Alien_Fail_5
+  - first:
+      213: -9219793419208586908
+    second: Alien_Fail_6
+  - first:
+      213: 3876220520130625128
+    second: Alien_Fail_7
+  - first:
+      213: -8553055182417283533
+    second: Alien_Fail_8
+  - first:
+      213: 8928200975288124669
+    second: Alien_Fail_9
+  - first:
+      213: -7592090317627207187
+    second: Alien_Fail_10
+  - first:
+      213: 7010796290708401724
+    second: Alien_Fail_11
+  - first:
+      213: -3787359873917683494
+    second: Alien_Fail_12
+  - first:
+      213: -8472901502166421724
+    second: Alien_Fail_13
+  - first:
+      213: -8145042877156721170
+    second: Alien_Fail_14
+  - first:
+      213: -3288082606382251445
+    second: Alien_Fail_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Alien_Fail_7
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 38
+        width: 227
+        height: 398
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e3775a60a1bc530800000000000000
+      internalID: 3876220520130625128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_Fail_8
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 38
+        width: 227
+        height: 398
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33634bba0a17d4980800000000000000
+      internalID: -8553055182417283533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_Fail_9
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 38
+        width: 227
+        height: 390
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4485fbb7757eb70800000000000000
+      internalID: 8928200975288124669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_Fail_10
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 38
+        width: 227
+        height: 390
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1d52ba41a73a690800000000000000
+      internalID: -7592090317627207187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_Fail_11
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 38
+        width: 227
+        height: 388
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3eec44e41a5b4160800000000000000
+      internalID: 7010796290708401724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_Fail_12
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 38
+        width: 227
+        height: 388
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8719ec248907bc0800000000000000
+      internalID: -3787359873917683494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_Fail_13
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 38
+        width: 227
+        height: 397
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f2f72a9f43a6a80800000000000000
+      internalID: -8472901502166421724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_Fail_14
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 38
+        width: 227
+        height: 397
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed7fb258aef6fe80800000000000000
+      internalID: -8145042877156721170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_Fail_15
+      rect:
+        serializedVersion: 2
+        x: 2274
+        y: 38
+        width: 227
+        height: 398
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42027e5a426e52d0800000000000000
+      internalID: -3288082606382251445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0e9afa264f540e64793c302e59b06585
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Alien_Fail_0: 8695507957594108904
+      Alien_Fail_1: 4003412003482765434
+      Alien_Fail_10: -7592090317627207187
+      Alien_Fail_11: 7010796290708401724
+      Alien_Fail_12: -3787359873917683494
+      Alien_Fail_13: -8472901502166421724
+      Alien_Fail_14: -8145042877156721170
+      Alien_Fail_15: -3288082606382251445
+      Alien_Fail_2: 4008390743161638862
+      Alien_Fail_3: -7433466854389988814
+      Alien_Fail_4: -8519260090691935292
+      Alien_Fail_5: 5121189471526097991
+      Alien_Fail_6: -9219793419208586908
+      Alien_Fail_7: 3876220520130625128
+      Alien_Fail_8: -8553055182417283533
+      Alien_Fail_9: 8928200975288124669
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
