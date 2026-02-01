@@ -38,7 +38,7 @@ public class Human : MonoBehaviour
     {
         audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
         anim = gameObject.GetComponent<AlienAnimController>();
-        anim.PlayAnimation((int)AlienAnimController.alienAnimations.LookAt);//look at painting animation
+        StartWalkAnimation();
         vfxs = GetComponentsInChildren<ParticleSystem>();
     }
 
@@ -90,6 +90,15 @@ public class Human : MonoBehaviour
         animSize = 1.05f;
         duration = 0.15f;
     }
+
+    public void StartWalkAnimation()
+    {
+        anim.PlayAnimation((int)AlienAnimController.alienAnimations.Walk);
+    } 
+    public void StartLookAtAnimation()
+    {
+        anim.PlayAnimation((int)AlienAnimController.alienAnimations.LookAt);
+    } 
 
     void AnimationUpdate()
     {

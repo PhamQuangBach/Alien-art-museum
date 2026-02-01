@@ -178,6 +178,10 @@ public class beat : MonoBehaviour
             T += Time.deltaTime;
             yield return null;
         }
+        foreach (GameObject person in people)
+        {
+            person.GetComponent<Human>().StartLookAtAnimation();
+        }
     }
 
 
