@@ -30,7 +30,7 @@ public class beat : MonoBehaviour
     public GameObject nextAlien;
     private int lastBeat = -1;
 
-    private int beatTransitionState = 0;
+    private int beatTransitionState = 2;
 
     public int patternIndex;
     public bool patternFailed = false;
@@ -127,7 +127,7 @@ public class beat : MonoBehaviour
             {
                 succesfulHitsNeeded = 0;
                 FindFirstObjectByType<BeatQueuer>().QueueRandomPattern(); // also spawns new people
-                StartCoroutine(PeopleMoveInAnimation(beatinterval, 20, GetComponent<QueueSpawner>().queue));
+                StartCoroutine(PeopleMoveInAnimation(beatinterval * 0.6f, 20, GetComponent<QueueSpawner>().queue));
                 patternIndex = 0;
             }
         }
