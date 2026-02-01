@@ -11,7 +11,9 @@ public class beat : MonoBehaviour
     [SerializeField] float beatinterval = 0.5f; // Interval between beats in seconds
 
     [SerializeField]
-    float hitWindow = 0.2f;
+    float hitWindow = 0.3f;
+    [SerializeField]
+    float hitWindowOffset = 0.05f;
 
     [SerializeField]
     float mainMusicDelay = 0;
@@ -30,6 +32,7 @@ public class beat : MonoBehaviour
     private int beatTransitionState = 0;
 
     public int patternIndex;
+    public bool patternFailed = false;
 
     [SerializeField] private int score = 0;
     private bool failedPattern = false;
@@ -79,10 +82,7 @@ public class beat : MonoBehaviour
             int beatIndex = beatQueue.Dequeue();
             if (beatIndex < 4 && beatIndex >= 0)
             {
-
-                //audioManager.PlaySound(beatSounds[beatIndex], 1, (beatIndex * 0.03f) + 1f);
-
-                if (queue.Count > patternIndex)
+                if (queue.Count > patternIndex && !patternFailed)
                 {
                     queue[patternIndex].GetComponent<Human>().OnSpeak();
                 }
@@ -178,14 +178,14 @@ public class beat : MonoBehaviour
 
     public bool HitBeat(int beatIndex)
     {
-        if (deltatime <= hitWindow / 2f)
+        if (deltatime <= hitWindow / 2f + hitWindowOffset)
         {
             if (beatIndex == lastBeat - 4)
             {
                 return true;
             }
         }
-        else if (deltatime >= (beatinterval - hitWindow / 2f))
+        else if (deltatime >= (beatinterval - hitWindow / 2f + hitWindowOffset))
         {
             if (beatQueue.Count > 0 && beatIndex == beatQueue.Peek() - 4)
             {
@@ -207,5 +207,11 @@ public class beat : MonoBehaviour
         nextAlien.GetComponent<Human>().OnSpeak(input);
 
         failedPattern = true;
+
+        foreach (GameObject character in GetComponent<QueueSpawner>().queue)
+        {
+            character.GetComponent<Human>().OnSpeak((int)AlienAnimController.alienAnimations.Fail);
+        }
+        nextAlien.GetComponent<Human>().OnSpeak((int)AlienAnimController.alienAnimations.Fail);
     }
 }

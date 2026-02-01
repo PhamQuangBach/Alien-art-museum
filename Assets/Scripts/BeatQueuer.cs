@@ -67,5 +67,6 @@ public class BeatQueuer : MonoBehaviour
             beatScript.QueueBeat(p);
         }
         characterSpawner.SpawnQueue(pattern);
+        beatScript.patternFailed = false;
     }
 }

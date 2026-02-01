@@ -132,7 +132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9edc1ca84b70819419f611e6e7ccd82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Human
-  isUndercoverAlien: 0
+  isUndercoverAlien: 1
   emotion: 0
 --- !u!114 &-1197269340666462660
 MonoBehaviour:
