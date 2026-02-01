@@ -49,11 +49,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   beatinterval: 0.949
   hitWindow: 0.2
+  hitWindowOffset: 0.05
   mainMusicDelay: 0.6
   tileableHallway: {fileID: 8552192985749830450, guid: a9bfd91df0e3a3440931765cca17f8dc, type: 3}
   beatSound: {fileID: 8300000, guid: 22f051f9a4de8a74590862dc08ef6563, type: 3}
   nextAlien: {fileID: 0}
   patternIndex: 0
+  patternFailed: 0
+  score: 0
+  succesfulHitsNeeded: 0
 --- !u!82 &2231995518369515841
 AudioSource:
   m_ObjectHideFlags: 0
@@ -177,6 +181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BeatQueuer
   pattern: wwwWdddDsssSaaaA
   patternFiles:
+  - {fileID: 4900000, guid: 0ebc89313798cdc4e98e92d5689a72b3, type: 3}
   - {fileID: 4900000, guid: 429857d5710c1d74d9cee8bf7ded824d, type: 3}
   - {fileID: 4900000, guid: 5fd0ba99da3bd1d4f96f3df03994adab, type: 3}
   - {fileID: 4900000, guid: 0f994a32e3583e34ebf5b9aae74f4e12, type: 3}

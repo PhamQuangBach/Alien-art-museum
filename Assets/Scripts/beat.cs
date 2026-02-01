@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Serialization;
+using Unity.VisualScripting;
 using UnityEngine;
 using static Human;
 
@@ -11,7 +12,9 @@ public class beat : MonoBehaviour
     [SerializeField] float beatinterval = 0.5f; // Interval between beats in seconds
 
     [SerializeField]
-    float hitWindow = 0.2f;
+    float hitWindow = 0.3f;
+    [SerializeField]
+    float hitWindowOffset = 0.05f;
 
     [SerializeField]
     float mainMusicDelay = 0;
@@ -27,12 +30,13 @@ public class beat : MonoBehaviour
     public GameObject nextAlien;
     private int lastBeat = -1;
 
-    private int beatTransitionState = 0;
+    private int beatTransitionState = 2;
 
     public int patternIndex;
+    public bool patternFailed = false;
 
     [SerializeField] private int score = 0;
-    private bool failedPattern = false;
+    [SerializeField] private int succesfulHitsNeeded = 0;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -62,6 +66,10 @@ public class beat : MonoBehaviour
 
     public void QueueBeat(int beat)
     {
+        if (beat >= 4)
+        {
+            succesfulHitsNeeded += 1;
+        }
         beatQueue.Enqueue(beat);
     }
 
@@ -79,10 +87,7 @@ public class beat : MonoBehaviour
             int beatIndex = beatQueue.Dequeue();
             if (beatIndex < 4 && beatIndex >= 0)
             {
-
-                //audioManager.PlaySound(beatSounds[beatIndex], 1, (beatIndex * 0.03f) + 1f);
-
-                if (queue.Count > patternIndex)
+                if (queue.Count > patternIndex && !patternFailed)
                 {
                     queue[patternIndex].GetComponent<Human>().OnSpeak();
                 }
@@ -116,23 +121,23 @@ public class beat : MonoBehaviour
             }
             else if (beatTransitionState == 2)
             {
-                StartCoroutine(TransitionAnimation(beatinterval, 40));
+                StartCoroutine(TransitionAnimation(beatinterval, 40.96f));
             }
             else if (beatTransitionState == 3)
             {
+                succesfulHitsNeeded = 0;
                 FindFirstObjectByType<BeatQueuer>().QueueRandomPattern(); // also spawns new people
-                StartCoroutine(PeopleMoveInAnimation(beatinterval, 20, GetComponent<QueueSpawner>().queue));
+                StartCoroutine(PeopleMoveInAnimation(beatinterval * 0.6f, 20, GetComponent<QueueSpawner>().queue));
                 patternIndex = 0;
-                failedPattern = false;
             }
         }
     }
 
     public void Cheer()
     {
-        Instantiate(tileableHallway, Camera.main.transform.position + new Vector3(40, 0, 28), Quaternion.identity);
+        Instantiate(tileableHallway, Camera.main.transform.position + new Vector3(40.96f, 0, 28), Quaternion.identity);
 
-        if (!failedPattern)
+        if (succesfulHitsNeeded == 0)
         {
             score += 1;
             if (score == 5)
@@ -147,18 +152,24 @@ public class beat : MonoBehaviour
             {
                 FindFirstObjectByType<BeatQueuer>().LoadPattern(3);
             }
+            else if (score == 20)
+            {
+                FindFirstObjectByType<BeatQueuer>().LoadPattern(3);
+            }
         }
     }
 
     IEnumerator TransitionAnimation(float length, float dist)
     {
         float T = 0;
+        float x = Camera.main.transform.position.x;
         while (T < length)
         {
             Camera.main.transform.position += new Vector3(dist * Time.deltaTime / length, 0, 0);
             T += Time.deltaTime;
             yield return null;
         }
+        Camera.main.transform.position = new Vector3(x + dist, 0, -10);
     }
 
     IEnumerator PeopleMoveInAnimation(float length, float dist, List<GameObject> people)
@@ -173,23 +184,35 @@ public class beat : MonoBehaviour
             T += Time.deltaTime;
             yield return null;
         }
+        foreach (GameObject person in people)
+        {
+            person.GetComponent<Human>().StartLookAtAnimation();
+        }
     }
 
 
     public bool HitBeat(int beatIndex)
     {
-        if (deltatime <= hitWindow / 2f)
+        if (lastBeat == 10 || (beatQueue.Count > 0 && beatQueue.Peek() == 10))
+        {
+            return true;
+        }
+
+        if (deltatime <= hitWindow / 2f + hitWindowOffset)
         {
             if (beatIndex == lastBeat - 4)
             {
                 return true;
             }
         }
-        else if (deltatime >= (beatinterval - hitWindow / 2f))
+        else if (deltatime >= (beatinterval - hitWindow / 2f + hitWindowOffset))
         {
-            if (beatQueue.Count > 0 && beatIndex == beatQueue.Peek() - 4)
+            if (beatQueue.Count > 0)
             {
-                return true;
+                if (beatIndex == beatQueue.Peek() - 4)
+                {
+                    return true;
+                }
             }
         }
         return false;
@@ -198,14 +221,31 @@ public class beat : MonoBehaviour
     public void OnGoodHit(int input)
     {
         Debug.Log("Good Hit!");
-        nextAlien.GetComponent<Human>().OnSpeak(input);
+        if (!nextAlien.IsDestroyed())
+        {
+            nextAlien.GetComponent<Human>().OnSpeak(input);
+        }
+
+        if (succesfulHitsNeeded != 0) succesfulHitsNeeded -= 1;
     }
 
     public void OnBadHit(int input)
     {
         Debug.Log("Bad Hit!");
-        nextAlien.GetComponent<Human>().OnSpeak(input);
+        if (!nextAlien.IsDestroyed())
+        {
+            nextAlien.GetComponent<Human>().OnSpeak(input);
+        }
 
-        failedPattern = true;
+        succesfulHitsNeeded = -1;
+
+        foreach (GameObject character in GetComponent<QueueSpawner>().queue)
+        {
+            character.GetComponent<Human>().OnSpeak((int)AlienAnimController.alienAnimations.Fail);
+        }
+        if (!nextAlien.IsDestroyed())
+        {
+            nextAlien.GetComponent<Human>().OnSpeak((int)AlienAnimController.alienAnimations.Fail);
+        }
     }
 }

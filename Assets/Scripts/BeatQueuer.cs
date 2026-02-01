@@ -22,6 +22,7 @@ public class BeatQueuer : MonoBehaviour
         {'D', 5},
         {'S', 6},
         {'A', 7},
+        {'F', 10},
     };
 
     private beat beatScript;
@@ -67,5 +68,6 @@ public class BeatQueuer : MonoBehaviour
             beatScript.QueueBeat(p);
         }
         characterSpawner.SpawnQueue(pattern);
+        beatScript.patternFailed = false;
     }
 }

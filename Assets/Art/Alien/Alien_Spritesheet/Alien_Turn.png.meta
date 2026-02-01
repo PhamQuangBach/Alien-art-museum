@@ -1,0 +1,305 @@
+fileFormatVersion: 2
+guid: 56ab5598338e834448106ab01893b81a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5999544283203704786
+    second: Alien_Turn_0
+  - first:
+      213: -3808255581447559233
+    second: Alien_Turn_1
+  - first:
+      213: -8361034512006970639
+    second: Alien_Turn_2
+  - first:
+      213: 8381982296926151762
+    second: Alien_Turn_3
+  - first:
+      213: 6685294298848740962
+    second: Alien_Turn_4
+  - first:
+      213: -7085599771162680070
+    second: Alien_Turn_5
+  - first:
+      213: 4823710271997009918
+    second: Alien_Turn_6
+  - first:
+      213: 5550965318668357484
+    second: Alien_Turn_7
+  - first:
+      213: 1686900080969639200
+    second: Alien_Turn_8
+  - first:
+      213: 668024547116674279
+    second: Alien_Turn_9
+  - first:
+      213: -2009478545031864039
+    second: Alien_Turn_10
+  - first:
+      213: -4334922893088732027
+    second: Alien_Turn_11
+  - first:
+      213: 6733407264811102794
+    second: Alien_Turn_12
+  - first:
+      213: -6128658736993866205
+    second: Alien_Turn_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Alien_Turn_8
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 38
+        width: 227
+        height: 487
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025e5c1afa2196710800000000000000
+      internalID: 1686900080969639200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_Turn_9
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 38
+        width: 256
+        height: 511
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec612849cc454900800000000000000
+      internalID: 668024547116674279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_Turn_10
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 37
+        width: 247
+        height: 509
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9116b93f8e5ec14e0800000000000000
+      internalID: -2009478545031864039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_Turn_11
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 38
+        width: 249
+        height: 509
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58cccbc989247d3c0800000000000000
+      internalID: -4334922893088732027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_Turn_12
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 38
+        width: 227
+        height: 516
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42b9137b3ed17d50800000000000000
+      internalID: 6733407264811102794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_Turn_13
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 37
+        width: 227
+        height: 510
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ee2e78951a2faa0800000000000000
+      internalID: -6128658736993866205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a730a498d678c1644947a16a3ab1c4cc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Alien_Turn_0: -5999544283203704786
+      Alien_Turn_1: -3808255581447559233
+      Alien_Turn_10: -2009478545031864039
+      Alien_Turn_11: -4334922893088732027
+      Alien_Turn_12: 6733407264811102794
+      Alien_Turn_13: -6128658736993866205
+      Alien_Turn_2: -8361034512006970639
+      Alien_Turn_3: 8381982296926151762
+      Alien_Turn_4: 6685294298848740962
+      Alien_Turn_5: -7085599771162680070
+      Alien_Turn_6: 4823710271997009918
+      Alien_Turn_7: 5550965318668357484
+      Alien_Turn_8: 1686900080969639200
+      Alien_Turn_9: 668024547116674279
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
