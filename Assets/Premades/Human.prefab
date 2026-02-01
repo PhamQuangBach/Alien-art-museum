@@ -124,6 +124,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5034287641037645143}
   - component: {fileID: 6587864063256600754}
+  - component: {fileID: -8367858368214314677}
   m_Layer: 0
   m_Name: Human
   m_TagString: Untagged
@@ -159,4 +160,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9edc1ca84b70819419f611e6e7ccd82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  isUndercoverAlien: 0
   emotion: 0
+--- !u!114 &-8367858368214314677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8836859240607549219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db05dc4cec6d376438e76ef49b318d5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AlienAnimController
+  animator: {fileID: 0}
+  alienAnimInt: 0
