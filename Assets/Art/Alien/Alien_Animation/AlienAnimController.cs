@@ -14,11 +14,29 @@ public class AlienAnimController : MonoBehaviour
     [Range(0, 4)]
     public int alienAnimInt;
 
+    public enum alienAnimations 
+    {
+        Idle = 0,
+        Walk = 1,
+        LookAt = 2,
+        Turn = 3,
+        Fail = 4
+    };
+
     void Update()
     {
         if (animator != null)
         {
             animator.SetInteger("AlienAnimInt", alienAnimInt);
+        }
+    }
+
+    public void PlayAnimation(int animInt)
+    {
+        if (animator != null)
+        {
+            Debug.Log("Playing alien animation: " + animInt);
+            //animator.SetInteger("AlienAnimInt", animInt);
         }
     }
 }

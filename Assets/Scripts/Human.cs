@@ -13,6 +13,7 @@ public class Human : MonoBehaviour
     
 
     private AudioManager audioManager;
+    private AlienAnimController anim;
 
     public enum Emotion
     {
@@ -34,6 +35,7 @@ public class Human : MonoBehaviour
     void Start()
     {
         audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
+        anim = gameObject.GetComponent<AlienAnimController>();
     }
 
     // Update is called once per frame
@@ -65,6 +67,7 @@ public class Human : MonoBehaviour
         transform.localScale = Vector3.one * 1.5f;
         animSize = 1.5f;
         duration = 0.3f;
+        anim.PlayAnimation((int) AlienAnimController.alienAnimations.Turn);//turning animation
     }
     void initBeatAnimation()
     {
@@ -72,12 +75,14 @@ public class Human : MonoBehaviour
         transform.localScale = Vector3.one * 1.05f;
         animSize = 1.05f;
         duration = 0.15f;
+        anim.PlayAnimation((int) AlienAnimController.alienAnimations.LookAt);//look at painting animation
     }
 
     void AnimationUpdate()
     {
         if (transform.localScale == Vector3.one)
         {
+            anim.PlayAnimation((int) AlienAnimController.alienAnimations.Idle);//idle animation
             return;
         }
         else if (elapsedTime < duration)
@@ -85,6 +90,10 @@ public class Human : MonoBehaviour
             elapsedTime += Time.deltaTime;
             float t = elapsedTime / duration;
             transform.localScale = Vector3.Lerp(Vector3.one * animSize, Vector3.one, t);
+        }
+        else
+        {
+            anim.PlayAnimation((int) AlienAnimController.alienAnimations.Idle);//idle animation
         }
     }
     
