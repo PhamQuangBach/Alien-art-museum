@@ -190,6 +190,10 @@ PrefabInstance:
       value: 9.5
       objectReference: {fileID: 0}
     - target: {fileID: 4958536751325283871, guid: a16aafe307ee3144bba563663c6427b5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6970975330647992127, guid: ed230d0acbd367b46a20f8d31b0eaaf1, type: 3}
+    - target: {fileID: 4958536751325283871, guid: a16aafe307ee3144bba563663c6427b5, type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
@@ -347,6 +351,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hallway_Piece (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2434638305818019158, guid: 082d0f8e977504e48a644cb11a1f7d7b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -980475979106996294, guid: 79cb1dcb8f52edd4fa9c1399840b1ed6, type: 3}
     - target: {fileID: 7652200740097136972, guid: 082d0f8e977504e48a644cb11a1f7d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20
@@ -465,6 +473,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hallway_Piece (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2434638305818019158, guid: 082d0f8e977504e48a644cb11a1f7d7b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -980475979106996294, guid: 79cb1dcb8f52edd4fa9c1399840b1ed6, type: 3}
     - target: {fileID: 7652200740097136972, guid: 082d0f8e977504e48a644cb11a1f7d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 40
@@ -750,6 +762,10 @@ PrefabInstance:
       value: 6.5
       objectReference: {fileID: 0}
     - target: {fileID: 4958536751325283871, guid: a16aafe307ee3144bba563663c6427b5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6970975330647992127, guid: ed230d0acbd367b46a20f8d31b0eaaf1, type: 3}
+    - target: {fileID: 4958536751325283871, guid: a16aafe307ee3144bba563663c6427b5, type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
@@ -888,6 +904,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hallway_Piece
       objectReference: {fileID: 0}
+    - target: {fileID: 2434638305818019158, guid: 082d0f8e977504e48a644cb11a1f7d7b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -980475979106996294, guid: 79cb1dcb8f52edd4fa9c1399840b1ed6, type: 3}
     - target: {fileID: 7652200740097136972, guid: 082d0f8e977504e48a644cb11a1f7d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
