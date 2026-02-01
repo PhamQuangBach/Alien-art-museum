@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8a8f9f707d2944848af4deb53c841278
+guid: c81d7464cf6e2eb489704e4e2dfd05df
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6908934373990011102
-    second: 320908_0
+      213: 2240325311812320456
+    second: FGJ26 - splashscreen_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,6 +97,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -113,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 320908_0
+      name: FGJ26 - splashscreen_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2256
-        height: 1592
+        width: 820
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 22fe6ddbac88e10a0800000000000000
-      internalID: -6908934373990011102
+      spriteID: 8ccb3e7500c371f10800000000000000
+      internalID: 2240325311812320456
       vertices: []
       indices: 
       edges: []
@@ -148,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      320908_0: -6908934373990011102
+      FGJ26 - splashscreen_0: 2240325311812320456
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

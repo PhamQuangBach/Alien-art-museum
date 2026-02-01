@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: GGJ26
+  companyName: Finnish Game Jam 2026
   productName: Little Keen Man
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -42,6 +42,8 @@ PlayerSettings:
   m_SplashScreenLogos:
   - logo: {fileID: -4624383175035900110, guid: 9fd982084d61c8143a7c57dff87e3869, type: 3}
     duration: 2.5
+  - logo: {fileID: 2240325311812320456, guid: c81d7464cf6e2eb489704e4e2dfd05df, type: 3}
+    duration: 3.5
   m_VirtualRealitySplashScreen: {fileID: 2800000, guid: 9fd982084d61c8143a7c57dff87e3869, type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1920
