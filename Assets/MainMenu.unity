@@ -1503,7 +1503,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_IsOn: 0
+  m_IsOn: 1
 --- !u!1 &1242665946 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 404859698916417209, guid: 5fbdfaa46c1207c43a56ed2b0b5946d4, type: 3}
@@ -2921,7 +2921,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5178517410718299425, guid: 7ce1437c2a9a51a43a870ef8a1366023, type: 3}
       propertyPath: globalOfflineMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6537835213153423581, guid: 7ce1437c2a9a51a43a870ef8a1366023, type: 3}
       propertyPath: m_Name
