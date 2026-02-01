@@ -88,13 +88,15 @@ public class PaintingManager : MonoBehaviour
 
     void getPaintingTextureOffline(string URL)
     {
+        int resolution = 200;
         string path = URL.Replace("/","-").TrimStart(Convert.ToChar("-"));
         string resourcePath = "paintings/" + Path.GetFileNameWithoutExtension(path);
         Debug.Log(resourcePath);
         Texture2D paintingTexture = Resources.Load<Texture2D>(resourcePath);
         Rect paintingRect = new Rect(0,0,paintingTexture.width,paintingTexture.height);
         Vector2 paintingPivot = new Vector2(0.5f,0.5f);
-        Sprite paintingSprite = Sprite.Create(paintingTexture,paintingRect,paintingPivot, 256);
+        resolution =paintingTexture.height/5;
+        Sprite paintingSprite = Sprite.Create(paintingTexture,paintingRect,paintingPivot, resolution);
         SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = paintingSprite;
         setFrame();
@@ -104,6 +106,7 @@ public class PaintingManager : MonoBehaviour
         UnityWebRequest www = UnityWebRequestTexture.GetTexture("https://www.kansallisgalleria.fi"+URL);
         yield return www.SendWebRequest();
         Debug.Log("Fetching painting");
+        int resolution = 200;
         if (www.result != UnityWebRequest.Result.Success) {
             Debug.Log(www.error);
         }
@@ -111,7 +114,8 @@ public class PaintingManager : MonoBehaviour
             Texture2D paintingTexture = DownloadHandlerTexture.GetContent(www);
             Rect paintingRect = new Rect(0,0,paintingTexture.width,paintingTexture.height);
             Vector2 paintingPivot = new Vector2(0.5f,0.5f);
-            Sprite paintingSprite = Sprite.Create(paintingTexture,paintingRect,paintingPivot, 256);
+            resolution =paintingTexture.height/5;
+            Sprite paintingSprite = Sprite.Create(paintingTexture,paintingRect,paintingPivot, resolution);
             SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
             spriteRenderer.sprite = paintingSprite;
             setFrame();
