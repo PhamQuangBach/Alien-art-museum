@@ -61,6 +61,9 @@ MonoBehaviour:
   - name: Angry
     audioClip: {fileID: 8300000, guid: a7344b97cacd9c34789d67685cce63d0, type: 3}
     volume: 1
+  - name: Fail
+    audioClip: {fileID: 8300000, guid: 22f051f9a4de8a74590862dc08ef6563, type: 3}
+    volume: 0.3
   - name: Success
     audioClip: {fileID: 8300000, guid: 081e89733f5ad6e4398862a2c6d91a01, type: 3}
     volume: 1
