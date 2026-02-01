@@ -10,8 +10,6 @@ public class Human : MonoBehaviour
     [SerializeField] public Emotion emotion = 0;
 
     private float animSize = 1f;
-
-
     private AudioManager audioManager;
     private AlienAnimController anim;
     private ParticleSystem[] vfxs;
@@ -21,7 +19,8 @@ public class Human : MonoBehaviour
         Happy,
         Sad,
         Surprised,
-        Angry
+        Angry,
+        Fail
     }
 
     public static Dictionary<char, Emotion> charEmotionMap = new Dictionary<char, Emotion>
@@ -31,6 +30,7 @@ public class Human : MonoBehaviour
         {'s', Emotion.Surprised},
         {'a', Emotion.Angry},
         {'f', Emotion.Happy},
+        {'x', Emotion.Fail},
     };
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -56,9 +56,17 @@ public class Human : MonoBehaviour
     public void OnSpeak(int emotionOverride = -1)
     {
         if (emotionOverride != -1) emotion = (Emotion)emotionOverride;
+        if (emotion == Emotion.Fail)
+        {
+            anim.PlayAnimation((int)AlienAnimController.alienAnimations.Fail);
+            audioManager.PlaySound(emotion.ToString());
+        }
+        else
+        {
+            initSpeakAnimation();
+            audioManager.PlaySound(emotion.ToString());
+        }
 
-        initSpeakAnimation();
-        audioManager.PlaySound(emotion.ToString());
     }
 
     public void OnBeat()
