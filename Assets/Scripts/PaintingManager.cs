@@ -19,12 +19,14 @@ public class PaintingManager : MonoBehaviour
     [SerializeField] public TextAsset offlinePaintings;
     [SerializeField] public TextAsset onlinePaintings;
 
-
+    public GameObject gameState;
 
     List<Artwork> offlineCollection;
     List<Artwork> onlineCollection;
     void Start()
     {
+        gameState = GameObject.FindGameObjectWithTag("GameController");
+        offlineMode = gameState.GetComponent<OnlineMode>().globalOfflineMode;
         Debug.Log("Painting init");
         offlineCollection = JsonConvert.DeserializeObject<List<Artwork>>(offlinePaintings.text);
         onlineCollection = JsonConvert.DeserializeObject<List<Artwork>>(onlinePaintings.text);
@@ -63,15 +65,15 @@ public class PaintingManager : MonoBehaviour
     }
     void setPaintingTexture(Artwork painting)
     {
-        Debug.Log(painting.title["en"]);
-        Debug.Log("URL: " + painting.multimedia[0].jpg[4000]);
-        string URL = painting.multimedia[0].jpg[4000];
+        string URL;
         if (offlineMode)
         {
+            URL = painting.multimedia[0].jpg[4000];
             getPaintingTextureOffline(URL);
         }
         else
         {
+            URL = painting.multimedia[0].jpg[1000];
             StartCoroutine(GetPaintingTexture(URL));
         }
 
@@ -84,7 +86,7 @@ public class PaintingManager : MonoBehaviour
         Vector2 paintingSize = GetComponent<SpriteRenderer>().bounds.size;
         float heightRatio = paintingSize.y / frameSize.y;
         float widthRatio = paintingSize.x/ frameSize.x ;
-        frameSprite.size = new Vector2(widthRatio*1.05f,heightRatio*1.05f);
+        frameSprite.size = new Vector2(widthRatio*1.02f,heightRatio*1.02f);
     }
 
     void getPaintingTextureOffline(string URL)

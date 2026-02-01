@@ -1,0 +1,2752 @@
+[
+  {
+    "objectId": 379426,
+    "responsibleOrganisation": "Kansallisgalleria / Sinebrychoffin taidemuseo",
+    "dimensions": [
+      {
+        "unit": "cm",
+        "sortLnu": 1,
+        "measureType": {
+          "en": null,
+          "fi": "teosmitat",
+          "id": 886212,
+          "sv": null,
+          "type": "measure-type",
+          "updated": null
+        },
+        "measurements": [
+          3.4,
+          3.4
+        ]
+      }
+    ],
+    "collection": {
+      "fi": "Paul ja Fanny Sinebrychoffin taidekokoelmat",
+      "en": "Paul and Fanny Sinebrychoff's Art Collections",
+      "sv": "Paul och Fanny Sinebrychoffs konstsamlingar"
+    },
+    "acquisitionDate": "1921-01-21T00:00:00.000Z",
+    "title": {
+      "en": "Anna of Austria, Queen of France",
+      "fi": "Anna Itävaltalainen, Ranskan kuningatar",
+      "sv": "Anna av Österrike, Frankrikes drottning"
+    },
+    "keywords": [
+      {
+        "en": "ruler/monarch",
+        "fi": "hallitsija",
+        "sv": "regent"
+      },
+      {
+        "en": "queen",
+        "fi": "kuningatar",
+        "sv": "drottning"
+      },
+      {
+        "en": "miniature",
+        "fi": "miniatyyri",
+        "sv": "miniatyr"
+      },
+      {
+        "en": "portrait",
+        "fi": "muotokuva",
+        "sv": "porträtt"
+      },
+      {
+        "en": "woman",
+        "fi": "nainen",
+        "sv": "kvinna"
+      },
+      {
+        "en": "headscarf",
+        "fi": "päähuivi"
+      },
+      {
+        "en": "sorrow",
+        "fi": "suru"
+      },
+      {
+        "en": "hairstyles",
+        "fi": "kampaukset",
+        "sv": "frisyrer"
+      },
+      {
+        "en": "brooches",
+        "fi": "rintakorut",
+        "sv": "broscher"
+      },
+      {
+        "en": "royalty",
+        "fi": "kuninkaalliset",
+        "sv": "kungligheter"
+      },
+      {
+        "en": "earrings",
+        "fi": "korvakorut",
+        "sv": "örhängen"
+      },
+      {
+        "en": "collars",
+        "fi": "kaulukset",
+        "sv": "kragar"
+      }
+    ],
+    "materials": [
+      {
+        "en": "enamel paint",
+        "fi": "emalimaali",
+        "sv": "emaljfärg"
+      },
+      {
+        "en": "gold",
+        "fi": "kulta",
+        "sv": "guld"
+      }
+    ],
+    "category": {
+      "categoryId": "artwork",
+      "en": "artwork",
+      "fi": "taideteos",
+      "sv": "konstverk"
+    },
+    "classifications": [
+      {
+        "en": "painting",
+        "fi": "maalaus",
+        "sv": "målning"
+      },
+      {
+        "en": "miniature",
+        "fi": "miniatyyri",
+        "sv": "miniatyr"
+      }
+    ],
+    "inventoryNumber": "S 418",
+    "yearTo": 1691,
+    "yearFrom": 1627,
+    "people": [
+      {
+        "id": 66454,
+        "firstName": "Jean Louis",
+        "familyName": "Petitot",
+        "birthDate": null,
+        "deathDate": null,
+        "birthPlace": "Geneve (kaupunki)",
+        "deathPlace": "Vevey (kaupunki)",
+        "birthYear": 1607,
+        "deathYear": 1691,
+        "attribution": null,
+        "role": {
+          "id": 98595,
+          "fi": "taiteilija",
+          "sv": "konstnär",
+          "en": "Artist",
+          "type": "role"
+        },
+        "birthPlace2": null,
+        "birthPlace3": null,
+        "deathPlace2": null,
+        "deathPlace3": null
+      }
+    ],
+    "multimedia": [
+      {
+        "id": 243407,
+        "license": "CC0",
+        "updated_timestamp": "2022-12-20T14:48:07.696+00:00",
+        "filename_extension": ".jpg",
+        "width": 2678,
+        "height": 3300,
+        "size": 1457207,
+        "image_version": 1,
+        "isRiaDisplayImage": true,
+        "ordinal": 5020501,
+        "photographer_name": "Simo Karisalo",
+        "address": null,
+        "filename": "243407.jpg",
+        "jpg": {
+          "25": "/media-assets/1/jpg/25/243407.jpg",
+          "250": "/media-assets/1/jpg/250/243407.jpg",
+          "500": "/media-assets/1/jpg/500/243407.jpg",
+          "1000": "/media-assets/1/jpg/1000/243407.jpg",
+          "2000": "/media-assets/1/jpg/2000/243407.jpg",
+          "4000": "/media-assets/1/jpg/4000/243407.jpg"
+        },
+        "webp": {
+          "25": "/media-assets/1/webp/25/243407.jpg",
+          "250": "/media-assets/1/webp/250/243407.jpg",
+          "500": "/media-assets/1/webp/500/243407.jpg",
+          "1000": "/media-assets/1/webp/1000/243407.jpg",
+          "2000": "/media-assets/1/webp/2000/243407.jpg",
+          "4000": "/media-assets/1/webp/4000/243407.jpg"
+        }
+      }
+    ],
+    "owner": "Suomen valtio",
+    "acquisitionMethod": {
+      "en": "state deposit",
+      "fi": "valtion talletus",
+      "sv": "statens deponering"
+    },
+    "exhibitions": [
+      {
+        "id": 96109,
+        "title": "Kotimuseo / Hemmuseet / House Museum",
+        "startDate": "2003-02-15",
+        "location": "Kansallisgalleria / Sinebrychoffin taidemuseo"
+      }
+    ],
+    "children": [],
+    "parents": []
+  },
+  {
+    "objectId": 614323,
+    "responsibleOrganisation": "Kansallisgalleria / Ateneumin taidemuseo",
+    "dimensions": [
+      {
+        "unit": "cm",
+        "sortLnu": 1,
+        "measureType": {
+          "en": null,
+          "fi": "teosmitat",
+          "id": 886212,
+          "sv": null,
+          "type": "measure-type",
+          "updated": null
+        },
+        "measurements": [
+          40,
+          55
+        ]
+      },
+      {
+        "unit": "cm",
+        "sortLnu": 4,
+        "measureType": null,
+        "measurements": [
+          53,
+          68,
+          8
+        ]
+      }
+    ],
+    "acquisitionDate": "2007-05-23T00:00:00.000Z",
+    "title": {
+      "en": "Mourning",
+      "fi": "Sureva",
+      "sv": "Sörjande"
+    },
+    "keywords": [
+      {
+        "en": "sorrow",
+        "fi": "suru"
+      }
+    ],
+    "materials": [],
+    "category": {
+      "categoryId": "artwork",
+      "en": "artwork",
+      "fi": "taideteos",
+      "sv": "konstverk"
+    },
+    "classifications": [
+      {
+        "en": "painting",
+        "fi": "maalaus",
+        "sv": "målning"
+      }
+    ],
+    "inventoryNumber": "A-2007-70",
+    "yearTo": 1911,
+    "yearFrom": 1910,
+    "people": [
+      {
+        "id": 60168,
+        "firstName": "Einar",
+        "familyName": "Ilmoni",
+        "birthDate": "1880-06-29",
+        "deathDate": "1946-03-04",
+        "birthPlace": "Lappeenranta",
+        "deathPlace": "Kangasala",
+        "birthYear": 1880,
+        "deathYear": 1946,
+        "attribution": null,
+        "role": {
+          "id": 98595,
+          "fi": "taiteilija",
+          "sv": "konstnär",
+          "en": "Artist",
+          "type": "role"
+        },
+        "birthPlace2": null,
+        "birthPlace3": null,
+        "deathPlace2": null,
+        "deathPlace3": null
+      }
+    ],
+    "multimedia": [
+      {
+        "id": 244810,
+        "license": "CC0",
+        "updated_timestamp": "2022-12-20T13:51:40.661+00:00",
+        "filename_extension": ".jpg",
+        "width": 2136,
+        "height": 1575,
+        "size": 897033,
+        "image_version": 1,
+        "isRiaDisplayImage": true,
+        "ordinal": 77200,
+        "photographer_name": "Hannu Pakarinen",
+        "address": null,
+        "filename": "244810.jpg",
+        "jpg": {
+          "25": "/media-assets/1/jpg/25/244810.jpg",
+          "250": "/media-assets/1/jpg/250/244810.jpg",
+          "500": "/media-assets/1/jpg/500/244810.jpg",
+          "1000": "/media-assets/1/jpg/1000/244810.jpg",
+          "2000": "/media-assets/1/jpg/2000/244810.jpg",
+          "4000": "/media-assets/1/jpg/4000/244810.jpg"
+        },
+        "webp": {
+          "25": "/media-assets/1/webp/25/244810.jpg",
+          "250": "/media-assets/1/webp/250/244810.jpg",
+          "500": "/media-assets/1/webp/500/244810.jpg",
+          "1000": "/media-assets/1/webp/1000/244810.jpg",
+          "2000": "/media-assets/1/webp/2000/244810.jpg",
+          "4000": "/media-assets/1/webp/4000/244810.jpg"
+        }
+      }
+    ],
+    "owner": "Suomen valtio",
+    "acquisitionMethod": {
+      "en": "purchase",
+      "fi": "osto",
+      "sv": "inköp"
+    },
+    "exhibitions": [
+      {
+        "id": 36512,
+        "title": "Einar Ilmoni",
+        "endDate": "2019-09-01",
+        "startDate": "2019-06-08"
+      },
+      {
+        "id": 14813,
+        "title": "Symbolismin hengessä - kokoelmanäyttely, Ateneum, Helsinki 16.11.2012-28.4.2013.",
+        "endDate": "2013-04-28",
+        "startDate": "2012-11-16"
+      },
+      {
+        "id": 6547,
+        "title": "Elämää suurempaa. Teoksia kokoelmista / Större än livet. Konstverk ur samlingarna / Larger than Life. Works from the collections. Ateneum, museon kolmas kerros / museets tredje våning / the museum's third floor 5.12.2007 - .",
+        "endDate": "2008-02-05",
+        "startDate": "2007-12-05"
+      }
+    ],
+    "children": [],
+    "parents": []
+  },
+  {
+    "objectId": 421527,
+    "responsibleOrganisation": "Kansallisgalleria / Ateneumin taidemuseo",
+    "dimensions": [
+      {
+        "unit": "cm",
+        "sortLnu": 1,
+        "measureType": {
+          "en": null,
+          "fi": "teosmitat",
+          "id": 886212,
+          "sv": null,
+          "type": "measure-type",
+          "updated": null
+        },
+        "measurements": [
+          17.4,
+          14.8
+        ]
+      },
+      {
+        "unit": "cm",
+        "measureType": {
+          "en": "paper",
+          "fi": "lehti",
+          "id": 210516,
+          "sv": "papper",
+          "type": "measure-type",
+          "updated": null
+        },
+        "measurements": [
+          43.6,
+          32.2
+        ]
+      },
+      {
+        "unit": "cm",
+        "measureType": {
+          "en": null,
+          "fi": "passepartout",
+          "id": 227880,
+          "sv": null,
+          "type": "measure-type",
+          "updated": null
+        },
+        "measurements": [
+          50,
+          40
+        ]
+      }
+    ],
+    "acquisitionDate": "1913-02-01T00:00:00.000Z",
+    "title": {
+      "en": "Dream",
+      "fi": "Unelma",
+      "sv": "Dröm"
+    },
+    "keywords": [
+      {
+        "en": "angel",
+        "fi": "enkeli",
+        "sv": "ängel"
+      },
+      {
+        "en": "sorrow",
+        "fi": "suru"
+      },
+      {
+        "en": "dance",
+        "fi": "tanssi"
+      },
+      {
+        "en": "people",
+        "fi": "ihmiset"
+      }
+    ],
+    "materials": [],
+    "category": {
+      "categoryId": "artwork",
+      "en": "artwork",
+      "fi": "taideteos",
+      "sv": "konstverk"
+    },
+    "classifications": [
+      {
+        "en": "painting",
+        "fi": "maalaus",
+        "sv": "målning"
+      }
+    ],
+    "inventoryNumber": "A II 968:36",
+    "yearFrom": 1900,
+    "people": [
+      {
+        "id": 67713,
+        "firstName": "Hugo",
+        "familyName": "Simberg",
+        "birthDate": "1873-06-24",
+        "deathDate": "1917-07-12",
+        "birthPlace": "Hamina",
+        "deathPlace": "Ähtäri",
+        "birthYear": 1873,
+        "deathYear": 1917,
+        "attribution": null,
+        "role": {
+          "id": 98595,
+          "fi": "taiteilija",
+          "sv": "konstnär",
+          "en": "Artist",
+          "type": "role"
+        },
+        "birthPlace2": null,
+        "birthPlace3": null,
+        "deathPlace2": null,
+        "deathPlace3": null
+      }
+    ],
+    "multimedia": [
+      {
+        "id": 332472,
+        "license": "CC0",
+        "updated_timestamp": "2022-12-20T14:00:51.24+00:00",
+        "filename_extension": ".jpg",
+        "width": 1283,
+        "height": 1496,
+        "size": 559409,
+        "image_version": 1,
+        "isRiaDisplayImage": true,
+        "ordinal": 150200,
+        "photographer_name": "Antti Kuivalainen",
+        "address": null,
+        "filename": "332472.jpg",
+        "jpg": {
+          "25": "/media-assets/1/jpg/25/332472.jpg",
+          "250": "/media-assets/1/jpg/250/332472.jpg",
+          "500": "/media-assets/1/jpg/500/332472.jpg",
+          "1000": "/media-assets/1/jpg/1000/332472.jpg",
+          "2000": "/media-assets/1/jpg/2000/332472.jpg",
+          "4000": "/media-assets/1/jpg/4000/332472.jpg"
+        },
+        "webp": {
+          "25": "/media-assets/1/webp/25/332472.jpg",
+          "250": "/media-assets/1/webp/250/332472.jpg",
+          "500": "/media-assets/1/webp/500/332472.jpg",
+          "1000": "/media-assets/1/webp/1000/332472.jpg",
+          "2000": "/media-assets/1/webp/2000/332472.jpg",
+          "4000": "/media-assets/1/webp/4000/332472.jpg"
+        }
+      }
+    ],
+    "owner": "Suomen valtio",
+    "acquisitionMethod": {
+      "en": "purchase",
+      "fi": "osto",
+      "sv": "inköp"
+    },
+    "exhibitions": [
+      {
+        "id": 289947,
+        "title": "Tanssi",
+        "endDate": "2023-01-15",
+        "startDate": "2022-10-08",
+        "location": "Oulun taidemuseo, Oulu"
+      },
+      {
+        "id": 6551,
+        "title": "Suomen taiteen tarina - kokoelmanäyttely / Historier inom finsk konst - samlingsutställning / Stories of Finnish Art - Collection Exhibition, Ateneum, Helsinki 18.3.2016-27.3.2022.",
+        "endDate": "2022-03-27",
+        "startDate": "2016-03-18",
+        "location": "Kansallisgalleria / Ateneumin taidemuseo"
+      },
+      {
+        "id": 14813,
+        "title": "Symbolismin hengessä - kokoelmanäyttely, Ateneum, Helsinki 16.11.2012-28.4.2013.",
+        "endDate": "2013-04-28",
+        "startDate": "2012-11-16"
+      },
+      {
+        "id": 11435,
+        "title": "Northern Stars and Southern Lights: The Golden Age of Finnish Art 1870-1920 at the National Gallery of Ireland, Dublin, from 8 November 2008 until i February 2009.",
+        "endDate": "2009-02-01",
+        "startDate": "2008-11-08"
+      },
+      {
+        "id": 14752,
+        "title": "Hugo Simberg 1873-1917, Ateneum 25.2.- 28.5. 2000, Tampereen taidemuseo 17.6-27.8.2000, Pohjanmaan museo, Vaasa 22.9-26.11.2000.",
+        "endDate": "2000-05-28",
+        "startDate": "2000-02-25"
+      },
+      {
+        "id": 5534,
+        "title": "Finsk malerkunst, Nasjonalgalleriet [Oslo] 26.mars - 26. maj 1980.",
+        "endDate": "1980-05-26",
+        "startDate": "1980-03-26"
+      },
+      {
+        "id": 6824,
+        "title": "Finnland 1900, Finnischer Jugendstil, Malerei, Architektur, Kunstgewerbe. Österreichisches Museum für Angewandte Kunst Wien, Weiskirchner Strasse 3 Neues Haus / Ausstellungshalle 25. Mai - 22. Juli 1973.",
+        "endDate": "1973-07-22",
+        "startDate": "1973-05-25"
+      },
+      {
+        "id": 8850,
+        "title": "Finnland 1900, Finnischer Jugendstil, Malerei, Architektur, Kunstgewerbe, Kunsthalle Nürnberg am Marientor 26. Januar bis 25. März 1973.",
+        "endDate": "1973-03-25",
+        "startDate": "1973-01-26"
+      },
+      {
+        "id": 13034,
+        "title": "Suomi vuosisadan vaihteessa / Finskt 1900, Ateneum 24.3.-30.4.1972.",
+        "endDate": "1972-04-30",
+        "startDate": "1972-03-30"
+      },
+      {
+        "id": 7729,
+        "title": "Göteborgs Konstmuseum 29/1 - 5/3 - 1972 Göteborgin taidemuseo, Hugo Simberg / Ivar Arosenius 2 udda / Kaksi omaperäistä taiteilijaa.",
+        "endDate": "1972-03-05",
+        "startDate": "1972-01-29"
+      },
+      {
+        "id": 15030,
+        "title": "Satumetsä ja kuoleman puutarha, Hugo Simbergin akvarelleja Ateneumin Taidemuseon kokoelmista / Sagoskogen och dödens trädgård, Hugo Simbergs akvareller ur Konstmuseets i Ateneum samlingar, Suomen taideakatemian kiertonäyttely 31/1969.",
+        "endDate": "1971-04-19",
+        "startDate": "1969-08-15"
+      },
+      {
+        "id": 6795,
+        "title": "Finsk 1900, Nationalmuseum Stockholm 23 september-6 december 1971, nr 244"
+      }
+    ],
+    "children": [],
+    "parents": []
+  },
+  {
+    "objectId": 471287,
+    "responsibleOrganisation": "Kansallisgalleria / Ateneumin taidemuseo",
+    "dimensions": [
+      {
+        "unit": "cm",
+        "sortLnu": 1,
+        "measureType": {
+          "en": null,
+          "fi": "teosmitat",
+          "id": 886212,
+          "sv": null,
+          "type": "measure-type",
+          "updated": null
+        },
+        "measurements": [
+          10.5,
+          17
+        ]
+      }
+    ],
+    "acquisitionDate": "1955-04-28T00:00:00.000Z",
+    "title": {
+      "en": "",
+      "fi": "Viimeinen matka",
+      "sv": ""
+    },
+    "keywords": [
+      {
+        "en": "chest",
+        "fi": "arkku"
+      },
+      {
+        "en": "funeral",
+        "fi": "hautajaiset",
+        "sv": "begravning"
+      },
+      {
+        "en": "death",
+        "fi": "kuolema",
+        "sv": "död"
+      },
+      {
+        "en": "dead child",
+        "fi": "kuollut lapsi"
+      },
+      {
+        "en": "sorrow",
+        "fi": "suru"
+      }
+    ],
+    "materials": [
+      {
+        "en": "watercolour",
+        "fi": "vesiväri",
+        "sv": "akvarell"
+      }
+    ],
+    "category": {
+      "categoryId": "artwork",
+      "en": "artwork",
+      "fi": "taideteos",
+      "sv": "konstverk"
+    },
+    "classifications": [
+      {
+        "en": "painting",
+        "fi": "maalaus",
+        "sv": "målning"
+      }
+    ],
+    "inventoryNumber": "A IV 2936",
+    "people": [
+      {
+        "id": 71150,
+        "firstName": "Kalle",
+        "familyName": "Carlstedt",
+        "birthDate": "1891-02-02",
+        "deathDate": "1952-10-10",
+        "birthPlace": "Lieto",
+        "deathPlace": "Valkeakoski",
+        "birthYear": 1891,
+        "deathYear": 1952,
+        "attribution": null,
+        "role": {
+          "id": 98595,
+          "fi": "taiteilija",
+          "sv": "konstnär",
+          "en": "Artist",
+          "type": "role"
+        },
+        "birthPlace2": null,
+        "birthPlace3": null,
+        "deathPlace2": null,
+        "deathPlace3": null
+      }
+    ],
+    "multimedia": [
+      {
+        "id": 248166,
+        "license": "CC0",
+        "updated_timestamp": "2024-01-15T13:30:41.72+00:00",
+        "filename_extension": ".jpg",
+        "width": 1973,
+        "height": 1181,
+        "size": 533129,
+        "image_version": 1,
+        "isRiaDisplayImage": true,
+        "ordinal": 40700,
+        "photographer_name": "Kirsi Halkola",
+        "address": null,
+        "filename": "248166.jpg",
+        "jpg": {
+          "25": "/media-assets/1/jpg/25/248166.jpg",
+          "250": "/media-assets/1/jpg/250/248166.jpg",
+          "500": "/media-assets/1/jpg/500/248166.jpg",
+          "1000": "/media-assets/1/jpg/1000/248166.jpg",
+          "2000": "/media-assets/1/jpg/2000/248166.jpg",
+          "4000": "/media-assets/1/jpg/4000/248166.jpg"
+        },
+        "webp": {
+          "25": "/media-assets/1/webp/25/248166.jpg",
+          "250": "/media-assets/1/webp/250/248166.jpg",
+          "500": "/media-assets/1/webp/500/248166.jpg",
+          "1000": "/media-assets/1/webp/1000/248166.jpg",
+          "2000": "/media-assets/1/webp/2000/248166.jpg",
+          "4000": "/media-assets/1/webp/4000/248166.jpg"
+        }
+      }
+    ],
+    "owner": "Suomen valtio",
+    "acquisitionMethod": {
+      "en": "purchase",
+      "fi": "osto",
+      "sv": "inköp"
+    },
+    "exhibitions": [],
+    "children": [],
+    "parents": []
+  },
+  {
+    "objectId": 432733,
+    "responsibleOrganisation": "Kansallisgalleria / Ateneumin taidemuseo",
+    "dimensions": [
+      {
+        "unit": "cm",
+        "sortLnu": 1,
+        "measureType": {
+          "en": null,
+          "fi": "teosmitat",
+          "id": 886212,
+          "sv": null,
+          "type": "measure-type",
+          "updated": null
+        },
+        "measurements": [
+          107.5,
+          89.5
+        ]
+      },
+      {
+        "unit": "cm",
+        "sortLnu": 4,
+        "measureType": null,
+        "measurements": [
+          140,
+          125,
+          12
+        ]
+      }
+    ],
+    "collection": {
+      "fi": "Antellin kokoelmat",
+      "en": "Antell collections",
+      "sv": "Antells samlingar"
+    },
+    "acquisitionDate": "1906-12-01T00:00:00.000Z",
+    "title": {
+      "en": "Sorrow, variation of the illustration for the poem At the Fair of Vernamo ; Sorrow",
+      "fi": "Suru",
+      "sv": "Sorg, version i olja av illustrationen till dikten På Vernamo marknad ; Sorg"
+    },
+    "keywords": [
+      {
+        "en": "fence",
+        "fi": "aita",
+        "sv": "stängsel"
+      },
+      {
+        "fi": "Carl Snoilsky: Svenska bilder, På Vernamo marknad -runo"
+      },
+      {
+        "en": "crying",
+        "fi": "itku",
+        "sv": "gråt"
+      },
+      {
+        "en": "written topic",
+        "fi": "kirjallinen aihe"
+      },
+      {
+        "en": "stone",
+        "fi": "kivi",
+        "sv": "sten"
+      },
+      {
+        "en": "scene",
+        "fi": "kohtaus",
+        "sv": "scen"
+      },
+      {
+        "en": "birch forest",
+        "fi": "koivumetsä"
+      },
+      {
+        "en": "bay",
+        "fi": "lahti",
+        "sv": "vik"
+      },
+      {
+        "en": "landscape",
+        "fi": "maisema",
+        "sv": "landskap"
+      },
+      {
+        "en": "maid/servant",
+        "fi": "piika"
+      },
+      {
+        "en": "farmhand",
+        "fi": "renki"
+      },
+      {
+        "en": "sorrow",
+        "fi": "suru"
+      }
+    ],
+    "materials": [
+      {
+        "en": "canvas",
+        "fi": "kangas",
+        "sv": "duk"
+      },
+      {
+        "en": "oil",
+        "fi": "öljy",
+        "sv": "olja"
+      }
+    ],
+    "category": {
+      "categoryId": "artwork",
+      "en": "artwork",
+      "fi": "taideteos",
+      "sv": "konstverk"
+    },
+    "classifications": [
+      {
+        "en": "painting",
+        "fi": "maalaus",
+        "sv": "målning"
+      }
+    ],
+    "inventoryNumber": "A II 814",
+    "yearFrom": 1894,
+    "people": [
+      {
+        "id": 70301,
+        "firstName": "Albert",
+        "familyName": "Edelfelt",
+        "birthDate": "1854-07-21",
+        "deathDate": "1905-08-18",
+        "birthPlace": "Kiialan kartano, Porvoon mlk",
+        "deathPlace": "Haikko, Porvoon mlk",
+        "birthYear": 1854,
+        "deathYear": 1905,
+        "attribution": null,
+        "role": {
+          "id": 98595,
+          "fi": "taiteilija",
+          "sv": "konstnär",
+          "en": "Artist",
+          "type": "role"
+        },
+        "birthPlace2": null,
+        "birthPlace3": null,
+        "deathPlace2": null,
+        "deathPlace3": null
+      }
+    ],
+    "multimedia": [
+      {
+        "id": 1895813,
+        "license": "CC0",
+        "updated_timestamp": "2022-12-20T14:02:51.449+00:00",
+        "filename_extension": ".jpg",
+        "width": 2957,
+        "height": 3543,
+        "size": 10635238,
+        "image_version": 1,
+        "isRiaDisplayImage": true,
+        "ordinal": 596,
+        "photographer_name": "Jenni Nurminen",
+        "address": null,
+        "filename": "1895813.jpg",
+        "jpg": {
+          "25": "/media-assets/1/jpg/25/1895813.jpg",
+          "250": "/media-assets/1/jpg/250/1895813.jpg",
+          "500": "/media-assets/1/jpg/500/1895813.jpg",
+          "1000": "/media-assets/1/jpg/1000/1895813.jpg",
+          "2000": "/media-assets/1/jpg/2000/1895813.jpg",
+          "4000": "/media-assets/1/jpg/4000/1895813.jpg"
+        },
+        "webp": {
+          "25": "/media-assets/1/webp/25/1895813.jpg",
+          "250": "/media-assets/1/webp/250/1895813.jpg",
+          "500": "/media-assets/1/webp/500/1895813.jpg",
+          "1000": "/media-assets/1/webp/1000/1895813.jpg",
+          "2000": "/media-assets/1/webp/2000/1895813.jpg",
+          "4000": "/media-assets/1/webp/4000/1895813.jpg"
+        }
+      }
+    ],
+    "owner": "Suomen valtio / Museovirasto",
+    "acquisitionMethod": {
+      "en": "purchase by the Antell deputation",
+      "fi": "Antellin valtuuskunnan osto",
+      "sv": "Antellska delegationens inköp"
+    },
+    "exhibitions": [
+      {
+        "id": 452367,
+        "title": "Albert Edelfelt",
+        "endDate": "2023-09-17",
+        "startDate": "2023-05-05",
+        "location": "Kansallisgalleria / Ateneumin taidemuseo"
+      },
+      {
+        "id": 339948,
+        "title": "Albert Edelfelt",
+        "endDate": "2023-03-12",
+        "startDate": "2022-10-22",
+        "location": "Göteborgs konstmuseum"
+      },
+      {
+        "id": 202371,
+        "title": "Albert Edelfelt",
+        "endDate": "2022-07-10",
+        "startDate": "2022-03-10",
+        "location": "Petit Palais, Musée des Beaux-Arts de la Ville de Paris, Pariisi"
+      },
+      {
+        "id": 5645,
+        "title": "Albert Edelfelt 1854-1905 Juhlanäyttely, Ateneumin taidemuseo /  Jubileumutställning, Konstmuseet Ateneum 3.9. 2004-30.1. 2005 / Jubilee Exhibition, Ateneum Art Museum, 3 Sept. 2004-30 Jan. 2005",
+        "endDate": "2005-01-30",
+        "startDate": "2004-09-03"
+      },
+      {
+        "id": 10892,
+        "title": "Onni sulla ja suru mulla / Din lycka och min sorg / Joy for You, Sorrow for Me, Ateneum [vaihtuvien näyttelyiden tila] 29.6.2002 - 1.9.2002",
+        "endDate": "2002-09-01",
+        "startDate": "2002-06-29"
+      },
+      {
+        "id": 5822,
+        "title": "Kuvia rakkaudesta, Tikanojan taidekoti, 13.6.- 27.8.2000",
+        "endDate": "2000-08-27",
+        "startDate": "2000-06-27"
+      },
+      {
+        "id": 7847,
+        "title": "Alastomat ja naamioidut / nakna och maskerade / the nude and the masked, naisen kuva suomalaisessa taiteessa, Helsingin kaupungin taidemuseo 10.6.-27.9.1998",
+        "endDate": "1998-09-27",
+        "startDate": "1998-06-27"
+      },
+      {
+        "id": 7861,
+        "title": "Finskt sekelskifte och nutid, Malmö Konsthall [9.9.-23.10.1983].",
+        "endDate": "1983-10-23",
+        "startDate": "1983-09-23"
+      },
+      {
+        "id": 9296,
+        "title": "Antellin kokoelmat I, Maalauset ja veistokset, Ateneumin Taidemuseo, Helsinki  / Antellska samlingarna I, Målningar och skulpturer / Konstmuseet i Ateneum, Helsingfors [18.4.-1.6.] 1975.",
+        "endDate": "1975-06-01",
+        "startDate": "1975-04-01"
+      },
+      {
+        "id": 16168,
+        "title": "Tunne museosi-sarja, Albert Edelfelt, Ateneum 8.3.-6.4.1975",
+        "endDate": "1975-04-06",
+        "startDate": "1975-03-06"
+      },
+      {
+        "id": 6545,
+        "title": "Albert Edelfelt, Suomen Taideakatemia / Finlands Konstakademi 44/1973 [Kiertonäyttely / Vandringsutställning 14.3.1973-27.12.1974]",
+        "endDate": "1974-12-27",
+        "startDate": "1973-03-14"
+      },
+      {
+        "id": 8756,
+        "title": "Finska Konstföreningen. Albert Edelfelt-utställning [muistonäyttely] i Ateneum Helsingfors. 11april-1 Juli 1910.",
+        "endDate": "1910-07-01",
+        "startDate": "1910-04-11"
+      },
+      {
+        "id": 8333,
+        "title": "Exposition de 1895 :  exposés au Champ-de-Mars, le 25 avril 1895 / Société Nationale des Beaux-Arts. - Paris : Hérissey, 1895.",
+        "endDate": "1895-06-25",
+        "startDate": "1895-04-25"
+      },
+      {
+        "id": 9879,
+        "title": "”Akademitsheskaja vystavka.”, Imperatorskaja Akademija Hudozhestv [Taideakatemia, Pietari, helmikuu] S:t Peterburg, 1896 =Venäläisen taideakatemian näyttely Pietarissa 1896"
+      },
+      {
+        "id": 5531,
+        "title": "Albert Edelfeltin maalauksen \"Poltettu kylä\" vaiheista kertova näyttely, Cygnaeuksen galleria 1986-1987"
+      },
+      {
+        "id": 6481,
+        "title": "Finska konstnärernas utställning 1894 i Ateneum Helsingfors, 1894. / Suomen taiteilijain näyttely Ateneumissa. - Helsingissä, 1894."
+      },
+      {
+        "id": 6040,
+        "title": "Konstafdelningen vid Allmänna Konst- och Industriutställningen i Stockholm 1897."
+      }
+    ],
+    "children": [],
+    "parents": []
+  },
+  {
+    "objectId": 548187,
+    "responsibleOrganisation": "Kansallisgalleria / Ateneumin taidemuseo",
+    "dimensions": [
+      {
+        "unit": "cm",
+        "sortLnu": 1,
+        "measureType": {
+          "en": "artwork dimensions",
+          "fi": "teosmitat",
+          "id": 886212,
+          "sv": "verkets mått",
+          "type": "measure-type",
+          "updated": null
+        },
+        "measurements": [
+          66,
+          55.5
+        ]
+      },
+      {
+        "unit": "cm",
+        "sortLnu": 4,
+        "measureType": null,
+        "measurements": [
+          85,
+          74,
+          9
+        ]
+      }
+    ],
+    "collection": {
+      "fi": "Yrjö ja Nanny Kauniston kokoelma",
+      "en": "Yrjö and Nanny Kaunisto Collection",
+      "sv": "Yrjö och Nanny Kaunistos samling"
+    },
+    "acquisitionDate": "2005-08-03T00:00:00.000Z",
+    "title": {
+      "en": "The Gipsy Woman ; The Romani Woman",
+      "fi": "Mustalaisnainen",
+      "sv": "Zigenerskan"
+    },
+    "keywords": [
+      {
+        "en": "shame",
+        "fi": "häpeä"
+      },
+      {
+        "en": "black suit",
+        "fi": "musta puku"
+      },
+      {
+        "en": "sorrow",
+        "fi": "suru"
+      },
+      {
+        "en": "people",
+        "fi": "ihmiset"
+      },
+      {
+        "en": "hands",
+        "fi": "kädet",
+        "sv": "händer"
+      }
+    ],
+    "materials": [
+      {
+        "en": "canvas",
+        "fi": "kangas",
+        "sv": "duk"
+      },
+      {
+        "en": "oil",
+        "fi": "öljy",
+        "sv": "olja"
+      }
+    ],
+    "category": {
+      "categoryId": "artwork",
+      "en": "artwork",
+      "fi": "taideteos",
+      "sv": "konstverk"
+    },
+    "classifications": [
+      {
+        "en": "painting",
+        "fi": "maalaus",
+        "sv": "målning"
+      }
+    ],
+    "inventoryNumber": "A-2005-108",
+    "yearFrom": 1919,
+    "people": [
+      {
+        "id": 67630,
+        "firstName": "Helene",
+        "familyName": "Schjerfbeck",
+        "birthDate": "1862-07-10",
+        "deathDate": "1946-01-23",
+        "birthPlace": "Helsinki",
+        "deathPlace": "Saltsjöbaden, Ruotsi",
+        "birthYear": 1862,
+        "deathYear": 1946,
+        "attribution": null,
+        "role": {
+          "id": 98595,
+          "fi": "taiteilija",
+          "sv": "konstnär",
+          "en": "Artist",
+          "type": "role"
+        },
+        "birthPlace2": null,
+        "birthPlace3": null,
+        "deathPlace2": null,
+        "deathPlace3": null
+      }
+    ],
+    "multimedia": [
+      {
+        "id": 1744961,
+        "license": "CC0",
+        "updated_timestamp": "2022-12-20T14:02:44.185+00:00",
+        "filename_extension": ".jpg",
+        "width": 2992,
+        "height": 3543,
+        "size": 5178493,
+        "image_version": 1,
+        "isRiaDisplayImage": true,
+        "ordinal": 266,
+        "photographer_name": "Hannu Pakarinen",
+        "address": null,
+        "filename": "1744961.jpg",
+        "jpg": {
+          "25": "/media-assets/1/jpg/25/1744961.jpg",
+          "250": "/media-assets/1/jpg/250/1744961.jpg",
+          "500": "/media-assets/1/jpg/500/1744961.jpg",
+          "1000": "/media-assets/1/jpg/1000/1744961.jpg",
+          "2000": "/media-assets/1/jpg/2000/1744961.jpg",
+          "4000": "/media-assets/1/jpg/4000/1744961.jpg"
+        },
+        "webp": {
+          "25": "/media-assets/1/webp/25/1744961.jpg",
+          "250": "/media-assets/1/webp/250/1744961.jpg",
+          "500": "/media-assets/1/webp/500/1744961.jpg",
+          "1000": "/media-assets/1/webp/1000/1744961.jpg",
+          "2000": "/media-assets/1/webp/2000/1744961.jpg",
+          "4000": "/media-assets/1/webp/4000/1744961.jpg"
+        }
+      }
+    ],
+    "owner": "Suomen valtio",
+    "acquisitionMethod": {
+      "en": "donation",
+      "fi": "lahjoitus",
+      "sv": "donation"
+    },
+    "exhibitions": [
+      {
+        "id": 49673,
+        "title": "Creating the Self: Emancipating Woman in Estonian and Finnish Art, 5.12.2019-3/2020",
+        "endDate": "2020-03-31",
+        "startDate": "2019-12-05",
+        "location": "Kumu kunstimuuseum, Tallinn"
+      },
+      {
+        "id": 28415,
+        "title": "Helene Schjerfbeck",
+        "endDate": "2017-01-29",
+        "startDate": "2016-09-16",
+        "location": "Turun taidemuseo, Turku"
+      },
+      {
+        "id": 15011,
+        "title": "Helene Schjerfbeck, Turun taidemuseo, 16.9.2016-29.1.2017.",
+        "endDate": "2017-01-29",
+        "startDate": "2016-09-16"
+      },
+      {
+        "id": 6551,
+        "title": "Suomen taiteen tarina - kokoelmanäyttely / Historier inom finsk konst - samlingsutställning / Stories of Finnish Art - Collection Exhibition, Ateneum, Helsinki 18.3.2016-27.3.2022.",
+        "endDate": "2022-03-27",
+        "startDate": "2016-03-18",
+        "location": "Kansallisgalleria / Ateneumin taidemuseo"
+      },
+      {
+        "id": 11255,
+        "title": "Helene Schjerfbeck: Reflections [10.1.-27.3.2016] The Museum of Modern Art, Hayama",
+        "endDate": "2016-03-27",
+        "startDate": "2016-01-10"
+      },
+      {
+        "id": 10862,
+        "title": "Helene Schjerfbeck: Reflections [30.10.2015-3.1.2016] Okuda Genso Sayume Art Museum",
+        "endDate": "2016-01-03",
+        "startDate": "2015-10-30"
+      },
+      {
+        "id": 12203,
+        "title": "Helene Schjerfbeck: Reflections [6.8.-12.10.2015] The Miyagi Museum of Art",
+        "endDate": "2015-10-12",
+        "startDate": "2015-08-06"
+      },
+      {
+        "id": 13635,
+        "title": "Helene Schjerfbeck: Reflections [2.6.-26.7.2015] The University Art Museum, Tokyo University of the Arts",
+        "endDate": "2015-07-26",
+        "startDate": "2015-06-02"
+      },
+      {
+        "id": 6785,
+        "title": "Helene Schjerfbeck",
+        "endDate": "2015-01-11",
+        "startDate": "2014-10-02"
+      },
+      {
+        "id": 9498,
+        "title": "Helene Schjerfbeck 150 vuotta / 150 år / 150 years , Ateneumin taidemuseo, Helsinki 1.6.-14.10.2012.",
+        "endDate": "2012-10-14",
+        "startDate": "2012-06-01"
+      },
+      {
+        "id": 12519,
+        "title": "Helene Schjerfbeck 1862 - 1924, Ordrupgaard [Charlottenlund, Tanska] 23.september 2011 - 12.februar 2012.",
+        "endDate": "2012-02-12",
+        "startDate": "2011-09-22"
+      },
+      {
+        "id": 13806,
+        "title": "Helene Schjerfbeck Tammisaaressa 24.4. - 27.9.2009, Tammisaaren museokeskus EKTA.",
+        "endDate": "2009-09-27",
+        "startDate": "2009-04-23"
+      },
+      {
+        "id": 10584,
+        "title": "Helene Schjerfbeck 1862-1946, Musée d´Art moderne de la Ville de Paris 20 octobre 2007 - 20 janvier 2008.",
+        "endDate": "2008-01-20",
+        "startDate": "2007-10-20"
+      },
+      {
+        "id": 10789,
+        "title": "Helene Schjerfbeck 1862-1946, Gemeentemuseum Den Haag 17 mei tot 2 september 2007.",
+        "endDate": "2007-09-02",
+        "startDate": "2007-05-17"
+      },
+      {
+        "id": 11031,
+        "title": "Helene Schjerfbeck 1862-1946, Hamburger Kunsthalle 2. Februar bis 6. Mai 2007.",
+        "endDate": "2008-01-06",
+        "startDate": "2007-02-02"
+      },
+      {
+        "id": 7974,
+        "title": "Helene Schjerfbeck - Salatun tulkitsija, Didrichsenin taidemuseo 28.4.-1.10.2006",
+        "endDate": "2006-10-01",
+        "startDate": "2006-04-28"
+      },
+      {
+        "id": 16032,
+        "title": "Yrjö ja Nanny Kauniston lahjoituskokoelma, Ateneum [salit 21-24] 9.11.2005 - 29.1.2006",
+        "endDate": "2006-01-08",
+        "startDate": "2005-11-09"
+      },
+      {
+        "id": 9185,
+        "title": "Helene Schjerfbeck, Ateneum 2.2.-5.4.1992.",
+        "endDate": "1992-04-05",
+        "startDate": "1992-02-05"
+      },
+      {
+        "id": 7670,
+        "title": "Helene Schjerfbeck, Teemoja ja muunnelmia / Varianter och nyskapelser, Ateneum 15.9.-30.9.1962.",
+        "endDate": "1962-09-30",
+        "startDate": "1962-09-15"
+      },
+      {
+        "id": 15203,
+        "title": "Muistonäyttely, Helene Schjerfbeck, Minnesutställning Taidehallissa 10.4.-10.5.1954 i Konsthallen. Nykytaide - Nutidskonst.",
+        "endDate": "1954-05-10",
+        "startDate": "1954-04-10"
+      }
+    ],
+    "children": [],
+    "parents": []
+  },
+  {
+    "objectId": 421109,
+    "responsibleOrganisation": "Kansallisgalleria / Ateneumin taidemuseo",
+    "dimensions": [
+      {
+        "unit": "cm",
+        "sortLnu": 1,
+        "measureType": {
+          "en": null,
+          "fi": "teosmitat",
+          "id": 886212,
+          "sv": null,
+          "type": "measure-type",
+          "updated": null
+        },
+        "measurements": [
+          34.2,
+          19.4
+        ]
+      },
+      {
+        "unit": "cm",
+        "measureType": {
+          "en": null,
+          "fi": "passepartout",
+          "id": 227880,
+          "sv": null,
+          "type": "measure-type",
+          "updated": null
+        },
+        "measurements": [
+          50,
+          40
+        ]
+      }
+    ],
+    "acquisitionDate": "1913-02-01T00:00:00.000Z",
+    "title": {
+      "en": "Creature",
+      "fi": "Kuvatus",
+      "sv": "Styggelsen"
+    },
+    "keywords": [
+      {
+        "fi": "häntä"
+      },
+      {
+        "en": "crying",
+        "fi": "itku",
+        "sv": "gråt"
+      },
+      {
+        "en": "scene",
+        "fi": "kohtaus",
+        "sv": "scen"
+      },
+      {
+        "en": "landscape",
+        "fi": "maisema",
+        "sv": "landskap"
+      },
+      {
+        "en": "forest",
+        "fi": "metsä",
+        "sv": "skog"
+      },
+      {
+        "en": "imaginary creature",
+        "fi": "mielikuvitusolento",
+        "sv": "fantasifigur"
+      },
+      {
+        "en": "devil",
+        "fi": "piru"
+      },
+      {
+        "en": "gorge",
+        "fi": "rotko"
+      },
+      {
+        "en": "sorrow",
+        "fi": "suru"
+      },
+      {
+        "en": "mountainside",
+        "fi": "vuorenrinne"
+      }
+    ],
+    "materials": [
+      {
+        "fi": "etsauspaperi"
+      }
+    ],
+    "category": {
+      "categoryId": "artwork",
+      "en": "artwork",
+      "fi": "taideteos",
+      "sv": "konstverk"
+    },
+    "classifications": [
+      {
+        "en": "painting",
+        "fi": "maalaus",
+        "sv": "målning"
+      }
+    ],
+    "inventoryNumber": "A II 968:18",
+    "yearFrom": 1896,
+    "people": [
+      {
+        "id": 67713,
+        "firstName": "Hugo",
+        "familyName": "Simberg",
+        "birthDate": "1873-06-24",
+        "deathDate": "1917-07-12",
+        "birthPlace": "Hamina",
+        "deathPlace": "Ähtäri",
+        "birthYear": 1873,
+        "deathYear": 1917,
+        "attribution": null,
+        "role": {
+          "id": 98595,
+          "fi": "taiteilija",
+          "sv": "konstnär",
+          "en": "Artist",
+          "type": "role"
+        },
+        "birthPlace2": null,
+        "birthPlace3": null,
+        "deathPlace2": null,
+        "deathPlace3": null
+      }
+    ],
+    "multimedia": [
+      {
+        "id": 3294315,
+        "license": "CC0",
+        "updated_timestamp": "2023-05-14T08:29:28.877+00:00",
+        "filename_extension": ".jpg",
+        "width": 2233,
+        "height": 4000,
+        "size": 8570627,
+        "image_version": 1,
+        "isRiaDisplayImage": true,
+        "ordinal": 432,
+        "photographer_name": "Jenni Nurminen",
+        "address": null,
+        "filename": "3294315.jpg",
+        "jpg": {
+          "25": "/media-assets/1/jpg/25/3294315.jpg",
+          "250": "/media-assets/1/jpg/250/3294315.jpg",
+          "500": "/media-assets/1/jpg/500/3294315.jpg",
+          "1000": "/media-assets/1/jpg/1000/3294315.jpg",
+          "2000": "/media-assets/1/jpg/2000/3294315.jpg",
+          "4000": "/media-assets/1/jpg/4000/3294315.jpg"
+        },
+        "webp": {
+          "25": "/media-assets/1/webp/25/3294315.jpg",
+          "250": "/media-assets/1/webp/250/3294315.jpg",
+          "500": "/media-assets/1/webp/500/3294315.jpg",
+          "1000": "/media-assets/1/webp/1000/3294315.jpg",
+          "2000": "/media-assets/1/webp/2000/3294315.jpg",
+          "4000": "/media-assets/1/webp/4000/3294315.jpg"
+        }
+      }
+    ],
+    "owner": "Suomen valtio",
+    "acquisitionMethod": {
+      "en": "purchase",
+      "fi": "osto",
+      "sv": "inköp"
+    },
+    "exhibitions": [
+      {
+        "id": 45677,
+        "title": "Taiteilijoiden Ruovesi",
+        "endDate": "2020-01-26",
+        "startDate": "2019-11-15",
+        "location": "Kansallisgalleria / Ateneumin taidemuseo"
+      },
+      {
+        "id": 6551,
+        "title": "Suomen taiteen tarina - kokoelmanäyttely / Historier inom finsk konst - samlingsutställning / Stories of Finnish Art - Collection Exhibition, Ateneum, Helsinki 18.3.2016-27.3.2022.",
+        "endDate": "2022-03-27",
+        "startDate": "2016-03-18",
+        "location": "Kansallisgalleria / Ateneumin taidemuseo"
+      },
+      {
+        "id": 7014,
+        "title": "Eläinten aika 16.2.-27.5.2007 / I djurens tecken, 16 februari - 27 maj 2007 / Age of the Animal 16 Feb - 27 May 2007, Ateneum.",
+        "endDate": "2007-05-27",
+        "startDate": "2007-02-16"
+      },
+      {
+        "id": 14752,
+        "title": "Hugo Simberg 1873-1917, Ateneum 25.2.- 28.5. 2000, Tampereen taidemuseo 17.6-27.8.2000, Pohjanmaan museo, Vaasa 22.9-26.11.2000.",
+        "endDate": "2000-05-28",
+        "startDate": "2000-02-25"
+      },
+      {
+        "id": 15030,
+        "title": "Satumetsä ja kuoleman puutarha, Hugo Simbergin akvarelleja Ateneumin Taidemuseon kokoelmista / Sagoskogen och dödens trädgård, Hugo Simbergs akvareller ur Konstmuseets i Ateneum samlingar, Suomen taideakatemian kiertonäyttely 31/1969.",
+        "endDate": "1971-04-19",
+        "startDate": "1969-08-15"
+      },
+      {
+        "id": 9393,
+        "title": "Göteborgstaflorna 7.11.-22.11.1923 Göteporintaulut, S [Stenmanin Taidesalonki].",
+        "endDate": "1923-11-22",
+        "startDate": "1923-11-07"
+      },
+      {
+        "id": 10306,
+        "title": "Nordisk konst, Jubileumsutställningen i Göteborg 1923."
+      }
+    ],
+    "children": [],
+    "parents": []
+  },
+  {
+    "objectId": 433185,
+    "responsibleOrganisation": "Kansallisgalleria / Ateneumin taidemuseo",
+    "dimensions": [
+      {
+        "unit": "cm",
+        "sortLnu": 1,
+        "measureType": {
+          "en": null,
+          "fi": "teosmitat",
+          "id": 886212,
+          "sv": null,
+          "type": "measure-type",
+          "updated": null
+        },
+        "measurements": [
+          225.5,
+          134
+        ]
+      },
+      {
+        "unit": "cm",
+        "sortLnu": 4,
+        "measureType": null,
+        "measurements": [
+          258,
+          165,
+          10
+        ]
+      }
+    ],
+    "collection": {
+      "fi": "Antellin kokoelmat",
+      "en": "Antell collections",
+      "sv": "Antells samlingar"
+    },
+    "acquisitionDate": "1905-12-02T00:00:00.000Z",
+    "title": {
+      "en": "Gethsemane",
+      "fi": "Getsemane",
+      "sv": "Getsemane"
+    },
+    "keywords": [
+      {
+        "en": "Gethsemane",
+        "fi": "Getsemane"
+      },
+      {
+        "en": "The death of Jesus",
+        "fi": "Jeesuksen kuolema"
+      },
+      {
+        "en": "Jesus",
+        "fi": "Jeesus",
+        "sv": "Jesus"
+      },
+      {
+        "en": "death",
+        "fi": "kuolema",
+        "sv": "död"
+      },
+      {
+        "en": "sorrow",
+        "fi": "suru"
+      },
+      {
+        "en": "disciples",
+        "fi": "opetuslapset"
+      }
+    ],
+    "materials": [
+      {
+        "en": "canvas",
+        "fi": "kangas",
+        "sv": "duk"
+      },
+      {
+        "en": "oil",
+        "fi": "öljy",
+        "sv": "olja"
+      }
+    ],
+    "category": {
+      "categoryId": "artwork",
+      "en": "artwork",
+      "fi": "taideteos",
+      "sv": "konstverk"
+    },
+    "classifications": [
+      {
+        "en": "painting",
+        "fi": "maalaus",
+        "sv": "målning"
+      }
+    ],
+    "inventoryNumber": "A II 796",
+    "yearFrom": 1902,
+    "people": [
+      {
+        "id": 71122,
+        "firstName": "Magnus",
+        "familyName": "Enckell",
+        "birthDate": "1870-11-09",
+        "deathDate": "1925-11-27",
+        "birthPlace": "Hamina",
+        "deathPlace": "Tukholma",
+        "birthYear": 1870,
+        "deathYear": 1925,
+        "attribution": null,
+        "role": {
+          "id": 98595,
+          "fi": "taiteilija",
+          "sv": "konstnär",
+          "en": "Artist",
+          "type": "role"
+        },
+        "birthPlace2": null,
+        "birthPlace3": null,
+        "deathPlace2": null,
+        "deathPlace3": null
+      }
+    ],
+    "multimedia": [
+      {
+        "id": 185960,
+        "license": "CC0",
+        "updated_timestamp": "2025-04-29T08:19:13.21+00:00",
+        "filename_extension": ".jpg",
+        "width": 1575,
+        "height": 1812,
+        "size": 620653,
+        "image_version": 1,
+        "isRiaDisplayImage": false,
+        "ordinal": 8,
+        "photographer_name": "Daniel Nyblin",
+        "address": null,
+        "filename": "185960.jpg",
+        "jpg": {
+          "25": "/media-assets/1/jpg/25/185960.jpg",
+          "250": "/media-assets/1/jpg/250/185960.jpg",
+          "500": "/media-assets/1/jpg/500/185960.jpg",
+          "1000": "/media-assets/1/jpg/1000/185960.jpg",
+          "2000": "/media-assets/1/jpg/2000/185960.jpg",
+          "4000": "/media-assets/1/jpg/4000/185960.jpg"
+        },
+        "webp": {
+          "25": "/media-assets/1/webp/25/185960.jpg",
+          "250": "/media-assets/1/webp/250/185960.jpg",
+          "500": "/media-assets/1/webp/500/185960.jpg",
+          "1000": "/media-assets/1/webp/1000/185960.jpg",
+          "2000": "/media-assets/1/webp/2000/185960.jpg",
+          "4000": "/media-assets/1/webp/4000/185960.jpg"
+        }
+      },
+      {
+        "id": 186266,
+        "license": "CC0",
+        "updated_timestamp": "2025-04-29T08:19:10.647+00:00",
+        "filename_extension": ".jpg",
+        "width": 2362,
+        "height": 2695,
+        "size": 675478,
+        "image_version": 1,
+        "isRiaDisplayImage": false,
+        "ordinal": 8,
+        "photographer_name": "Daniel Nyblin",
+        "address": null,
+        "filename": "186266.jpg",
+        "jpg": {
+          "25": "/media-assets/1/jpg/25/186266.jpg",
+          "250": "/media-assets/1/jpg/250/186266.jpg",
+          "500": "/media-assets/1/jpg/500/186266.jpg",
+          "1000": "/media-assets/1/jpg/1000/186266.jpg",
+          "2000": "/media-assets/1/jpg/2000/186266.jpg",
+          "4000": "/media-assets/1/jpg/4000/186266.jpg"
+        },
+        "webp": {
+          "25": "/media-assets/1/webp/25/186266.jpg",
+          "250": "/media-assets/1/webp/250/186266.jpg",
+          "500": "/media-assets/1/webp/500/186266.jpg",
+          "1000": "/media-assets/1/webp/1000/186266.jpg",
+          "2000": "/media-assets/1/webp/2000/186266.jpg",
+          "4000": "/media-assets/1/webp/4000/186266.jpg"
+        }
+      },
+      {
+        "id": 193549,
+        "license": "CC0",
+        "updated_timestamp": "2025-04-29T08:19:10.648+00:00",
+        "filename_extension": ".jpg",
+        "width": 1575,
+        "height": 2049,
+        "size": 501199,
+        "image_version": 1,
+        "isRiaDisplayImage": false,
+        "ordinal": 16,
+        "photographer_name": "Daniel Nyblin",
+        "address": null,
+        "filename": "193549.jpg",
+        "jpg": {
+          "25": "/media-assets/1/jpg/25/193549.jpg",
+          "250": "/media-assets/1/jpg/250/193549.jpg",
+          "500": "/media-assets/1/jpg/500/193549.jpg",
+          "1000": "/media-assets/1/jpg/1000/193549.jpg",
+          "2000": "/media-assets/1/jpg/2000/193549.jpg",
+          "4000": "/media-assets/1/jpg/4000/193549.jpg"
+        },
+        "webp": {
+          "25": "/media-assets/1/webp/25/193549.jpg",
+          "250": "/media-assets/1/webp/250/193549.jpg",
+          "500": "/media-assets/1/webp/500/193549.jpg",
+          "1000": "/media-assets/1/webp/1000/193549.jpg",
+          "2000": "/media-assets/1/webp/2000/193549.jpg",
+          "4000": "/media-assets/1/webp/4000/193549.jpg"
+        }
+      },
+      {
+        "id": 1462598,
+        "license": "CC0",
+        "updated_timestamp": "2022-12-20T14:02:29.982+00:00",
+        "filename_extension": ".jpg",
+        "width": 2082,
+        "height": 3543,
+        "size": 4443065,
+        "image_version": 1,
+        "isRiaDisplayImage": true,
+        "ordinal": 458,
+        "photographer_name": "Jenni Nurminen",
+        "address": null,
+        "filename": "1462598.jpg",
+        "jpg": {
+          "25": "/media-assets/1/jpg/25/1462598.jpg",
+          "250": "/media-assets/1/jpg/250/1462598.jpg",
+          "500": "/media-assets/1/jpg/500/1462598.jpg",
+          "1000": "/media-assets/1/jpg/1000/1462598.jpg",
+          "2000": "/media-assets/1/jpg/2000/1462598.jpg",
+          "4000": "/media-assets/1/jpg/4000/1462598.jpg"
+        },
+        "webp": {
+          "25": "/media-assets/1/webp/25/1462598.jpg",
+          "250": "/media-assets/1/webp/250/1462598.jpg",
+          "500": "/media-assets/1/webp/500/1462598.jpg",
+          "1000": "/media-assets/1/webp/1000/1462598.jpg",
+          "2000": "/media-assets/1/webp/2000/1462598.jpg",
+          "4000": "/media-assets/1/webp/4000/1462598.jpg"
+        }
+      }
+    ],
+    "owner": "Suomen valtio / Museovirasto",
+    "acquisitionMethod": {
+      "en": "purchase by the Antell deputation",
+      "fi": "Antellin valtuuskunnan osto",
+      "sv": "Antellska delegationens inköp"
+    },
+    "exhibitions": [
+      {
+        "id": 214840,
+        "title": "Magnus Enckell",
+        "endDate": "2022-01-30",
+        "startDate": "2021-10-02",
+        "location": "Tampereen taidemuseo, Tampere"
+      },
+      {
+        "id": 116109,
+        "title": "Magnus Enckell",
+        "endDate": "2021-02-14",
+        "startDate": "2020-10-23",
+        "location": "Kansallisgalleria / Ateneumin taidemuseo"
+      },
+      {
+        "id": 11574,
+        "title": "Magnus Enckell 1870-1925, 10.6.-4.9.1988, Tampereen taidemuseo / Tammerfors konstmuseum.",
+        "endDate": "1988-09-04",
+        "startDate": "1988-06-10"
+      },
+      {
+        "id": 7680,
+        "title": "Finlands Konstakademi / Suomen Taideakatemia, Magnus Enckell [Ateneum 13.9.-4.10] 1925.",
+        "endDate": "1925-10-04",
+        "startDate": "1925-09-13"
+      },
+      {
+        "id": 6954,
+        "title": "*Edelfeltin, Järnefeltin, Halosen ja Magnus Enckellin näyttely Galerie Schulte, Berliini, Unter den Linden-katu, marraskuu – joulukuu 1903."
+      },
+      {
+        "id": 11551,
+        "title": "Konstföreningens i Åbo utställning 1904 / Turun Taideyhdistyksen näyttely [Turun Taidemuseo] 1904."
+      },
+      {
+        "id": 13167,
+        "title": "Magnus Enckell 1870-1925, Helsingin kaupungin taidemuseo 1.2.-19.2., Millesgården 15.6.- 28.8. 2000"
+      },
+      {
+        "id": 12624,
+        "title": "Nordiska Konstförbundet, Magnus Enckell 1870-1925, Retrospektiv Utställning Oktober 1950. Kungl. Akademien för de Fria Konsterna Stockholm. - Oslo."
+      },
+      {
+        "id": 10875,
+        "title": "Sveriges Allmänna Konstförening, Magnus Enckell Utställning, Stockhol 1925 i Kungl. Akademien för de fria konsterna."
+      }
+    ],
+    "children": [],
+    "parents": []
+  },
+  {
+    "objectId": 380953,
+    "responsibleOrganisation": "Kansallisgalleria / Sinebrychoffin taidemuseo",
+    "dimensions": [
+      {
+        "unit": "cm",
+        "sortLnu": 1,
+        "measureType": {
+          "en": "artwork dimensions",
+          "fi": "teosmitat",
+          "id": 886212,
+          "sv": "verkets mått",
+          "type": "measure-type",
+          "updated": null
+        },
+        "measurements": [
+          3.9,
+          3.5
+        ]
+      }
+    ],
+    "collection": {
+      "fi": "Paul ja Fanny Sinebrychoffin taidekokoelmat",
+      "en": "Paul and Fanny Sinebrychoff's Art Collections",
+      "sv": "Paul och Fanny Sinebrychoffs konstsamlingar"
+    },
+    "acquisitionDate": "1921-01-21T00:00:00.000Z",
+    "title": {
+      "en": "Child's Head",
+      "fi": "Lapsen pää",
+      "sv": "Ett barnahuvud"
+    },
+    "keywords": [
+      {
+        "en": "miniature",
+        "fi": "miniatyyri",
+        "sv": "miniatyr"
+      },
+      {
+        "en": "portrait",
+        "fi": "muotokuva",
+        "sv": "porträtt"
+      },
+      {
+        "en": "sorrow",
+        "fi": "suru"
+      },
+      {
+        "en": "children (6 -12 years)",
+        "fi": "lapset (6 -12 vuotta)",
+        "sv": "barn (6 -12 år)"
+      }
+    ],
+    "materials": [
+      {
+        "en": "gouache",
+        "fi": "guassi",
+        "sv": "gouache"
+      },
+      {
+        "en": "ivory",
+        "fi": "norsunluu",
+        "sv": "elfenben"
+      },
+      {
+        "en": "watercolour",
+        "fi": "vesiväri",
+        "sv": "akvarell"
+      }
+    ],
+    "category": {
+      "categoryId": "artwork",
+      "en": "artwork",
+      "fi": "taideteos",
+      "sv": "konstverk"
+    },
+    "classifications": [
+      {
+        "en": "painting",
+        "fi": "maalaus",
+        "sv": "målning"
+      },
+      {
+        "en": "miniature",
+        "fi": "miniatyyri",
+        "sv": "miniatyr"
+      }
+    ],
+    "inventoryNumber": "S 227",
+    "people": [
+      {
+        "id": 70994,
+        "firstName": null,
+        "familyName": "tekijä ei tiedossa",
+        "birthDate": null,
+        "deathDate": null,
+        "birthPlace": null,
+        "deathPlace": null,
+        "birthYear": null,
+        "deathYear": null,
+        "attribution": null,
+        "role": {
+          "id": 98595,
+          "fi": "taiteilija",
+          "sv": "konstnär",
+          "en": "Artist",
+          "type": "role"
+        },
+        "birthPlace2": null,
+        "birthPlace3": null,
+        "deathPlace2": null,
+        "deathPlace3": null
+      }
+    ],
+    "multimedia": [
+      {
+        "id": 235645,
+        "license": "CC0",
+        "updated_timestamp": "2022-12-20T14:48:07.691+00:00",
+        "filename_extension": ".jpg",
+        "width": 2747,
+        "height": 3300,
+        "size": 1197120,
+        "image_version": 1,
+        "isRiaDisplayImage": true,
+        "ordinal": 196201,
+        "photographer_name": "Simo Karisalo",
+        "address": null,
+        "filename": "235645.jpg",
+        "jpg": {
+          "25": "/media-assets/1/jpg/25/235645.jpg",
+          "250": "/media-assets/1/jpg/250/235645.jpg",
+          "500": "/media-assets/1/jpg/500/235645.jpg",
+          "1000": "/media-assets/1/jpg/1000/235645.jpg",
+          "2000": "/media-assets/1/jpg/2000/235645.jpg",
+          "4000": "/media-assets/1/jpg/4000/235645.jpg"
+        },
+        "webp": {
+          "25": "/media-assets/1/webp/25/235645.jpg",
+          "250": "/media-assets/1/webp/250/235645.jpg",
+          "500": "/media-assets/1/webp/500/235645.jpg",
+          "1000": "/media-assets/1/webp/1000/235645.jpg",
+          "2000": "/media-assets/1/webp/2000/235645.jpg",
+          "4000": "/media-assets/1/webp/4000/235645.jpg"
+        }
+      }
+    ],
+    "owner": "Suomen valtio",
+    "acquisitionMethod": {
+      "en": "state deposit",
+      "fi": "valtion talletus",
+      "sv": "statens deponering"
+    },
+    "exhibitions": [
+      {
+        "id": 96109,
+        "title": "Kotimuseo / Hemmuseet / House Museum",
+        "startDate": "2003-02-15",
+        "location": "Kansallisgalleria / Sinebrychoffin taidemuseo"
+      }
+    ],
+    "children": [],
+    "parents": []
+  },
+  {
+    "objectId": 610501,
+    "responsibleOrganisation": "Kansallisgalleria / Ateneumin taidemuseo",
+    "dimensions": [
+      {
+        "unit": "cm",
+        "sortLnu": 1,
+        "measureType": {
+          "en": null,
+          "fi": "teosmitat",
+          "id": 886212,
+          "sv": null,
+          "type": "measure-type",
+          "updated": null
+        },
+        "measurements": [
+          80.5,
+          65.5
+        ]
+      },
+      {
+        "unit": "cm",
+        "sortLnu": 4,
+        "measureType": null,
+        "measurements": [
+          88,
+          73,
+          6
+        ]
+      }
+    ],
+    "collection": {
+      "fi": "Herman ja Elisabeth Hallonbladin kokoelma",
+      "en": "Herman and Elisabeth Hallonblad collection",
+      "sv": "Herman och Elisabeth Hallonblads samling"
+    },
+    "title": {
+      "en": "",
+      "fi": "Pietà",
+      "sv": ""
+    },
+    "keywords": [
+      {
+        "en": "painting",
+        "fi": "maalaus"
+      },
+      {
+        "en": "woman",
+        "fi": "nainen",
+        "sv": "kvinna"
+      },
+      {
+        "en": "oil",
+        "fi": "öljy"
+      },
+      {
+        "en": "pietà",
+        "fi": "pietà"
+      },
+      {
+        "en": "sorrow",
+        "fi": "suru"
+      }
+    ],
+    "materials": [],
+    "category": {
+      "categoryId": "artwork",
+      "en": "artwork",
+      "fi": "taideteos",
+      "sv": "konstverk"
+    },
+    "classifications": [
+      {
+        "en": "painting",
+        "fi": "maalaus",
+        "sv": "målning"
+      }
+    ],
+    "inventoryNumber": "A II 1088",
+    "yearFrom": 1916,
+    "people": [
+      {
+        "id": 71122,
+        "firstName": "Magnus",
+        "familyName": "Enckell",
+        "birthDate": "1870-11-09",
+        "deathDate": "1925-11-27",
+        "birthPlace": "Hamina",
+        "deathPlace": "Tukholma",
+        "birthYear": 1870,
+        "deathYear": 1925,
+        "attribution": null,
+        "role": {
+          "id": 98595,
+          "fi": "taiteilija",
+          "sv": "konstnär",
+          "en": "Artist",
+          "type": "role"
+        },
+        "birthPlace2": null,
+        "birthPlace3": null,
+        "deathPlace2": null,
+        "deathPlace3": null
+      }
+    ],
+    "multimedia": [
+      {
+        "id": 1450733,
+        "license": "CC0",
+        "updated_timestamp": "2022-12-20T14:02:16.425+00:00",
+        "filename_extension": ".jpg",
+        "width": 2870,
+        "height": 3543,
+        "size": 9320691,
+        "image_version": 1,
+        "isRiaDisplayImage": true,
+        "ordinal": 254,
+        "photographer_name": "Hannu Pakarinen",
+        "address": null,
+        "filename": "1450733.jpg",
+        "jpg": {
+          "25": "/media-assets/1/jpg/25/1450733.jpg",
+          "250": "/media-assets/1/jpg/250/1450733.jpg",
+          "500": "/media-assets/1/jpg/500/1450733.jpg",
+          "1000": "/media-assets/1/jpg/1000/1450733.jpg",
+          "2000": "/media-assets/1/jpg/2000/1450733.jpg",
+          "4000": "/media-assets/1/jpg/4000/1450733.jpg"
+        },
+        "webp": {
+          "25": "/media-assets/1/webp/25/1450733.jpg",
+          "250": "/media-assets/1/webp/250/1450733.jpg",
+          "500": "/media-assets/1/webp/500/1450733.jpg",
+          "1000": "/media-assets/1/webp/1000/1450733.jpg",
+          "2000": "/media-assets/1/webp/2000/1450733.jpg",
+          "4000": "/media-assets/1/webp/4000/1450733.jpg"
+        }
+      }
+    ],
+    "owner": "Suomen valtio",
+    "acquisitionMethod": {
+      "en": "purchase",
+      "fi": "osto",
+      "sv": "inköp"
+    },
+    "exhibitions": [
+      {
+        "id": 214840,
+        "title": "Magnus Enckell",
+        "endDate": "2022-01-30",
+        "startDate": "2021-10-02",
+        "location": "Tampereen taidemuseo, Tampere"
+      },
+      {
+        "id": 116109,
+        "title": "Magnus Enckell",
+        "endDate": "2021-02-14",
+        "startDate": "2020-10-23",
+        "location": "Kansallisgalleria / Ateneumin taidemuseo"
+      },
+      {
+        "id": 130254,
+        "title": "Suomen taiteen tarina - Ateneumin kiertävä kokoelma, Kuopion taidemuseo",
+        "endDate": "2018-02-28",
+        "startDate": "2017-10-06",
+        "location": "Kuopion taidemuseo"
+      },
+      {
+        "id": 11776,
+        "title": "Suomen taiteen tarina - Ateneumin kiertävä kokoelma 2017, Oulun taidemuseo, 13.5.-17.9.2017.",
+        "endDate": "2017-09-17",
+        "startDate": "2017-05-13",
+        "location": "Oulun taidemuseo, Oulu"
+      },
+      {
+        "id": 12463,
+        "title": "Suomen taiteen tarina - Ateneumin kiertävä kokoelma 2017, Rovaniemen taidemuseo, 6.1.-23.4.2017.",
+        "endDate": "2017-04-23",
+        "startDate": "2017-01-06"
+      },
+      {
+        "id": 14502,
+        "title": "Helmiä Ateneumista. Elisabeth ja Herman Hallonblad - Laatokan Karjalan mesenaatit, Joensuun taidemuseo 19.11.2009-16.5.2010 - Jyväskylän taidemuseo 5.6.-29.8.2010.",
+        "endDate": "2010-08-29",
+        "startDate": "2009-11-19"
+      },
+      {
+        "id": 16331,
+        "title": "Äiti / Kära mor, Tikanojan taidekoti 8.5.-18.8.1996, Mikkelin taidemuseo 20.9.-24.11.1996.",
+        "endDate": "1996-08-18",
+        "startDate": "1996-05-18"
+      },
+      {
+        "id": 9150,
+        "title": "Finské malírství 1910-1930 [suomalaista maalaustaidetta, Prahan kansallisgalleria 21.2.-26.3.] 1989",
+        "endDate": "1989-03-26",
+        "startDate": "1989-02-26"
+      },
+      {
+        "id": 11204,
+        "title": "SEPTEM 5des Näyttely Ateneumissa / 5te Utställning i Ateneum [19.2.-19.3.] 1916.",
+        "endDate": "1916-03-19",
+        "startDate": "1916-02-19"
+      },
+      {
+        "id": 11326,
+        "title": "Magnus Enckell 1870-1925, Helsingin kaupungin taidemuseo 1.2.-19.3., Millesgården 15.6.- 28.8. 2000"
+      },
+      {
+        "id": 13596,
+        "title": "Magnus Enckell 1870-1925, Tampereen taidemuseo 10.6.-4.9.1988"
+      },
+      {
+        "id": 12624,
+        "title": "Nordiska Konstförbundet, Magnus Enckell 1870-1925, Retrospektiv Utställning Oktober 1950. Kungl. Akademien för de Fria Konsterna Stockholm. - Oslo."
+      }
+    ],
+    "children": [],
+    "parents": []
+  },
+  {
+    "objectId": 2118862,
+    "responsibleOrganisation": "Kansallisgalleria / Ateneumin taidemuseo",
+    "dimensions": [
+      {
+        "unit": "cm",
+        "sortLnu": 1,
+        "measureType": {
+          "en": "artwork dimensions",
+          "fi": "teosmitat",
+          "id": 886212,
+          "sv": "verkets mått",
+          "type": "measure-type",
+          "updated": null
+        },
+        "measurements": [
+          49.5,
+          66
+        ]
+      },
+      {
+        "unit": "cm",
+        "sortLnu": 1,
+        "measureType": null,
+        "measurements": [
+          79,
+          96,
+          12
+        ]
+      }
+    ],
+    "acquisitionDate": "2020-10-13T00:00:00.000Z",
+    "title": {
+      "en": "Hour of Tears",
+      "fi": "Kyynelten tunti (L'ora del' pianto)",
+      "sv": "Tårarnas timme"
+    },
+    "keywords": [
+      {
+        "en": "breastfeeding",
+        "fi": "imetys"
+      },
+      {
+        "en": "death",
+        "fi": "kuolema",
+        "sv": "död"
+      },
+      {
+        "en": "candlestick",
+        "fi": "kynttiläjalka"
+      },
+      {
+        "en": "woman",
+        "fi": "nainen",
+        "sv": "kvinna"
+      },
+      {
+        "en": "wreath",
+        "fi": "seppele"
+      },
+      {
+        "en": "sorrow",
+        "fi": "suru"
+      }
+    ],
+    "materials": [
+      {
+        "en": "oil",
+        "fi": "öljy",
+        "sv": "olja"
+      }
+    ],
+    "category": {
+      "categoryId": "artwork",
+      "en": "artwork",
+      "fi": "taideteos",
+      "sv": "konstverk"
+    },
+    "classifications": [
+      {
+        "en": "painting",
+        "fi": "maalaus",
+        "sv": "målning"
+      }
+    ],
+    "inventoryNumber": "A-2020-262",
+    "yearFrom": 1870,
+    "people": [
+      {
+        "id": 63416,
+        "firstName": "Severin",
+        "familyName": "Falkman",
+        "birthDate": "1831-04-25",
+        "deathDate": "1889-07-09",
+        "birthPlace": "Tukholma, Ruotsi",
+        "deathPlace": "Helsinki",
+        "birthYear": 1831,
+        "deathYear": 1889,
+        "attribution": null,
+        "role": {
+          "id": 98595,
+          "fi": "taiteilija",
+          "sv": "konstnär",
+          "en": "Artist",
+          "type": "role"
+        },
+        "birthPlace2": null,
+        "birthPlace3": null,
+        "deathPlace2": null,
+        "deathPlace3": null
+      }
+    ],
+    "multimedia": [
+      {
+        "id": 3624546,
+        "license": "CC0",
+        "updated_timestamp": "2024-01-11T15:03:25.207+00:00",
+        "filename_extension": ".jpg",
+        "width": 4000,
+        "height": 2980,
+        "size": 10911115,
+        "image_version": 1,
+        "isRiaDisplayImage": true,
+        "ordinal": 89,
+        "photographer_name": "Jenni Nurminen",
+        "address": null,
+        "filename": "3624546.jpg",
+        "jpg": {
+          "25": "/media-assets/1/jpg/25/3624546.jpg",
+          "250": "/media-assets/1/jpg/250/3624546.jpg",
+          "500": "/media-assets/1/jpg/500/3624546.jpg",
+          "1000": "/media-assets/1/jpg/1000/3624546.jpg",
+          "2000": "/media-assets/1/jpg/2000/3624546.jpg",
+          "4000": "/media-assets/1/jpg/4000/3624546.jpg"
+        },
+        "webp": {
+          "25": "/media-assets/1/webp/25/3624546.jpg",
+          "250": "/media-assets/1/webp/250/3624546.jpg",
+          "500": "/media-assets/1/webp/500/3624546.jpg",
+          "1000": "/media-assets/1/webp/1000/3624546.jpg",
+          "2000": "/media-assets/1/webp/2000/3624546.jpg",
+          "4000": "/media-assets/1/webp/4000/3624546.jpg"
+        }
+      }
+    ],
+    "owner": "Suomen valtio",
+    "acquisitionMethod": {
+      "en": "purchase",
+      "fi": "osto",
+      "sv": "inköp"
+    },
+    "exhibitions": [
+      {
+        "id": 487068,
+        "title": "Ajan kysymys, kokoelmanäyttely / En tidsfråga, samlingsutställning / A Question of Time, collection exhibition",
+        "startDate": "2023-04-14",
+        "location": "Kansallisgalleria / Ateneumin taidemuseo"
+      }
+    ],
+    "children": [],
+    "parents": []
+  },
+  {
+    "objectId": 422739,
+    "responsibleOrganisation": "Kansallisgalleria / Ateneumin taidemuseo",
+    "dimensions": [
+      {
+        "unit": "cm",
+        "sortLnu": 1,
+        "measureType": {
+          "en": null,
+          "fi": "teosmitat",
+          "id": 886212,
+          "sv": null,
+          "type": "measure-type",
+          "updated": null
+        },
+        "measurements": [
+          19.6,
+          25.8
+        ]
+      },
+      {
+        "unit": "cm",
+        "measureType": {
+          "en": null,
+          "fi": "passepartout",
+          "id": 227880,
+          "sv": null,
+          "type": "measure-type",
+          "updated": null
+        },
+        "measurements": [
+          40,
+          50
+        ]
+      }
+    ],
+    "acquisitionDate": "1913-02-01T00:00:00.000Z",
+    "title": {
+      "en": "For Thy Sake ; For Your Sake",
+      "fi": "Teidän tähtenne",
+      "sv": "För Eder ; För er skull"
+    },
+    "keywords": [
+      {
+        "en": "crying",
+        "fi": "itku",
+        "sv": "gråt"
+      },
+      {
+        "en": "Jesus",
+        "fi": "Jeesus",
+        "sv": "Jesus"
+      },
+      {
+        "en": "school",
+        "fi": "koulu",
+        "sv": "skol"
+      },
+      {
+        "en": "sorrow",
+        "fi": "suru"
+      },
+      {
+        "en": "people",
+        "fi": "ihmiset"
+      }
+    ],
+    "materials": [],
+    "category": {
+      "categoryId": "artwork",
+      "en": "artwork",
+      "fi": "taideteos",
+      "sv": "konstverk"
+    },
+    "classifications": [
+      {
+        "en": "painting",
+        "fi": "maalaus",
+        "sv": "målning"
+      }
+    ],
+    "inventoryNumber": "A II 968:41",
+    "yearFrom": 1895,
+    "people": [
+      {
+        "id": 67713,
+        "firstName": "Hugo",
+        "familyName": "Simberg",
+        "birthDate": "1873-06-24",
+        "deathDate": "1917-07-12",
+        "birthPlace": "Hamina",
+        "deathPlace": "Ähtäri",
+        "birthYear": 1873,
+        "deathYear": 1917,
+        "attribution": null,
+        "role": {
+          "id": 98595,
+          "fi": "taiteilija",
+          "sv": "konstnär",
+          "en": "Artist",
+          "type": "role"
+        },
+        "birthPlace2": null,
+        "birthPlace3": null,
+        "deathPlace2": null,
+        "deathPlace3": null
+      }
+    ],
+    "multimedia": [
+      {
+        "id": 330264,
+        "license": "CC0",
+        "updated_timestamp": "2022-12-20T14:00:51.24+00:00",
+        "filename_extension": ".jpg",
+        "width": 1245,
+        "height": 923,
+        "size": 230476,
+        "image_version": 1,
+        "isRiaDisplayImage": true,
+        "ordinal": 150800,
+        "photographer_name": "Antti Kuivalainen",
+        "address": null,
+        "filename": "330264.jpg",
+        "jpg": {
+          "25": "/media-assets/1/jpg/25/330264.jpg",
+          "250": "/media-assets/1/jpg/250/330264.jpg",
+          "500": "/media-assets/1/jpg/500/330264.jpg",
+          "1000": "/media-assets/1/jpg/1000/330264.jpg",
+          "2000": "/media-assets/1/jpg/2000/330264.jpg",
+          "4000": "/media-assets/1/jpg/4000/330264.jpg"
+        },
+        "webp": {
+          "25": "/media-assets/1/webp/25/330264.jpg",
+          "250": "/media-assets/1/webp/250/330264.jpg",
+          "500": "/media-assets/1/webp/500/330264.jpg",
+          "1000": "/media-assets/1/webp/1000/330264.jpg",
+          "2000": "/media-assets/1/webp/2000/330264.jpg",
+          "4000": "/media-assets/1/webp/4000/330264.jpg"
+        }
+      }
+    ],
+    "owner": "Suomen valtio",
+    "acquisitionMethod": {
+      "en": "purchase",
+      "fi": "osto",
+      "sv": "inköp"
+    },
+    "exhibitions": [
+      {
+        "id": 6551,
+        "title": "Suomen taiteen tarina - kokoelmanäyttely / Historier inom finsk konst - samlingsutställning / Stories of Finnish Art - Collection Exhibition, Ateneum, Helsinki 18.3.2016-27.3.2022.",
+        "endDate": "2022-03-27",
+        "startDate": "2016-03-18",
+        "location": "Kansallisgalleria / Ateneumin taidemuseo"
+      },
+      {
+        "id": 6066,
+        "title": "Mystiikan portit, Tampereen taidemuseo - Pirkanmaan aluetaidemuseo 18.10.2003-29.2.2004.",
+        "endDate": "2004-02-29",
+        "startDate": "2003-10-18"
+      },
+      {
+        "id": 14752,
+        "title": "Hugo Simberg 1873-1917, Ateneum 25.2.- 28.5. 2000, Tampereen taidemuseo 17.6-27.8.2000, Pohjanmaan museo, Vaasa 22.9-26.11.2000.",
+        "endDate": "2000-05-28",
+        "startDate": "2000-02-25"
+      },
+      {
+        "id": 13034,
+        "title": "Suomi vuosisadan vaihteessa / Finskt 1900, Ateneum 24.3.-30.4.1972.",
+        "endDate": "1972-04-30",
+        "startDate": "1972-03-30"
+      },
+      {
+        "id": 7729,
+        "title": "Göteborgs Konstmuseum 29/1 - 5/3 - 1972 Göteborgin taidemuseo, Hugo Simberg / Ivar Arosenius 2 udda / Kaksi omaperäistä taiteilijaa.",
+        "endDate": "1972-03-05",
+        "startDate": "1972-01-29"
+      },
+      {
+        "id": 15030,
+        "title": "Satumetsä ja kuoleman puutarha, Hugo Simbergin akvarelleja Ateneumin Taidemuseon kokoelmista / Sagoskogen och dödens trädgård, Hugo Simbergs akvareller ur Konstmuseets i Ateneum samlingar, Suomen taideakatemian kiertonäyttely 31/1969.",
+        "endDate": "1971-04-19",
+        "startDate": "1969-08-15"
+      },
+      {
+        "id": 6225,
+        "title": "Ateneumin taidemuseo 100 vuotta juhlanäyttely / Konstmuseet i Ateneum 100 år jubileumsutställning, Ateneum 24.10.-24.11.1963.",
+        "endDate": "1963-11-24",
+        "startDate": "1963-10-24"
+      },
+      {
+        "id": 8006,
+        "title": "Finsk 1900, Nationalmuseum Stockholm 23 september-6 december 1971, nr 249"
+      },
+      {
+        "id": 11094,
+        "title": "Hugo Simbergin näyttely Libertyn huoneistossa tammikuussa 1912"
+      },
+      {
+        "id": 10426,
+        "title": "Hugo Simbergin näyttely Oulussa huhtikuussa 1912"
+      },
+      {
+        "id": 11150,
+        "title": "Hugo Simbergin näyttely Tampereella helmikuussa 1912"
+      },
+      {
+        "id": 14913,
+        "title": "Hugo Simbergin näyttely Tukholmassa 1916"
+      }
+    ],
+    "children": [],
+    "parents": []
+  },
+  {
+    "objectId": 625337,
+    "responsibleOrganisation": "Kansallisgalleria / Ateneumin taidemuseo",
+    "dimensions": [
+      {
+        "unit": "cm",
+        "sortLnu": 1,
+        "measureType": {
+          "en": null,
+          "fi": "teosmitat",
+          "id": 886212,
+          "sv": null,
+          "type": "measure-type",
+          "updated": null
+        },
+        "measurements": [
+          180,
+          127
+        ]
+      },
+      {
+        "unit": "cm",
+        "sortLnu": 4,
+        "measureType": null,
+        "measurements": [
+          185.5,
+          133
+        ]
+      }
+    ],
+    "acquisitionYear": 1870,
+    "title": {
+      "en": "",
+      "fi": "Maria Magdaleena Kristuksen haudalla",
+      "sv": ""
+    },
+    "keywords": [
+      {
+        "en": "grave",
+        "fi": "hauta",
+        "sv": "grav"
+      },
+      {
+        "en": "Joh. 20:11.",
+        "fi": "Joh. 20:11."
+      },
+      {
+        "en": "Mary Magdalene",
+        "fi": "Magdalan Maria"
+      },
+      {
+        "en": "Mary Magdalene",
+        "fi": "Maria Magdaleena"
+      },
+      {
+        "en": "sorrow",
+        "fi": "suru"
+      },
+      {
+        "en": "religion",
+        "fi": "uskonto"
+      },
+      {
+        "en": "the New Testament",
+        "fi": "Uusi testamentti"
+      },
+      {
+        "fi": "pääsiäinen"
+      }
+    ],
+    "materials": [],
+    "category": {
+      "categoryId": "artwork",
+      "en": "artwork",
+      "fi": "taideteos",
+      "sv": "konstverk"
+    },
+    "classifications": [
+      {
+        "en": "painting",
+        "fi": "maalaus",
+        "sv": "målning"
+      }
+    ],
+    "inventoryNumber": "A I 43",
+    "yearFrom": 1869,
+    "people": [
+      {
+        "id": 69483,
+        "firstName": "Robert Wilhelm",
+        "familyName": "Ekman",
+        "birthDate": "1808-08-13",
+        "deathDate": "1873-02-19",
+        "birthPlace": "Uusikaupunki",
+        "deathPlace": "Turku",
+        "birthYear": 1808,
+        "deathYear": 1873,
+        "attribution": null,
+        "role": {
+          "id": 98595,
+          "fi": "taiteilija",
+          "sv": "konstnär",
+          "en": "Artist",
+          "type": "role"
+        },
+        "birthPlace2": null,
+        "birthPlace3": null,
+        "deathPlace2": null,
+        "deathPlace3": null
+      }
+    ],
+    "multimedia": [
+      {
+        "id": 1225743,
+        "license": "CC0",
+        "updated_timestamp": "2022-12-20T14:01:38.891+00:00",
+        "filename_extension": ".jpg",
+        "width": 2491,
+        "height": 3543,
+        "size": 1153503,
+        "image_version": 1,
+        "isRiaDisplayImage": true,
+        "ordinal": 246,
+        "photographer_name": "Hannu Pakarinen",
+        "address": null,
+        "filename": "1225743.jpg",
+        "jpg": {
+          "25": "/media-assets/1/jpg/25/1225743.jpg",
+          "250": "/media-assets/1/jpg/250/1225743.jpg",
+          "500": "/media-assets/1/jpg/500/1225743.jpg",
+          "1000": "/media-assets/1/jpg/1000/1225743.jpg",
+          "2000": "/media-assets/1/jpg/2000/1225743.jpg",
+          "4000": "/media-assets/1/jpg/4000/1225743.jpg"
+        },
+        "webp": {
+          "25": "/media-assets/1/webp/25/1225743.jpg",
+          "250": "/media-assets/1/webp/250/1225743.jpg",
+          "500": "/media-assets/1/webp/500/1225743.jpg",
+          "1000": "/media-assets/1/webp/1000/1225743.jpg",
+          "2000": "/media-assets/1/webp/2000/1225743.jpg",
+          "4000": "/media-assets/1/webp/4000/1225743.jpg"
+        }
+      }
+    ],
+    "owner": "Suomen valtio",
+    "acquisitionMethod": {
+      "en": "purchase",
+      "fi": "osto",
+      "sv": "inköp"
+    },
+    "exhibitions": [
+      {
+        "id": 11102,
+        "title": "Tunteet estradilla / Känslosamma scener / Moved to Tears – Staging Emotions",
+        "endDate": "2019-03-03",
+        "startDate": "2018-09-13",
+        "location": "Kansallisgalleria / Sinebrychoffin taidemuseo"
+      },
+      {
+        "id": 7628,
+        "title": "Finska Konstföreningens Exposition [Universitetets nya Laboratoriihus, öfversta våningen 6. april-6. juni] 1870 / Suomalaisen Taide-yhtiön Näyttely 1870.",
+        "endDate": "1870-06-06",
+        "startDate": "1870-04-06"
+      },
+      {
+        "id": 9029,
+        "title": "* Exponerad i Götheborg 1869"
+      }
+    ],
+    "children": [],
+    "parents": []
+  }
+]
