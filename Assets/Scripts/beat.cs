@@ -158,12 +158,14 @@ public class beat : MonoBehaviour
     IEnumerator TransitionAnimation(float length, float dist)
     {
         float T = 0;
+        float x = Camera.main.transform.position.x;
         while (T < length)
         {
             Camera.main.transform.position += new Vector3(dist * Time.deltaTime / length, 0, 0);
             T += Time.deltaTime;
             yield return null;
         }
+        Camera.main.transform.position = new Vector3(x + dist, 0, -10);
     }
 
     IEnumerator PeopleMoveInAnimation(float length, float dist, List<GameObject> people)
