@@ -121,7 +121,7 @@ public class beat : MonoBehaviour
             }
             else if (beatTransitionState == 2)
             {
-                StartCoroutine(TransitionAnimation(beatinterval, 40));
+                StartCoroutine(TransitionAnimation(beatinterval, 40.96f));
             }
             else if (beatTransitionState == 3)
             {
@@ -135,7 +135,7 @@ public class beat : MonoBehaviour
 
     public void Cheer()
     {
-        Instantiate(tileableHallway, Camera.main.transform.position + new Vector3(40, 0, 28), Quaternion.identity);
+        Instantiate(tileableHallway, Camera.main.transform.position + new Vector3(40.96f, 0, 28), Quaternion.identity);
 
         if (succesfulHitsNeeded == 0)
         {
@@ -233,6 +233,9 @@ public class beat : MonoBehaviour
         {
             character.GetComponent<Human>().OnSpeak((int)AlienAnimController.alienAnimations.Fail);
         }
-        nextAlien.GetComponent<Human>().OnSpeak((int)AlienAnimController.alienAnimations.Fail);
+        if (!nextAlien.IsDestroyed())
+        {
+            nextAlien.GetComponent<Human>().OnSpeak((int)AlienAnimController.alienAnimations.Fail);
+        }
     }
 }
