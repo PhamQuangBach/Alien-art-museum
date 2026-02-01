@@ -19,11 +19,6 @@ public class OnlineMode : MonoBehaviour
 
         DontDestroyOnLoad(this.gameObject);
     }
-    
-    void Start()
-    {
-        globalOfflineMode = false;
-    }
 
     public void toggleOfflineMode()
     {

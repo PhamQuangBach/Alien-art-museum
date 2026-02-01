@@ -109,6 +109,9 @@ public class PaintingManager : MonoBehaviour
         int resolution = 200;
         if (www.result != UnityWebRequest.Result.Success) {
             Debug.Log(www.error);
+            offlineMode = true;
+            randomizePainting();
+            gameState.GetComponent<OnlineMode>().globalOfflineMode = true;
         }
         else {
             Texture2D paintingTexture = DownloadHandlerTexture.GetContent(www);
