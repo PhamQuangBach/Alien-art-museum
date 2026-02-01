@@ -152,6 +152,10 @@ public class beat : MonoBehaviour
             {
                 FindFirstObjectByType<BeatQueuer>().LoadPattern(3);
             }
+            else if (score == 20)
+            {
+                FindFirstObjectByType<BeatQueuer>().LoadPattern(3);
+            }
         }
     }
 
