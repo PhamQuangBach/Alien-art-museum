@@ -65,7 +65,7 @@ public class PaintingManager : MonoBehaviour
         string URL;
         if (offlineMode)
         {
-            URL = painting.multimedia[0].jpg[4000];
+            URL = painting.multimedia[0].jpg[1000];
             getPaintingTextureOffline(URL);
         }
         else

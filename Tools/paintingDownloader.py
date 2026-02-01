@@ -12,11 +12,13 @@ if paintingList is not None:
     paintingJson = json.load(paintingList)
     
     st.metric("Number of paintings",len(paintingJson))
-    downloadButton = st.button("Start download")
+    
 
     downloadPath = st.text_input("Download folder: ",downloads_path )
+    resolutionSelect = st.select_slider("Select resolution: ", paintingJson[0].get("multimedia")[0].get("jpg").keys())
 
-
+    downloadButton = st.button("Start download")
+    
     if downloadButton:
         progressBar = st.progress(0,"Downloading")
         progressPercent = 0
@@ -29,7 +31,7 @@ if paintingList is not None:
                 progressBar.progress(idx/len(paintingJson),"Downloading " +  painting.get("title").get("en"))
                 paintingFiles = painting.get("multimedia")[0].get("jpg")
                 maxResolution = sorted([int(key) for key in paintingFiles.keys()])[-1]
-                paintingPath = paintingFiles[str(maxResolution)]
+                paintingPath = paintingFiles[resolutionSelect]
                 fullPath = "https://www.kansallisgalleria.fi" + paintingPath
                 st.write(fullPath)
                 fileName = paintingPath.replace("/","-").removeprefix("-")
