@@ -16,6 +16,9 @@ public class beat : MonoBehaviour
     [SerializeField]
     float mainMusicDelay = 0;
 
+    [SerializeField]
+    GameObject tileableHallway;
+
     public AudioClip beatSound;
     private AudioManager audioManager;
     private Queue<int> beatQueue = new Queue<int>();
@@ -108,7 +111,7 @@ public class beat : MonoBehaviour
             }
             else if (beatTransitionState == 2)
             {
-                StartCoroutine(TransitionAnimation(beatinterval, 20));
+                StartCoroutine(TransitionAnimation(beatinterval, 40));
             }
             else if (beatTransitionState == 3)
             {
@@ -121,7 +124,7 @@ public class beat : MonoBehaviour
 
     public void Cheer()
     {
-
+        Instantiate(tileableHallway, Camera.main.transform.position + new Vector3(40, 0, 28), Quaternion.identity);
     }
 
     IEnumerator TransitionAnimation(float length, float dist)
