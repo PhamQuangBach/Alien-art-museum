@@ -17,7 +17,7 @@ public class CameraMover : MonoBehaviour
     }
     
 
-    void nextPoint()
+    public void nextPoint()
     {
         if (currentPoint < checkpoints.Count )
         {
@@ -34,13 +34,6 @@ public class CameraMover : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if(nextButton.WasPressedThisFrame() && !moving)
-        {
-            nextPoint();
-        }
-    }
     void FixedUpdate()
     {
         

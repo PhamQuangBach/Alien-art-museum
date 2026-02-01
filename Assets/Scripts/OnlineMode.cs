@@ -7,9 +7,21 @@ public class OnlineMode : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public bool globalOfflineMode;
+    
+    void Awake()
+    {
+        GameObject[] objs = GameObject.FindGameObjectsWithTag("GameController");
+
+        if (objs.Length > 1)
+        {
+            Destroy(this.gameObject);
+        }
+
+        DontDestroyOnLoad(this.gameObject);
+    }
+    
     void Start()
     {
-        DontDestroyOnLoad(this.gameObject);
         globalOfflineMode = false;
     }
 

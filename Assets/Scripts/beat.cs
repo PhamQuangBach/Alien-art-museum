@@ -31,7 +31,7 @@ public class beat : MonoBehaviour
     public GameObject nextAlien;
     private int lastBeat = -1;
 
-    private int beatTransitionState = 2;
+    private int beatTransitionState = 0;
 
     public int patternIndex;
     public bool patternFailed = false;
