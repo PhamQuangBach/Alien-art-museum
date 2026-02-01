@@ -16,6 +16,8 @@ public class beat : MonoBehaviour
     [SerializeField]
     float mainMusicDelay = 0;
 
+    bool paused = false;
+
     [SerializeField]
     GameObject tileableHallway;
 
@@ -28,6 +30,9 @@ public class beat : MonoBehaviour
     private int beatTransitionState = 0;
 
     public int patternIndex;
+
+    [SerializeField] private int score = 0;
+    private bool failedPattern = false;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -62,7 +67,7 @@ public class beat : MonoBehaviour
 
     public void OnBeat()
     {
-        if (beatQueue.Count > 0)
+        if (!paused && beatQueue.Count > 0)
         {
             beatTransitionState = 0;
             foreach (GameObject character in GetComponent<QueueSpawner>().queue)
@@ -102,7 +107,7 @@ public class beat : MonoBehaviour
             lastBeat = beatIndex;
             patternIndex++;
         }
-        else
+        else if (!paused)
         {
             beatTransitionState += 1;
             if (beatTransitionState == 1)
@@ -118,6 +123,7 @@ public class beat : MonoBehaviour
                 FindFirstObjectByType<BeatQueuer>().QueueRandomPattern(); // also spawns new people
                 StartCoroutine(PeopleMoveInAnimation(beatinterval, 20, GetComponent<QueueSpawner>().queue));
                 patternIndex = 0;
+                failedPattern = false;
             }
         }
     }
@@ -125,6 +131,23 @@ public class beat : MonoBehaviour
     public void Cheer()
     {
         Instantiate(tileableHallway, Camera.main.transform.position + new Vector3(40, 0, 28), Quaternion.identity);
+
+        if (!failedPattern)
+        {
+            score += 1;
+            if (score == 5)
+            {
+                FindFirstObjectByType<BeatQueuer>().LoadPattern(1);
+            }
+            else if (score == 10)
+            {
+                FindFirstObjectByType<BeatQueuer>().LoadPattern(2);
+            }
+            else if (score == 15)
+            {
+                FindFirstObjectByType<BeatQueuer>().LoadPattern(3);
+            }
+        }
     }
 
     IEnumerator TransitionAnimation(float length, float dist)
@@ -182,5 +205,7 @@ public class beat : MonoBehaviour
     {
         Debug.Log("Bad Hit!");
         nextAlien.GetComponent<Human>().OnSpeak(input);
+
+        failedPattern = true;
     }
 }

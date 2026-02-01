@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -9,7 +10,7 @@ public class BeatQueuer : MonoBehaviour
 
     private List<string> patterns;
 
-    [SerializeField] private TextAsset patternFile;
+    [SerializeField] private TextAsset[] patternFiles;
 
     private Dictionary<char, int> mapping = new Dictionary<char, int>
     {
@@ -31,7 +32,7 @@ public class BeatQueuer : MonoBehaviour
     {
         beatScript = GameObject.Find("beat").GetComponent<beat>();
         characterSpawner = GameObject.Find("beat").GetComponent<QueueSpawner>();
-        LoadPattern(patternFile);
+        LoadPattern(0);
         //QueuePattern(pattern.Trim());
     }
 
@@ -43,12 +44,13 @@ public class BeatQueuer : MonoBehaviour
 
     public void QueueRandomPattern()
     {
-        QueuePattern(patterns[Random.Range(0, patterns.Count)].Trim());
+        QueuePattern(patterns[UnityEngine.Random.Range(0, patterns.Count)].Trim());
     }
 
-    void LoadPattern(TextAsset patternFile)
+    public void LoadPattern(int difficulty)
     {
-        patterns = new List<string>(patternFile.text.Split("\n"));
+        int diff = Math.Min(difficulty, patternFiles.Length - 1);
+        patterns = new List<string>(patternFiles[diff].text.Split("\n"));
         patterns = patterns.Where(x => x.Length > 3).ToList();
     }
 
