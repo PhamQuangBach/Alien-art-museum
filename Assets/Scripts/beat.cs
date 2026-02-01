@@ -155,7 +155,7 @@ public class beat : MonoBehaviour
             }
             else if (score == 15)
             {
-                FindFirstObjectByType<BeatQueuer>().LoadPattern(3);
+                FindFirstObjectByType<BeatQueuer>().LoadPattern(4);
             }
             else if (score == 18)
             {
